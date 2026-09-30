@@ -220,14 +220,14 @@ bash scripts/run_all_experiments.sh
 
 ## 🤝 致谢
 
-- 北京大学软件与微电子学院提供的计算资源和学术指导
+- 北京大学软件与微电子学院俞老师提供的学术指导
 - KenLM 工具包的开发者
 - 人民日报语料库的提供者
 
 ## 📧 联系方式
 
-- 作者：徐浩宇
-- 邮箱：[你的邮箱]
+- 作者：rain
+- 邮箱：[3121028382@qq.com]
 - GitHub：[@rain-xhy](https://github.com/rain-xhy)
 
 ---
