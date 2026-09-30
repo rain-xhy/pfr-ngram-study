@@ -205,10 +205,10 @@ bash scripts/run_all_experiments.sh
 如果本研究对您有帮助，请引用：
 
 ```bibtex
-@misc{xu2024ngram,
-  author = {Xu, Haoyu},
+@misc{han2026ngram,
+  author = {Han, yu},
   title = {Systematic Study of n-gram Language Models on People's Daily Corpus},
-  year = {2024},
+  year = {2026},
   publisher = {GitHub},
   url = {https://github.com/rain-xhy/pfr-ngram-study}
 }
