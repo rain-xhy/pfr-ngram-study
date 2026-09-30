@@ -4,7 +4,7 @@
 [![Python](https://img.shields.io/badge/Python-3.8+-green)](https://www.python.org/)
 [![KenLM](https://img.shields.io/badge/KenLM-4cb443e-orange)](https://github.com/kpu/kenlm)
 
-基于人民日报 2014 年 1-6 月语料的 n-gram 语言模型系统性研究，包含 21 项实验，覆盖数据预处理、平滑算法、模型阶数、训练规模、存储优化、文本生成、深度分析、工具验证等维度。
+基于人民日报语料的 n-gram 语言模型系统性研究，包含 21 项实验，覆盖数据预处理、平滑算法、模型阶数、训练规模、存储优化、文本生成、深度分析、工具验证等维度。
 
 ## 📊 核心发现
 
@@ -232,4 +232,4 @@ bash scripts/run_all_experiments.sh
 
 ---
 
-**最后更新**：2024年9月30日
+**最后更新**：2026年9月30日
