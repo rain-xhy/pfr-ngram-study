@@ -1,0 +1,26 @@
+{
+  "seed": 20260929,
+  "min_link_length": 10,
+  "group_count": 18388,
+  "largest_group_size": 39,
+  "splits": {
+    "train": {
+      "article_count": 14917,
+      "sentence_count": 234865,
+      "token_count": 5884857,
+      "path": "corpus/processed/pfr6/splits_main/train.txt"
+    },
+    "dev": {
+      "article_count": 1865,
+      "sentence_count": 27072,
+      "token_count": 685446,
+      "path": "corpus/processed/pfr6/splits_main/dev.txt"
+    },
+    "test": {
+      "article_count": 1865,
+      "sentence_count": 28985,
+      "token_count": 716572,
+      "path": "corpus/processed/pfr6/splits_main/test.txt"
+    }
+  }
+}

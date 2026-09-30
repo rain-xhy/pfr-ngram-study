@@ -1,0 +1,277 @@
+{
+  "experiment": "E9_leakage",
+  "finished_at": "2026-09-29T05:35:28+00:00",
+  "kenlm_commit": "4cb443e60b7bf2c0ddf3c745378f76cb59e254e5",
+  "elapsed_seconds": 1.6327861279999638,
+  "by_order": {
+    "2": {
+      "length": 18.6,
+      "type_token_ratio": 0.8312786335612422,
+      "repeated_2gram_rate": 0.011653297682709451,
+      "repeated_3gram_rate": 0.0010000000000000009,
+      "self_ppl": 49.117111893161685,
+      "top1_prob_mean": 0.21892672396078727,
+      "chose_top1_rate": 0.28422781212904,
+      "entropy_bits_mean": 8.255424442139581,
+      "matched_order_mean": 1.971184417961423,
+      "overlap_5gram": 0.003302174354805934,
+      "longest_copied_span": 3.3,
+      "eos_rate": 1,
+      "copied_10plus_rate": 0,
+      "n": 20
+    },
+    "3": {
+      "length": 17.05,
+      "type_token_ratio": 0.9179468812072066,
+      "repeated_2gram_rate": 0.005632411067193676,
+      "repeated_3gram_rate": 0.0,
+      "self_ppl": 21.775268815366616,
+      "top1_prob_mean": 0.3234950474467347,
+      "chose_top1_rate": 0.4103113589499015,
+      "entropy_bits_mean": 7.0812122897052365,
+      "matched_order_mean": 2.643982001058216,
+      "overlap_5gram": 0.06412212254515133,
+      "longest_copied_span": 4.7,
+      "eos_rate": 1,
+      "copied_10plus_rate": 0,
+      "n": 20
+    },
+    "4": {
+      "length": 12.15,
+      "type_token_ratio": 0.9465548690286125,
+      "repeated_2gram_rate": 0.0020379338175948334,
+      "repeated_3gram_rate": 0.0,
+      "self_ppl": 26.67417809369111,
+      "top1_prob_mean": 0.3184186115917041,
+      "chose_top1_rate": 0.4910267857142857,
+      "entropy_bits_mean": 7.008403963100859,
+      "matched_order_mean": 3.048649891774892,
+      "overlap_5gram": 0.0440914395265483,
+      "longest_copied_span": 4.25,
+      "eos_rate": 0.95,
+      "copied_10plus_rate": 0,
+      "n": 20
+    },
+    "5": {
+      "length": 15.55,
+      "type_token_ratio": 0.9178638028638029,
+      "repeated_2gram_rate": 0.006388526727509775,
+      "repeated_3gram_rate": 0.0,
+      "self_ppl": 21.322342352100687,
+      "top1_prob_mean": 0.3231971813138367,
+      "chose_top1_rate": 0.5290989849018787,
+      "entropy_bits_mean": 6.939250568462213,
+      "matched_order_mean": 3.220333521238407,
+      "overlap_5gram": 0.07448051948051948,
+      "longest_copied_span": 4.45,
+      "eos_rate": 0.9,
+      "copied_10plus_rate": 0,
+      "n": 20
+    },
+    "6": {
+      "length": 16.45,
+      "type_token_ratio": 0.9302328968047116,
+      "repeated_2gram_rate": 0.006452991452991458,
+      "repeated_3gram_rate": 0.001315789473684209,
+      "self_ppl": 23.16658122157994,
+      "top1_prob_mean": 0.3162663680365414,
+      "chose_top1_rate": 0.5074081146998795,
+      "entropy_bits_mean": 7.088449838175875,
+      "matched_order_mean": 3.166686388879059,
+      "overlap_5gram": 0.06680853603267396,
+      "longest_copied_span": 4.6,
+      "eos_rate": 1,
+      "copied_10plus_rate": 0,
+      "n": 20
+    }
+  },
+  "by_order_greedy": {
+    "2": {
+      "longest_copied_span": 6,
+      "overlap_5gram": 0.2,
+      "text": "，在北京１月１２日电（记者王国栋又一年来，在北京１月１２日电（记者王国栋又一年来，在北京１月１２日电（记者王国栋又一年来，在北京１月１２日电（记者王国栋又一年来，在北京１月"
+    },
+    "3": {
+      "longest_copied_span": 12,
+      "overlap_5gram": 0.4166666666666667,
+      "text": "第十五次全国代表大会，高举邓小平理论伟大旗帜，以“三下乡”活动，在新的一年里，我们的，但在我国，在新的一年里，我们的，但在我国，在新的一年里，我们的，但在我国，在"
+    },
+    "4": {
+      "longest_copied_span": 3,
+      "overlap_5gram": 0.0,
+      "text": "。"
+    },
+    "5": {
+      "longest_copied_span": 3,
+      "overlap_5gram": 0.0,
+      "text": "。"
+    },
+    "6": {
+      "longest_copied_span": 3,
+      "overlap_5gram": 0.0,
+      "text": "。"
+    }
+  },
+  "by_temperature": {
+    "0.7": {
+      "longest_copied_span": 4.916666666666667,
+      "overlap_5gram": 0.10554106563483295,
+      "copied_10plus_rate": 0.1,
+      "n": 60
+    },
+    "1.0": {
+      "longest_copied_span": 4.033333333333333,
+      "overlap_5gram": 0.05334873772579755,
+      "copied_10plus_rate": 0,
+      "n": 60
+    },
+    "1.3": {
+      "longest_copied_span": 3.8333333333333335,
+      "overlap_5gram": 0.044517405648648076,
+      "copied_10plus_rate": 0,
+      "n": 60
+    }
+  },
+  "copied_span_histogram": {
+    "2": {
+      "0-3": 12,
+      "4-6": 8,
+      "7-9": 0,
+      "10+": 0
+    },
+    "3": {
+      "0-3": 5,
+      "4-6": 11,
+      "7-9": 4,
+      "10+": 0
+    },
+    "4": {
+      "0-3": 7,
+      "4-6": 13,
+      "7-9": 0,
+      "10+": 0
+    },
+    "5": {
+      "0-3": 7,
+      "4-6": 11,
+      "7-9": 2,
+      "10+": 0
+    },
+    "6": {
+      "0-3": 7,
+      "4-6": 10,
+      "7-9": 3,
+      "10+": 0
+    }
+  },
+  "top_copies": [
+    {
+      "params": {
+        "temperature": 0.7,
+        "top_k": 10,
+        "top_p": 1.0,
+        "greedy": false,
+        "max_tokens": 60,
+        "seed": 33
+      },
+      "text": "，也会有了一条规定：“人民检察院、人民法院收集、调取证据，申请人民法院、最高的是，在新的一年里，我国农村，并为此在１９９７年的水平，并为其注入实质上是一种“淘汰教育的主要因素",
+      "longest_copied_span": 12,
+      "source": {
+        "span": "人民检察院、人民法院收集、调取证据，申请人民法院",
+        "span_words": 12,
+        "span_generated_words": 12,
+        "train_sentence": "辩护律师还可以依照刑事诉讼法第三十七条的规定向证人或者其他有关单位和个人收集与本案有关的材料，申请人民检察院、人民法院收集、调取证据，申请人民法院通知证人出庭作证。"
+      }
+    },
+    {
+      "params": {
+        "temperature": 0.7,
+        "top_k": 10,
+        "top_p": 1.0,
+        "greedy": false,
+        "max_tokens": 60,
+        "seed": 1002
+      },
+      "text": "，这一年的时间，在新的一年里，我们要高举邓小平理论伟大旗帜，坚持党的基本路线和基本纲领，对此，要在这一问题上，它的基本政策，切实调动和保护，帮助牧民了解科学的理论、京剧艺术的",
+      "longest_copied_span": 12,
+      "source": {
+        "span": "高举邓小平理论伟大旗帜，坚持党的基本路线和基本",
+        "span_words": 12,
+        "span_generated_words": 12,
+        "train_sentence": "会议提出今年精神文明建设工作的指导思想是，在以江泽民同志为核心的党中央领导下，高举邓小平理论伟大旗帜，坚持党的基本路线和基本方针，全面贯彻党的十五大精神，进一步落实十四届六中全会确定的各项任务，促进改革、发展、稳定，为人民服务，为社会主义服务，为全党全国工作大局服务。"
+      }
+    },
+    {
+      "params": {
+        "temperature": 0.7,
+        "top_k": 50,
+        "top_p": 1.0,
+        "greedy": false,
+        "max_tokens": 60,
+        "seed": 1017
+      },
+      "text": "对在联合国武器核查小组，在节日期间，“在一个中国的原则下，正式结束两岸敌对状态，也是一支，并在全国政协委员、知名人士夫人有了明显改善，哈塔米接受。",
+      "longest_copied_span": 12,
+      "source": {
+        "span": "“在一个中国的原则下，正式结束两岸敌对状态",
+        "span_words": 13,
+        "span_generated_words": 13,
+        "train_sentence": "江泽民总书记在十五大报告中再次郑重呼吁：作为第一步，海峡两岸可先就“在一个中国的原则下，正式结束两岸敌对状态”进行谈判，并达成协议；在此基础上，共同承担义务，维护中国的主权和领土完整，并对今后两岸关系的发展进行规划。"
+      }
+    },
+    {
+      "params": {
+        "temperature": 1.0,
+        "top_k": 0,
+        "top_p": 0.5,
+        "greedy": false,
+        "max_tokens": 60,
+        "seed": 11
+      },
+      "text": "，还将在出席全国侨办主任、对美国、不会有条件的，责令改正，没收违法所得，可以并处的一年。",
+      "longest_copied_span": 12,
+      "source": {
+        "span": "的，责令改正，没收违法所得，可以并处",
+        "span_words": 12,
+        "span_generated_words": 12,
+        "train_sentence": "第三十九条经营者不执行政府指导价、政府定价以及法定的价格干预措施、紧急措施的，责令改正，没收违法所得，可以并处违法所得五倍以下的罚款；没有违法所得的，可以处以罚款；情节严重的，责令停业整顿。"
+      }
+    },
+    {
+      "params": {
+        "temperature": 0.7,
+        "top_k": 10,
+        "top_p": 1.0,
+        "greedy": false,
+        "max_tokens": 60,
+        "seed": 22
+      },
+      "text": "，但他没有妥协逆流，和阎锡山的六十一军同临汾、襄曲与白晋线上长子、高平４个月。",
+      "longest_copied_span": 10,
+      "source": {
+        "span": "临汾、襄曲与白晋线上长子、高平４",
+        "span_words": 10,
+        "span_generated_words": 10,
+        "train_sentence": "当年７月，六十一军被迫撤回汾河以西，至１９４２年底，同蒲线上临汾、襄曲与白晋线上长子、高平４县都建立了县区党政机构和游击队，连同腹心区的浮山、翼城、沁水、士敏共９个县，工作都全面开展起来，基本上控制与稳定了整个岳南区的局势，为太岳、晋豫两个区党委统一合并，为开辟建设中条山地区奠定了稳固的基础。"
+      }
+    },
+    {
+      "params": {
+        "temperature": 0.7,
+        "top_k": 10,
+        "top_p": 1.0,
+        "greedy": false,
+        "max_tokens": 60,
+        "seed": 1015
+      },
+      "text": "，也不能用过去的眼光看待现在，也会出现的问题，在寻找，终于使其、中国科学院院士、中国的关系也非常重视，并为祖国的发展。",
+      "longest_copied_span": 10,
+      "source": {
+        "span": "不能用过去的眼光看待现在，也",
+        "span_words": 10,
+        "span_generated_words": 10,
+        "train_sentence": "既不能用过去的眼光看待现在，也不能用现在的标准评判过去，那种在“左”的年代形成的凡事乐于做对与错、是与非简单判断的做法，实际上是形而上学的思想方法。"
+      }
+    }
+  ]
+}

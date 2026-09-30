@@ -1,0 +1,182 @@
+{
+  "experiment": "E6_storage",
+  "finished_at": "2026-09-29T05:12:53+00:00",
+  "kenlm_commit": "4cb443e60b7bf2c0ddf3c745378f76cb59e254e5",
+  "elapsed_seconds": 56.65388416999997,
+  "ARPA": {
+    "bytes": 161006897,
+    "build": null,
+    "load_seconds": 1.573696358999996,
+    "score_seconds_median": 0.027943026000002646,
+    "score_seconds_min": 0.024408932999961053,
+    "score_seconds_all": [
+      0.02692207600000529,
+      0.024408932999961053,
+      0.028636980999976913,
+      0.03320054800002481,
+      0.0314305819999845,
+      0.027943026000002646,
+      0.02706792500003985
+    ],
+    "queries_per_second": 4336144.553563688,
+    "queries_per_second_best": 4963961.34973181,
+    "test_ppl": 429.76653203752994,
+    "position_log10_absdiff_vs_arpa": {
+      "max": 0.0,
+      "mean": 0.0,
+      "changed": 0
+    },
+    "generations_shown": [
+      "。",
+      "两个文明建设。",
+      "全国，中国人民将继续为人民服务，为社会主义服务，为新，在世界经济全球化的第一天来，这个“司机李建国的带领下，使自己不变。"
+    ],
+    "same_generation_count": 20,
+    "generation_count": 20
+  },
+  "probing": {
+    "bytes": 79700773,
+    "build": {
+      "command": [
+        "/root/tools/kenlm/build/bin/build_binary",
+        "-S",
+        "1G",
+        "probing",
+        "/root/pfr-work/models/kn6.arpa",
+        "/root/pfr-work/models/kn6_probing.bin"
+      ],
+      "wall_seconds": 2.0586120489999757,
+      "peak_rss_mb": 81.2734375,
+      "time_elapsed_seconds": 0.66,
+      "user_seconds": 1.81,
+      "sys_seconds": 0.15,
+      "path": "/root/pfr-work/models/kn6_probing.bin",
+      "bytes": 79700773
+    },
+    "load_seconds": 0.0026027540000086447,
+    "score_seconds_median": 0.027856210000038573,
+    "score_seconds_min": 0.02651002499999322,
+    "score_seconds_all": [
+      0.036928364000004876,
+      0.02767508900001303,
+      0.02651002499999322,
+      0.02699158500001886,
+      0.0326123730000063,
+      0.027856210000038573,
+      0.03075962000002619
+    ],
+    "queries_per_second": 4349658.478300968,
+    "queries_per_second_best": 4570535.108889221,
+    "test_ppl": 429.76653203752994,
+    "position_log10_absdiff_vs_arpa": {
+      "max": 0.0,
+      "mean": 0.0,
+      "changed": 0
+    },
+    "generations_shown": [
+      "。",
+      "两个文明建设。",
+      "全国，中国人民将继续为人民服务，为社会主义服务，为新，在世界经济全球化的第一天来，这个“司机李建国的带领下，使自己不变。"
+    ],
+    "same_generation_count": 20,
+    "generation_count": 20
+  },
+  "trie": {
+    "bytes": 39199494,
+    "build": {
+      "command": [
+        "/root/tools/kenlm/build/bin/build_binary",
+        "-S",
+        "1G",
+        "trie",
+        "/root/pfr-work/models/kn6.arpa",
+        "/root/pfr-work/models/kn6_trie.bin"
+      ],
+      "wall_seconds": 2.918580582000004,
+      "peak_rss_mb": 42.92578125,
+      "time_elapsed_seconds": 2.91,
+      "user_seconds": 2.42,
+      "sys_seconds": 0.29,
+      "path": "/root/pfr-work/models/kn6_trie.bin",
+      "bytes": 39199494
+    },
+    "load_seconds": 0.0027860019999934593,
+    "score_seconds_median": 0.04924834500002362,
+    "score_seconds_min": 0.043010170999991715,
+    "score_seconds_all": [
+      0.04697078999998894,
+      0.043010170999991715,
+      0.049987455999996655,
+      0.0820911579999688,
+      0.057752641000035965,
+      0.04894667600001412,
+      0.04924834500002362
+    ],
+    "queries_per_second": 2460285.721275342,
+    "queries_per_second_best": 2817124.349494526,
+    "test_ppl": 429.76653203752994,
+    "position_log10_absdiff_vs_arpa": {
+      "max": 0.0,
+      "mean": 0.0,
+      "changed": 0
+    },
+    "generations_shown": [
+      "。",
+      "两个文明建设。",
+      "全国，中国人民将继续为人民服务，为社会主义服务，为新，在世界经济全球化的第一天来，这个“司机李建国的带领下，使自己不变。"
+    ],
+    "same_generation_count": 20,
+    "generation_count": 20
+  },
+  "trie_q8": {
+    "bytes": 21302641,
+    "build": {
+      "command": [
+        "/root/tools/kenlm/build/bin/build_binary",
+        "-S",
+        "1G",
+        "-q",
+        "8",
+        "-b",
+        "8",
+        "trie",
+        "/root/pfr-work/models/kn6.arpa",
+        "/root/pfr-work/models/kn6_trie_q8.bin"
+      ],
+      "wall_seconds": 3.520009109,
+      "peak_rss_mb": 31.6875,
+      "time_elapsed_seconds": 3.5,
+      "user_seconds": 3.05,
+      "sys_seconds": 0.26,
+      "path": "/root/pfr-work/models/kn6_trie_q8.bin",
+      "bytes": 21302641
+    },
+    "load_seconds": 0.001243158000022504,
+    "score_seconds_median": 0.046867100999975264,
+    "score_seconds_min": 0.042547248999994736,
+    "score_seconds_all": [
+      0.04305716999999731,
+      0.04562189099999614,
+      0.05386786700000812,
+      0.0656656749999911,
+      0.042547248999994736,
+      0.046867100999975264,
+      0.05287393699995846
+    ],
+    "queries_per_second": 2585288.985552231,
+    "queries_per_second_best": 2847775.1875336287,
+    "test_ppl": 430.9854234682996,
+    "position_log10_absdiff_vs_arpa": {
+      "max": 1.2706117630004883,
+      "mean": 0.00748892489578547,
+      "changed": 88043
+    },
+    "generations_shown": [
+      "。",
+      "两个文明建设。",
+      "一个很强的一次到剧场，为中国的发展和社会，前来参加，互相吸收，由北京人民艺术剧院的话剧是为实现。"
+    ],
+    "same_generation_count": 8,
+    "generation_count": 20
+  }
+}

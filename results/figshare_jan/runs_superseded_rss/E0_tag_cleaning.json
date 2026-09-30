@@ -1,0 +1,208 @@
+{
+  "experiment": "E0_tag_cleaning",
+  "finished_at": "2026-09-29T04:30:55+00:00",
+  "kenlm_commit": "4cb443e60b7bf2c0ddf3c745378f76cb59e254e5",
+  "elapsed_seconds": 11.131835745,
+  "clean": {
+    "train": {
+      "tokens": 898073,
+      "types": 49605,
+      "hapax_types": 23452,
+      "hapax_type_share": 0.47277492188287473
+    },
+    "training": {
+      "wall_seconds": {
+        "median": 1.1564638069999997,
+        "min": 1.1564638069999997,
+        "max": 1.1564638069999997,
+        "n": 1
+      },
+      "kenlm_real_seconds": {
+        "median": 1.13174,
+        "min": 1.13174,
+        "max": 1.13174,
+        "n": 1
+      },
+      "peak_rss_mb": {
+        "median": 154.078125,
+        "min": 154.078125,
+        "max": 154.078125,
+        "n": 1
+      },
+      "stage_seconds_median": {
+        "Counting and sorting n-grams": 0.3041645370000001,
+        "Calculating and sorting adjusted counts": 0.09205949000000047,
+        "Calculating and sorting initial probabilities": 0.22598574200000066,
+        "Calculating and writing order-interpolated probabilities": 0.11323195299999966,
+        "Writing ARPA model": 0.3973626629999991
+      },
+      "arpa_bytes": 36035955,
+      "ngram_counts": [
+        49608,
+        389894,
+        697708
+      ],
+      "discounts": [
+        {
+          "order": 1,
+          "D1": 0.644033,
+          "D2": 1.03044,
+          "D3+": 1.40166
+        },
+        {
+          "order": 2,
+          "D1": 0.779622,
+          "D2": 1.15143,
+          "D3+": 1.4037
+        },
+        {
+          "order": 3,
+          "D1": 0.870796,
+          "D2": 1.26834,
+          "D3+": 1.48996
+        }
+      ],
+      "fallback_discount_used": false,
+      "deterministic_arpa": true
+    },
+    "test": {
+      "events": 121165,
+      "oov_events": 4361,
+      "oov_rate": 0.035992241984071305,
+      "ppl_including_oov": 442.0801746938207,
+      "ppl_excluding_oov": 331.4109814897809,
+      "cross_entropy_bits": 8.788164227137882
+    },
+    "prompt": [
+      "在",
+      "阳光",
+      "明媚",
+      "的",
+      "五月",
+      "，",
+      "我们",
+      "学校",
+      "胜利",
+      "召开",
+      "了"
+    ],
+    "samples": [
+      {
+        "seed": 11,
+        "text": "第十五 次 全国 代表大会 ， 对 此 ， 也 要 在 北京 、 上海 、 广东 省委 书记 刘 彦军 “ 的 ， 要 继续 发挥 作用 的 好事 ， 对 这 一 发现 有助于 巩固 ， 形成 规模 经济",
+        "hit_eos": false
+      },
+      {
+        "seed": 22,
+        "text": "。",
+        "hit_eos": true
+      },
+      {
+        "seed": 33,
+        "text": "， 是 党 的 基本 理论 与 实际 情况 相 结合 ， 以 使 我国 企业 改革 的 ， 由 公安 机关 要 把 党 的 十五大 精神 ， 实现 ， 是 我们 的 一 系列 措施 继续 发挥 的",
+        "hit_eos": false
+      }
+    ]
+  },
+  "tagged": {
+    "train": {
+      "tokens": 898073,
+      "types": 55578,
+      "hapax_types": 26481,
+      "hapax_type_share": 0.47646550793479436
+    },
+    "training": {
+      "wall_seconds": {
+        "median": 1.9491969939999976,
+        "min": 1.9491969939999976,
+        "max": 1.9491969939999976,
+        "n": 1
+      },
+      "kenlm_real_seconds": {
+        "median": 1.94578,
+        "min": 1.94578,
+        "max": 1.94578,
+        "n": 1
+      },
+      "peak_rss_mb": {
+        "median": 174.5234375,
+        "min": 174.5234375,
+        "max": 174.5234375,
+        "n": 1
+      },
+      "stage_seconds_median": {
+        "Counting and sorting n-grams": 0.35421706700000044,
+        "Calculating and sorting adjusted counts": 0.105907638999998,
+        "Calculating and sorting initial probabilities": 0.13295778400000202,
+        "Calculating and writing order-interpolated probabilities": 0.14652430599999988,
+        "Writing ARPA model": 1.2075122119999975
+      },
+      "arpa_bytes": 43162475,
+      "ngram_counts": [
+        55581,
+        403072,
+        703785
+      ],
+      "discounts": [
+        {
+          "order": 1,
+          "D1": 0.647212,
+          "D2": 1.0016,
+          "D3+": 1.36504
+        },
+        {
+          "order": 2,
+          "D1": 0.786356,
+          "D2": 1.15712,
+          "D3+": 1.40967
+        },
+        {
+          "order": 3,
+          "D1": 0.874752,
+          "D2": 1.27218,
+          "D3+": 1.4585
+        }
+      ],
+      "fallback_discount_used": false,
+      "deterministic_arpa": true
+    },
+    "test": {
+      "events": 121165,
+      "oov_events": 4847,
+      "oov_rate": 0.04000330128337391,
+      "ppl_including_oov": 488.32041555300316,
+      "ppl_excluding_oov": 355.1606363456783,
+      "cross_entropy_bits": 8.931684284771146
+    },
+    "prompt": [
+      "在/p",
+      "阳光/n",
+      "明媚/a",
+      "的/u",
+      "五月/t",
+      "，/w",
+      "我们/r",
+      "学校/n",
+      "胜利/vn",
+      "召开/v",
+      "了/u"
+    ],
+    "samples": [
+      {
+        "seed": 11,
+        "text": "第十五/m 次/q 全国/n 代表大会/n ，/w 他/r 的/u “/w 国际/n 金融/n 市场/n 的/u 潜力/n ，/w 中国/ns ，/w 为/p 中国/ns 驻/v 俄罗斯/ns 经济/n 发展/vn ，/w 在/p 全国/n ，/w 有的/r 的/u 情况/n 下/f ，/w 我国/n 的/u 的/u 一/m 年/q 中/f ，/w 并/c 对/p",
+        "hit_eos": false
+      },
+      {
+        "seed": 22,
+        "text": "一/m 系列/q 重大/a 突破/vn 。/w",
+        "hit_eos": true
+      },
+      {
+        "seed": 33,
+        "text": "“/w 的/u 发展/vn ，/w 使/v 其/r 作品/n 不免/d 带有/v ，/w 并/c 在/p 全国/n 的/u 解放战争/nz ，/w 对/p 此/r 表示/v 感谢/v 。/w",
+        "hit_eos": true
+      }
+    ]
+  }
+}

@@ -1,0 +1,1744 @@
+{
+  "experiment": "E2_orders",
+  "finished_at": "2026-09-29T04:31:50+00:00",
+  "kenlm_commit": "4cb443e60b7bf2c0ddf3c745378f76cb59e254e5",
+  "elapsed_seconds": 29.007240652999997,
+  "orders": {
+    "2": {
+      "training": {
+        "wall_seconds": {
+          "median": 0.7202240480000057,
+          "min": 0.5974523220000023,
+          "max": 0.9375425539999966,
+          "n": 3
+        },
+        "kenlm_real_seconds": {
+          "median": 0.717861,
+          "min": 0.595564,
+          "max": 0.934992,
+          "n": 3
+        },
+        "peak_rss_mb": {
+          "median": 527.32421875,
+          "min": 527.32421875,
+          "max": 527.32421875,
+          "n": 3
+        },
+        "stage_seconds_median": {
+          "Counting and sorting n-grams": 0.3338564850000054,
+          "Calculating and sorting adjusted counts": 0.05489261099999965,
+          "Calculating and sorting initial probabilities": 0.10142072899999732,
+          "Calculating and writing order-interpolated probabilities": 0.016517119999996055,
+          "Writing ARPA model": 0.09154539300000408
+        },
+        "arpa_bytes": 10761805,
+        "ngram_counts": [
+          49608,
+          389894
+        ],
+        "discounts": [
+          {
+            "order": 1,
+            "D1": 0.644033,
+            "D2": 1.03044,
+            "D3+": 1.40166
+          },
+          {
+            "order": 2,
+            "D1": 0.755867,
+            "D2": 1.11841,
+            "D3+": 1.41454
+          }
+        ],
+        "fallback_discount_used": false,
+        "deterministic_arpa": true
+      },
+      "runs": [
+        {
+          "command": [
+            "/root/tools/kenlm/build/bin/lmplz",
+            "-o",
+            "2",
+            "-S",
+            "512M",
+            "-T",
+            "/root/pfr-work/tmp",
+            "--arpa",
+            "/root/pfr-work/models/kn2.arpa"
+          ],
+          "wall_seconds": 0.5974523220000023,
+          "peak_rss_mb": 527.32421875,
+          "user_seconds": 0.39371,
+          "sys_seconds": 0.161063,
+          "kenlm_real_seconds": 0.595564,
+          "startup_seconds": 0.0015933279999984507,
+          "stages": [
+            {
+              "stage": 1,
+              "name": "Counting and sorting n-grams",
+              "seconds": 0.3338564850000054
+            },
+            {
+              "stage": 2,
+              "name": "Calculating and sorting adjusted counts",
+              "seconds": 0.07502908400000052
+            },
+            {
+              "stage": 3,
+              "name": "Calculating and sorting initial probabilities",
+              "seconds": 0.10142072899999732
+            },
+            {
+              "stage": 4,
+              "name": "Calculating and writing order-interpolated probabilities",
+              "seconds": 0.019679969000002018
+            },
+            {
+              "stage": 5,
+              "name": "Writing ARPA model",
+              "seconds": 0.06587272699999858
+            }
+          ],
+          "arpa_path": "/root/pfr-work/models/kn2.arpa",
+          "arpa_bytes": 10761805,
+          "ngram_counts": [
+            49608,
+            389894
+          ],
+          "discounts": [
+            {
+              "order": 1,
+              "D1": 0.644033,
+              "D2": 1.03044,
+              "D3+": 1.40166
+            },
+            {
+              "order": 2,
+              "D1": 0.755867,
+              "D2": 1.11841,
+              "D3+": 1.41454
+            }
+          ],
+          "fallback_discount_used": false,
+          "arpa_sha256": "5c0ddac9268d41d081c18c9a05f528c348a63283de2041030fa917a7ef5021ab",
+          "repeat": 1
+        },
+        {
+          "command": [
+            "/root/tools/kenlm/build/bin/lmplz",
+            "-o",
+            "2",
+            "-S",
+            "512M",
+            "-T",
+            "/root/pfr-work/tmp",
+            "--arpa",
+            "/root/pfr-work/models/kn2.arpa"
+          ],
+          "wall_seconds": 0.7202240480000057,
+          "peak_rss_mb": 527.32421875,
+          "user_seconds": 0.535855,
+          "sys_seconds": 0.109155,
+          "kenlm_real_seconds": 0.717861,
+          "startup_seconds": 0.0036579660000057856,
+          "stages": [
+            {
+              "stage": 1,
+              "name": "Counting and sorting n-grams",
+              "seconds": 0.40095402600000085
+            },
+            {
+              "stage": 2,
+              "name": "Calculating and sorting adjusted counts",
+              "seconds": 0.05489261099999965
+            },
+            {
+              "stage": 3,
+              "name": "Calculating and sorting initial probabilities",
+              "seconds": 0.1526569319999993
+            },
+            {
+              "stage": 4,
+              "name": "Calculating and writing order-interpolated probabilities",
+              "seconds": 0.016517119999996055
+            },
+            {
+              "stage": 5,
+              "name": "Writing ARPA model",
+              "seconds": 0.09154539300000408
+            }
+          ],
+          "arpa_path": "/root/pfr-work/models/kn2.arpa",
+          "arpa_bytes": 10761805,
+          "ngram_counts": [
+            49608,
+            389894
+          ],
+          "discounts": [
+            {
+              "order": 1,
+              "D1": 0.644033,
+              "D2": 1.03044,
+              "D3+": 1.40166
+            },
+            {
+              "order": 2,
+              "D1": 0.755867,
+              "D2": 1.11841,
+              "D3+": 1.41454
+            }
+          ],
+          "fallback_discount_used": false,
+          "arpa_sha256": "5c0ddac9268d41d081c18c9a05f528c348a63283de2041030fa917a7ef5021ab",
+          "repeat": 2
+        },
+        {
+          "command": [
+            "/root/tools/kenlm/build/bin/lmplz",
+            "-o",
+            "2",
+            "-S",
+            "512M",
+            "-T",
+            "/root/pfr-work/tmp",
+            "--arpa",
+            "/root/pfr-work/models/kn2.arpa"
+          ],
+          "wall_seconds": 0.9375425539999966,
+          "peak_rss_mb": 527.32421875,
+          "user_seconds": 0.35892,
+          "sys_seconds": 0.11964,
+          "kenlm_real_seconds": 0.934992,
+          "startup_seconds": 0.37281429199999394,
+          "stages": [
+            {
+              "stage": 1,
+              "name": "Counting and sorting n-grams",
+              "seconds": 0.3054211990000013
+            },
+            {
+              "stage": 2,
+              "name": "Calculating and sorting adjusted counts",
+              "seconds": 0.04286623000000134
+            },
+            {
+              "stage": 3,
+              "name": "Calculating and sorting initial probabilities",
+              "seconds": 0.05184409200000317
+            },
+            {
+              "stage": 4,
+              "name": "Calculating and writing order-interpolated probabilities",
+              "seconds": 0.01594310199999427
+            },
+            {
+              "stage": 5,
+              "name": "Writing ARPA model",
+              "seconds": 0.1486536390000026
+            }
+          ],
+          "arpa_path": "/root/pfr-work/models/kn2.arpa",
+          "arpa_bytes": 10761805,
+          "ngram_counts": [
+            49608,
+            389894
+          ],
+          "discounts": [
+            {
+              "order": 1,
+              "D1": 0.644033,
+              "D2": 1.03044,
+              "D3+": 1.40166
+            },
+            {
+              "order": 2,
+              "D1": 0.755867,
+              "D2": 1.11841,
+              "D3+": 1.41454
+            }
+          ],
+          "fallback_discount_used": false,
+          "arpa_sha256": "5c0ddac9268d41d081c18c9a05f528c348a63283de2041030fa917a7ef5021ab",
+          "repeat": 3
+        }
+      ],
+      "dev": {
+        "events": 111038,
+        "sentences": 4192,
+        "oov_events": 3488,
+        "oov_rate": 0.031412669536555055,
+        "log10_prob": -299173.43663182156,
+        "cross_entropy_bits": 8.950383151635044,
+        "ppl_including_oov": 494.6907631731937,
+        "ppl_excluding_oov": 385.9956426355396,
+        "matched_orders": {
+          "1": 34107,
+          "2": 73443
+        }
+      },
+      "test": {
+        "events": 121165,
+        "sentences": 4637,
+        "oov_events": 4361,
+        "oov_rate": 0.035992241984071305,
+        "log10_prob": -331281.8215578245,
+        "cross_entropy_bits": 9.082609584932936,
+        "ppl_including_oov": 542.1730472889736,
+        "ppl_excluding_oov": 409.09677814994023,
+        "matched_orders": {
+          "1": 38020,
+          "2": 78784
+        }
+      }
+    },
+    "3": {
+      "training": {
+        "wall_seconds": {
+          "median": 0.9396490620000009,
+          "min": 0.7856876780000022,
+          "max": 3.2832278610000003,
+          "n": 3
+        },
+        "kenlm_real_seconds": {
+          "median": 0.936965,
+          "min": 0.781815,
+          "max": 3.28063,
+          "n": 3
+        },
+        "peak_rss_mb": {
+          "median": 527.32421875,
+          "min": 527.32421875,
+          "max": 527.32421875,
+          "n": 3
+        },
+        "stage_seconds_median": {
+          "Counting and sorting n-grams": 0.3026870300000013,
+          "Calculating and sorting adjusted counts": 0.09505658599999833,
+          "Calculating and sorting initial probabilities": 0.1321220910000065,
+          "Calculating and writing order-interpolated probabilities": 0.04283354100000025,
+          "Writing ARPA model": 0.22435763500000405
+        },
+        "arpa_bytes": 36035955,
+        "ngram_counts": [
+          49608,
+          389894,
+          697708
+        ],
+        "discounts": [
+          {
+            "order": 1,
+            "D1": 0.644033,
+            "D2": 1.03044,
+            "D3+": 1.40166
+          },
+          {
+            "order": 2,
+            "D1": 0.779622,
+            "D2": 1.15143,
+            "D3+": 1.4037
+          },
+          {
+            "order": 3,
+            "D1": 0.870796,
+            "D2": 1.26834,
+            "D3+": 1.48996
+          }
+        ],
+        "fallback_discount_used": false,
+        "deterministic_arpa": true
+      },
+      "runs": [
+        {
+          "command": [
+            "/root/tools/kenlm/build/bin/lmplz",
+            "-o",
+            "3",
+            "-S",
+            "512M",
+            "-T",
+            "/root/pfr-work/tmp",
+            "--arpa",
+            "/root/pfr-work/models/kn3.arpa"
+          ],
+          "wall_seconds": 0.9396490620000009,
+          "peak_rss_mb": 527.32421875,
+          "user_seconds": 0.793384,
+          "sys_seconds": 0.166512,
+          "kenlm_real_seconds": 0.936965,
+          "startup_seconds": 0.002382570000001749,
+          "stages": [
+            {
+              "stage": 1,
+              "name": "Counting and sorting n-grams",
+              "seconds": 0.2784312679999985
+            },
+            {
+              "stage": 2,
+              "name": "Calculating and sorting adjusted counts",
+              "seconds": 0.09505658599999833
+            },
+            {
+              "stage": 3,
+              "name": "Calculating and sorting initial probabilities",
+              "seconds": 0.1321220910000065
+            },
+            {
+              "stage": 4,
+              "name": "Calculating and writing order-interpolated probabilities",
+              "seconds": 0.04283354100000025
+            },
+            {
+              "stage": 5,
+              "name": "Writing ARPA model",
+              "seconds": 0.38882300599999553
+            }
+          ],
+          "arpa_path": "/root/pfr-work/models/kn3.arpa",
+          "arpa_bytes": 36035955,
+          "ngram_counts": [
+            49608,
+            389894,
+            697708
+          ],
+          "discounts": [
+            {
+              "order": 1,
+              "D1": 0.644033,
+              "D2": 1.03044,
+              "D3+": 1.40166
+            },
+            {
+              "order": 2,
+              "D1": 0.779622,
+              "D2": 1.15143,
+              "D3+": 1.4037
+            },
+            {
+              "order": 3,
+              "D1": 0.870796,
+              "D2": 1.26834,
+              "D3+": 1.48996
+            }
+          ],
+          "fallback_discount_used": false,
+          "arpa_sha256": "1d4cda31a2424716cd0bf529ed3cdcdcd7ed0e61cc77e901db0c508121ec6ab6",
+          "repeat": 1
+        },
+        {
+          "command": [
+            "/root/tools/kenlm/build/bin/lmplz",
+            "-o",
+            "3",
+            "-S",
+            "512M",
+            "-T",
+            "/root/pfr-work/tmp",
+            "--arpa",
+            "/root/pfr-work/models/kn3.arpa"
+          ],
+          "wall_seconds": 0.7856876780000022,
+          "peak_rss_mb": 527.32421875,
+          "user_seconds": 0.652662,
+          "sys_seconds": 0.236471,
+          "kenlm_real_seconds": 0.781815,
+          "startup_seconds": 0.008216140999998345,
+          "stages": [
+            {
+              "stage": 1,
+              "name": "Counting and sorting n-grams",
+              "seconds": 0.3026870300000013
+            },
+            {
+              "stage": 2,
+              "name": "Calculating and sorting adjusted counts",
+              "seconds": 0.09228652200000198
+            },
+            {
+              "stage": 3,
+              "name": "Calculating and sorting initial probabilities",
+              "seconds": 0.11848316999999753
+            },
+            {
+              "stage": 4,
+              "name": "Calculating and writing order-interpolated probabilities",
+              "seconds": 0.03965717999999896
+            },
+            {
+              "stage": 5,
+              "name": "Writing ARPA model",
+              "seconds": 0.22435763500000405
+            }
+          ],
+          "arpa_path": "/root/pfr-work/models/kn3.arpa",
+          "arpa_bytes": 36035955,
+          "ngram_counts": [
+            49608,
+            389894,
+            697708
+          ],
+          "discounts": [
+            {
+              "order": 1,
+              "D1": 0.644033,
+              "D2": 1.03044,
+              "D3+": 1.40166
+            },
+            {
+              "order": 2,
+              "D1": 0.779622,
+              "D2": 1.15143,
+              "D3+": 1.4037
+            },
+            {
+              "order": 3,
+              "D1": 0.870796,
+              "D2": 1.26834,
+              "D3+": 1.48996
+            }
+          ],
+          "fallback_discount_used": false,
+          "arpa_sha256": "1d4cda31a2424716cd0bf529ed3cdcdcd7ed0e61cc77e901db0c508121ec6ab6",
+          "repeat": 2
+        },
+        {
+          "command": [
+            "/root/tools/kenlm/build/bin/lmplz",
+            "-o",
+            "3",
+            "-S",
+            "512M",
+            "-T",
+            "/root/pfr-work/tmp",
+            "--arpa",
+            "/root/pfr-work/models/kn3.arpa"
+          ],
+          "wall_seconds": 3.2832278610000003,
+          "peak_rss_mb": 527.32421875,
+          "user_seconds": 0.849322,
+          "sys_seconds": 0.366752,
+          "kenlm_real_seconds": 3.28063,
+          "startup_seconds": 2.296646553000002,
+          "stages": [
+            {
+              "stage": 1,
+              "name": "Counting and sorting n-grams",
+              "seconds": 0.37058330299999653
+            },
+            {
+              "stage": 2,
+              "name": "Calculating and sorting adjusted counts",
+              "seconds": 0.1438057770000043
+            },
+            {
+              "stage": 3,
+              "name": "Calculating and sorting initial probabilities",
+              "seconds": 0.16927699799999374
+            },
+            {
+              "stage": 4,
+              "name": "Calculating and writing order-interpolated probabilities",
+              "seconds": 0.0831027320000004
+            },
+            {
+              "stage": 5,
+              "name": "Writing ARPA model",
+              "seconds": 0.21981249800000313
+            }
+          ],
+          "arpa_path": "/root/pfr-work/models/kn3.arpa",
+          "arpa_bytes": 36035955,
+          "ngram_counts": [
+            49608,
+            389894,
+            697708
+          ],
+          "discounts": [
+            {
+              "order": 1,
+              "D1": 0.644033,
+              "D2": 1.03044,
+              "D3+": 1.40166
+            },
+            {
+              "order": 2,
+              "D1": 0.779622,
+              "D2": 1.15143,
+              "D3+": 1.4037
+            },
+            {
+              "order": 3,
+              "D1": 0.870796,
+              "D2": 1.26834,
+              "D3+": 1.48996
+            }
+          ],
+          "fallback_discount_used": false,
+          "arpa_sha256": "1d4cda31a2424716cd0bf529ed3cdcdcd7ed0e61cc77e901db0c508121ec6ab6",
+          "repeat": 3
+        }
+      ],
+      "dev": {
+        "events": 111038,
+        "sentences": 4192,
+        "oov_events": 3488,
+        "oov_rate": 0.031412669536555055,
+        "log10_prob": -289232.05780823587,
+        "cross_entropy_bits": 8.652966540961334,
+        "ppl_including_oov": 402.53391788554626,
+        "ppl_excluding_oov": 312.30901616448836,
+        "matched_orders": {
+          "1": 34107,
+          "2": 43800,
+          "3": 29643
+        }
+      },
+      "test": {
+        "events": 121165,
+        "sentences": 4637,
+        "oov_events": 4361,
+        "oov_rate": 0.035992241984071305,
+        "log10_prob": -320542.1334134165,
+        "cross_entropy_bits": 8.788164227137882,
+        "ppl_including_oov": 442.0801746938207,
+        "ppl_excluding_oov": 331.4109814897809,
+        "matched_orders": {
+          "1": 38020,
+          "2": 47185,
+          "3": 31599
+        }
+      }
+    },
+    "4": {
+      "training": {
+        "wall_seconds": {
+          "median": 1.2412878089999992,
+          "min": 1.1769368229999984,
+          "max": 1.317204690000004,
+          "n": 3
+        },
+        "kenlm_real_seconds": {
+          "median": 1.23746,
+          "min": 1.17512,
+          "max": 1.3152,
+          "n": 3
+        },
+        "peak_rss_mb": {
+          "median": 527.32421875,
+          "min": 527.32421875,
+          "max": 527.32421875,
+          "n": 3
+        },
+        "stage_seconds_median": {
+          "Counting and sorting n-grams": 0.3805390590000002,
+          "Calculating and sorting adjusted counts": 0.1337902559999975,
+          "Calculating and sorting initial probabilities": 0.17043781199999586,
+          "Calculating and writing order-interpolated probabilities": 0.07342124299999853,
+          "Writing ARPA model": 0.443482956000004
+        },
+        "arpa_bytes": 72546497,
+        "ngram_counts": [
+          49608,
+          389894,
+          697708,
+          789431
+        ],
+        "discounts": [
+          {
+            "order": 1,
+            "D1": 0.644033,
+            "D2": 1.03044,
+            "D3+": 1.40166
+          },
+          {
+            "order": 2,
+            "D1": 0.779622,
+            "D2": 1.15143,
+            "D3+": 1.4037
+          },
+          {
+            "order": 3,
+            "D1": 0.896265,
+            "D2": 1.31295,
+            "D3+": 1.52329
+          },
+          {
+            "order": 4,
+            "D1": 0.935272,
+            "D2": 1.38445,
+            "D3+": 1.59177
+          }
+        ],
+        "fallback_discount_used": false,
+        "deterministic_arpa": true
+      },
+      "runs": [
+        {
+          "command": [
+            "/root/tools/kenlm/build/bin/lmplz",
+            "-o",
+            "4",
+            "-S",
+            "512M",
+            "-T",
+            "/root/pfr-work/tmp",
+            "--arpa",
+            "/root/pfr-work/models/kn4.arpa"
+          ],
+          "wall_seconds": 1.1769368229999984,
+          "peak_rss_mb": 527.32421875,
+          "user_seconds": 1.13682,
+          "sys_seconds": 0.404632,
+          "kenlm_real_seconds": 1.17512,
+          "startup_seconds": 0.0014958559999982413,
+          "stages": [
+            {
+              "stage": 1,
+              "name": "Counting and sorting n-grams",
+              "seconds": 0.4020833810000042
+            },
+            {
+              "stage": 2,
+              "name": "Calculating and sorting adjusted counts",
+              "seconds": 0.1337902559999975
+            },
+            {
+              "stage": 3,
+              "name": "Calculating and sorting initial probabilities",
+              "seconds": 0.16842360100000064
+            },
+            {
+              "stage": 4,
+              "name": "Calculating and writing order-interpolated probabilities",
+              "seconds": 0.07342124299999853
+            },
+            {
+              "stage": 5,
+              "name": "Writing ARPA model",
+              "seconds": 0.39772248599999926
+            }
+          ],
+          "arpa_path": "/root/pfr-work/models/kn4.arpa",
+          "arpa_bytes": 72546497,
+          "ngram_counts": [
+            49608,
+            389894,
+            697708,
+            789431
+          ],
+          "discounts": [
+            {
+              "order": 1,
+              "D1": 0.644033,
+              "D2": 1.03044,
+              "D3+": 1.40166
+            },
+            {
+              "order": 2,
+              "D1": 0.779622,
+              "D2": 1.15143,
+              "D3+": 1.4037
+            },
+            {
+              "order": 3,
+              "D1": 0.896265,
+              "D2": 1.31295,
+              "D3+": 1.52329
+            },
+            {
+              "order": 4,
+              "D1": 0.935272,
+              "D2": 1.38445,
+              "D3+": 1.59177
+            }
+          ],
+          "fallback_discount_used": false,
+          "arpa_sha256": "8baf3ab50f4815c1dc64c4e762c078d774d0acc3e4660a30bae211f7bc01156d",
+          "repeat": 1
+        },
+        {
+          "command": [
+            "/root/tools/kenlm/build/bin/lmplz",
+            "-o",
+            "4",
+            "-S",
+            "512M",
+            "-T",
+            "/root/pfr-work/tmp",
+            "--arpa",
+            "/root/pfr-work/models/kn4.arpa"
+          ],
+          "wall_seconds": 1.2412878089999992,
+          "peak_rss_mb": 527.32421875,
+          "user_seconds": 1.17595,
+          "sys_seconds": 0.476211,
+          "kenlm_real_seconds": 1.23746,
+          "startup_seconds": 0.01201691199999999,
+          "stages": [
+            {
+              "stage": 1,
+              "name": "Counting and sorting n-grams",
+              "seconds": 0.3566099199999968
+            },
+            {
+              "stage": 2,
+              "name": "Calculating and sorting adjusted counts",
+              "seconds": 0.12794076000000132
+            },
+            {
+              "stage": 3,
+              "name": "Calculating and sorting initial probabilities",
+              "seconds": 0.1741349810000017
+            },
+            {
+              "stage": 4,
+              "name": "Calculating and writing order-interpolated probabilities",
+              "seconds": 0.07491254299999639
+            },
+            {
+              "stage": 5,
+              "name": "Writing ARPA model",
+              "seconds": 0.49567269300000305
+            }
+          ],
+          "arpa_path": "/root/pfr-work/models/kn4.arpa",
+          "arpa_bytes": 72546497,
+          "ngram_counts": [
+            49608,
+            389894,
+            697708,
+            789431
+          ],
+          "discounts": [
+            {
+              "order": 1,
+              "D1": 0.644033,
+              "D2": 1.03044,
+              "D3+": 1.40166
+            },
+            {
+              "order": 2,
+              "D1": 0.779622,
+              "D2": 1.15143,
+              "D3+": 1.4037
+            },
+            {
+              "order": 3,
+              "D1": 0.896265,
+              "D2": 1.31295,
+              "D3+": 1.52329
+            },
+            {
+              "order": 4,
+              "D1": 0.935272,
+              "D2": 1.38445,
+              "D3+": 1.59177
+            }
+          ],
+          "fallback_discount_used": false,
+          "arpa_sha256": "8baf3ab50f4815c1dc64c4e762c078d774d0acc3e4660a30bae211f7bc01156d",
+          "repeat": 2
+        },
+        {
+          "command": [
+            "/root/tools/kenlm/build/bin/lmplz",
+            "-o",
+            "4",
+            "-S",
+            "512M",
+            "-T",
+            "/root/pfr-work/tmp",
+            "--arpa",
+            "/root/pfr-work/models/kn4.arpa"
+          ],
+          "wall_seconds": 1.317204690000004,
+          "peak_rss_mb": 527.32421875,
+          "user_seconds": 1.14957,
+          "sys_seconds": 0.484528,
+          "kenlm_real_seconds": 1.3152,
+          "startup_seconds": 0.1009267230000006,
+          "stages": [
+            {
+              "stage": 1,
+              "name": "Counting and sorting n-grams",
+              "seconds": 0.3805390590000002
+            },
+            {
+              "stage": 2,
+              "name": "Calculating and sorting adjusted counts",
+              "seconds": 0.15135413300000522
+            },
+            {
+              "stage": 3,
+              "name": "Calculating and sorting initial probabilities",
+              "seconds": 0.17043781199999586
+            },
+            {
+              "stage": 4,
+              "name": "Calculating and writing order-interpolated probabilities",
+              "seconds": 0.07046400699999822
+            },
+            {
+              "stage": 5,
+              "name": "Writing ARPA model",
+              "seconds": 0.443482956000004
+            }
+          ],
+          "arpa_path": "/root/pfr-work/models/kn4.arpa",
+          "arpa_bytes": 72546497,
+          "ngram_counts": [
+            49608,
+            389894,
+            697708,
+            789431
+          ],
+          "discounts": [
+            {
+              "order": 1,
+              "D1": 0.644033,
+              "D2": 1.03044,
+              "D3+": 1.40166
+            },
+            {
+              "order": 2,
+              "D1": 0.779622,
+              "D2": 1.15143,
+              "D3+": 1.4037
+            },
+            {
+              "order": 3,
+              "D1": 0.896265,
+              "D2": 1.31295,
+              "D3+": 1.52329
+            },
+            {
+              "order": 4,
+              "D1": 0.935272,
+              "D2": 1.38445,
+              "D3+": 1.59177
+            }
+          ],
+          "fallback_discount_used": false,
+          "arpa_sha256": "8baf3ab50f4815c1dc64c4e762c078d774d0acc3e4660a30bae211f7bc01156d",
+          "repeat": 3
+        }
+      ],
+      "dev": {
+        "events": 111038,
+        "sentences": 4192,
+        "oov_events": 3488,
+        "oov_rate": 0.031412669536555055,
+        "log10_prob": -287977.908058931,
+        "cross_entropy_bits": 8.615446094921131,
+        "ppl_including_oov": 392.20010048107525,
+        "ppl_excluding_oov": 304.2033380116336,
+        "matched_orders": {
+          "1": 34107,
+          "2": 43800,
+          "3": 18584,
+          "4": 11059
+        }
+      },
+      "test": {
+        "events": 121165,
+        "sentences": 4637,
+        "oov_events": 4361,
+        "oov_rate": 0.035992241984071305,
+        "log10_prob": -319232.7075066221,
+        "cross_entropy_bits": 8.752264266687638,
+        "ppl_including_oov": 431.21521316619334,
+        "ppl_excluding_oov": 323.1671630970253,
+        "matched_orders": {
+          "1": 38020,
+          "2": 47185,
+          "3": 19865,
+          "4": 11734
+        }
+      }
+    },
+    "5": {
+      "training": {
+        "wall_seconds": {
+          "median": 1.7625714600000038,
+          "min": 1.6881934919999964,
+          "max": 1.7912924130000079,
+          "n": 3
+        },
+        "kenlm_real_seconds": {
+          "median": 1.76048,
+          "min": 1.686,
+          "max": 1.78824,
+          "n": 3
+        },
+        "peak_rss_mb": {
+          "median": 527.32421875,
+          "min": 527.32421875,
+          "max": 527.32421875,
+          "n": 3
+        },
+        "stage_seconds_median": {
+          "Counting and sorting n-grams": 0.3688406119999996,
+          "Calculating and sorting adjusted counts": 0.17708637299999452,
+          "Calculating and sorting initial probabilities": 0.20411375700000178,
+          "Calculating and writing order-interpolated probabilities": 0.11950136599999439,
+          "Writing ARPA model": 0.8327048020000092
+        },
+        "arpa_bytes": 114144130,
+        "ngram_counts": [
+          49608,
+          389894,
+          697708,
+          789431,
+          792839
+        ],
+        "discounts": [
+          {
+            "order": 1,
+            "D1": 0.644033,
+            "D2": 1.03044,
+            "D3+": 1.40166
+          },
+          {
+            "order": 2,
+            "D1": 0.779622,
+            "D2": 1.15143,
+            "D3+": 1.4037
+          },
+          {
+            "order": 3,
+            "D1": 0.896265,
+            "D2": 1.31295,
+            "D3+": 1.52329
+          },
+          {
+            "order": 4,
+            "D1": 0.957471,
+            "D2": 1.45754,
+            "D3+": 1.64197
+          },
+          {
+            "order": 5,
+            "D1": 0.96276,
+            "D2": 1.48116,
+            "D3+": 1.61449
+          }
+        ],
+        "fallback_discount_used": false,
+        "deterministic_arpa": true
+      },
+      "runs": [
+        {
+          "command": [
+            "/root/tools/kenlm/build/bin/lmplz",
+            "-o",
+            "5",
+            "-S",
+            "512M",
+            "-T",
+            "/root/pfr-work/tmp",
+            "--arpa",
+            "/root/pfr-work/models/kn5.arpa"
+          ],
+          "wall_seconds": 1.7625714600000038,
+          "peak_rss_mb": 527.32421875,
+          "user_seconds": 1.76403,
+          "sys_seconds": 0.551259,
+          "kenlm_real_seconds": 1.76048,
+          "startup_seconds": 0.0018853360000008479,
+          "stages": [
+            {
+              "stage": 1,
+              "name": "Counting and sorting n-grams",
+              "seconds": 0.4596435699999972
+            },
+            {
+              "stage": 2,
+              "name": "Calculating and sorting adjusted counts",
+              "seconds": 0.16526259900000184
+            },
+            {
+              "stage": 3,
+              "name": "Calculating and sorting initial probabilities",
+              "seconds": 0.19238231299999597
+            },
+            {
+              "stage": 4,
+              "name": "Calculating and writing order-interpolated probabilities",
+              "seconds": 0.11069283999999868
+            },
+            {
+              "stage": 5,
+              "name": "Writing ARPA model",
+              "seconds": 0.8327048020000092
+            }
+          ],
+          "arpa_path": "/root/pfr-work/models/kn5.arpa",
+          "arpa_bytes": 114144130,
+          "ngram_counts": [
+            49608,
+            389894,
+            697708,
+            789431,
+            792839
+          ],
+          "discounts": [
+            {
+              "order": 1,
+              "D1": 0.644033,
+              "D2": 1.03044,
+              "D3+": 1.40166
+            },
+            {
+              "order": 2,
+              "D1": 0.779622,
+              "D2": 1.15143,
+              "D3+": 1.4037
+            },
+            {
+              "order": 3,
+              "D1": 0.896265,
+              "D2": 1.31295,
+              "D3+": 1.52329
+            },
+            {
+              "order": 4,
+              "D1": 0.957471,
+              "D2": 1.45754,
+              "D3+": 1.64197
+            },
+            {
+              "order": 5,
+              "D1": 0.96276,
+              "D2": 1.48116,
+              "D3+": 1.61449
+            }
+          ],
+          "fallback_discount_used": false,
+          "arpa_sha256": "5800d29815611197b6b798224bf1f90154d2b6affaf21aba0a2541f7eacd3e43",
+          "repeat": 1
+        },
+        {
+          "command": [
+            "/root/tools/kenlm/build/bin/lmplz",
+            "-o",
+            "5",
+            "-S",
+            "512M",
+            "-T",
+            "/root/pfr-work/tmp",
+            "--arpa",
+            "/root/pfr-work/models/kn5.arpa"
+          ],
+          "wall_seconds": 1.7912924130000079,
+          "peak_rss_mb": 527.32421875,
+          "user_seconds": 1.68902,
+          "sys_seconds": 0.700764,
+          "kenlm_real_seconds": 1.78824,
+          "startup_seconds": 0.011880365000010329,
+          "stages": [
+            {
+              "stage": 1,
+              "name": "Counting and sorting n-grams",
+              "seconds": 0.3688406119999996
+            },
+            {
+              "stage": 2,
+              "name": "Calculating and sorting adjusted counts",
+              "seconds": 0.17708637299999452
+            },
+            {
+              "stage": 3,
+              "name": "Calculating and sorting initial probabilities",
+              "seconds": 0.20411375700000178
+            },
+            {
+              "stage": 4,
+              "name": "Calculating and writing order-interpolated probabilities",
+              "seconds": 0.11950136599999439
+            },
+            {
+              "stage": 5,
+              "name": "Writing ARPA model",
+              "seconds": 0.9098699400000072
+            }
+          ],
+          "arpa_path": "/root/pfr-work/models/kn5.arpa",
+          "arpa_bytes": 114144130,
+          "ngram_counts": [
+            49608,
+            389894,
+            697708,
+            789431,
+            792839
+          ],
+          "discounts": [
+            {
+              "order": 1,
+              "D1": 0.644033,
+              "D2": 1.03044,
+              "D3+": 1.40166
+            },
+            {
+              "order": 2,
+              "D1": 0.779622,
+              "D2": 1.15143,
+              "D3+": 1.4037
+            },
+            {
+              "order": 3,
+              "D1": 0.896265,
+              "D2": 1.31295,
+              "D3+": 1.52329
+            },
+            {
+              "order": 4,
+              "D1": 0.957471,
+              "D2": 1.45754,
+              "D3+": 1.64197
+            },
+            {
+              "order": 5,
+              "D1": 0.96276,
+              "D2": 1.48116,
+              "D3+": 1.61449
+            }
+          ],
+          "fallback_discount_used": false,
+          "arpa_sha256": "5800d29815611197b6b798224bf1f90154d2b6affaf21aba0a2541f7eacd3e43",
+          "repeat": 2
+        },
+        {
+          "command": [
+            "/root/tools/kenlm/build/bin/lmplz",
+            "-o",
+            "5",
+            "-S",
+            "512M",
+            "-T",
+            "/root/pfr-work/tmp",
+            "--arpa",
+            "/root/pfr-work/models/kn5.arpa"
+          ],
+          "wall_seconds": 1.6881934919999964,
+          "peak_rss_mb": 527.32421875,
+          "user_seconds": 1.53175,
+          "sys_seconds": 0.731062,
+          "kenlm_real_seconds": 1.686,
+          "startup_seconds": 0.010245983999993769,
+          "stages": [
+            {
+              "stage": 1,
+              "name": "Counting and sorting n-grams",
+              "seconds": 0.3429862930000098
+            },
+            {
+              "stage": 2,
+              "name": "Calculating and sorting adjusted counts",
+              "seconds": 0.1988365719999905
+            },
+            {
+              "stage": 3,
+              "name": "Calculating and sorting initial probabilities",
+              "seconds": 0.20684418800000515
+            },
+            {
+              "stage": 4,
+              "name": "Calculating and writing order-interpolated probabilities",
+              "seconds": 0.13791849400000444
+            },
+            {
+              "stage": 5,
+              "name": "Writing ARPA model",
+              "seconds": 0.7913619609999927
+            }
+          ],
+          "arpa_path": "/root/pfr-work/models/kn5.arpa",
+          "arpa_bytes": 114144130,
+          "ngram_counts": [
+            49608,
+            389894,
+            697708,
+            789431,
+            792839
+          ],
+          "discounts": [
+            {
+              "order": 1,
+              "D1": 0.644033,
+              "D2": 1.03044,
+              "D3+": 1.40166
+            },
+            {
+              "order": 2,
+              "D1": 0.779622,
+              "D2": 1.15143,
+              "D3+": 1.4037
+            },
+            {
+              "order": 3,
+              "D1": 0.896265,
+              "D2": 1.31295,
+              "D3+": 1.52329
+            },
+            {
+              "order": 4,
+              "D1": 0.957471,
+              "D2": 1.45754,
+              "D3+": 1.64197
+            },
+            {
+              "order": 5,
+              "D1": 0.96276,
+              "D2": 1.48116,
+              "D3+": 1.61449
+            }
+          ],
+          "fallback_discount_used": false,
+          "arpa_sha256": "5800d29815611197b6b798224bf1f90154d2b6affaf21aba0a2541f7eacd3e43",
+          "repeat": 3
+        }
+      ],
+      "dev": {
+        "events": 111038,
+        "sentences": 4192,
+        "oov_events": 3488,
+        "oov_rate": 0.031412669536555055,
+        "log10_prob": -287844.9344624699,
+        "cross_entropy_bits": 8.611467918747548,
+        "ppl_including_oov": 391.1201134607576,
+        "ppl_excluding_oov": 303.37878409281456,
+        "matched_orders": {
+          "1": 34107,
+          "2": 43800,
+          "3": 18584,
+          "4": 5963,
+          "5": 5096
+        }
+      },
+      "test": {
+        "events": 121165,
+        "sentences": 4637,
+        "oov_events": 4361,
+        "oov_rate": 0.035992241984071305,
+        "log10_prob": -319049.71528178646,
+        "cross_entropy_bits": 8.747247248465978,
+        "ppl_including_oov": 429.7182528207278,
+        "ppl_excluding_oov": 322.05086807133625,
+        "matched_orders": {
+          "1": 38020,
+          "2": 47185,
+          "3": 19865,
+          "4": 6313,
+          "5": 5421
+        }
+      }
+    },
+    "6": {
+      "training": {
+        "wall_seconds": {
+          "median": 2.1416061400000075,
+          "min": 2.0208825800000056,
+          "max": 2.227966084000002,
+          "n": 3
+        },
+        "kenlm_real_seconds": {
+          "median": 2.13886,
+          "min": 2.01798,
+          "max": 2.2246,
+          "n": 3
+        },
+        "peak_rss_mb": {
+          "median": 527.32421875,
+          "min": 527.32421875,
+          "max": 527.32421875,
+          "n": 3
+        },
+        "stage_seconds_median": {
+          "Counting and sorting n-grams": 0.42047809400000347,
+          "Calculating and sorting adjusted counts": 0.20294739500000958,
+          "Calculating and sorting initial probabilities": 0.21605865799999435,
+          "Calculating and writing order-interpolated probabilities": 0.1491456459999938,
+          "Writing ARPA model": 1.1401223440000052
+        },
+        "arpa_bytes": 161006897,
+        "ngram_counts": [
+          49608,
+          389894,
+          697708,
+          789431,
+          792839,
+          772366
+        ],
+        "discounts": [
+          {
+            "order": 1,
+            "D1": 0.644033,
+            "D2": 1.03044,
+            "D3+": 1.40166
+          },
+          {
+            "order": 2,
+            "D1": 0.779622,
+            "D2": 1.15143,
+            "D3+": 1.4037
+          },
+          {
+            "order": 3,
+            "D1": 0.896265,
+            "D2": 1.31295,
+            "D3+": 1.52329
+          },
+          {
+            "order": 4,
+            "D1": 0.957471,
+            "D2": 1.45754,
+            "D3+": 1.64197
+          },
+          {
+            "order": 5,
+            "D1": 0.980868,
+            "D2": 1.55349,
+            "D3+": 1.67299
+          },
+          {
+            "order": 6,
+            "D1": 0.974845,
+            "D2": 1.55971,
+            "D3+": 1.70813
+          }
+        ],
+        "fallback_discount_used": false,
+        "deterministic_arpa": true
+      },
+      "runs": [
+        {
+          "command": [
+            "/root/tools/kenlm/build/bin/lmplz",
+            "-o",
+            "6",
+            "-S",
+            "512M",
+            "-T",
+            "/root/pfr-work/tmp",
+            "--arpa",
+            "/root/pfr-work/models/kn6.arpa"
+          ],
+          "wall_seconds": 2.227966084000002,
+          "peak_rss_mb": 527.32421875,
+          "user_seconds": 2.27809,
+          "sys_seconds": 0.893012,
+          "kenlm_real_seconds": 2.2246,
+          "startup_seconds": 0.002316421000003288,
+          "stages": [
+            {
+              "stage": 1,
+              "name": "Counting and sorting n-grams",
+              "seconds": 0.4301429009999964
+            },
+            {
+              "stage": 2,
+              "name": "Calculating and sorting adjusted counts",
+              "seconds": 0.21195418099999586
+            },
+            {
+              "stage": 3,
+              "name": "Calculating and sorting initial probabilities",
+              "seconds": 0.22290734000000612
+            },
+            {
+              "stage": 4,
+              "name": "Calculating and writing order-interpolated probabilities",
+              "seconds": 0.1491456459999938
+            },
+            {
+              "stage": 5,
+              "name": "Writing ARPA model",
+              "seconds": 1.2114995950000065
+            }
+          ],
+          "arpa_path": "/root/pfr-work/models/kn6.arpa",
+          "arpa_bytes": 161006897,
+          "ngram_counts": [
+            49608,
+            389894,
+            697708,
+            789431,
+            792839,
+            772366
+          ],
+          "discounts": [
+            {
+              "order": 1,
+              "D1": 0.644033,
+              "D2": 1.03044,
+              "D3+": 1.40166
+            },
+            {
+              "order": 2,
+              "D1": 0.779622,
+              "D2": 1.15143,
+              "D3+": 1.4037
+            },
+            {
+              "order": 3,
+              "D1": 0.896265,
+              "D2": 1.31295,
+              "D3+": 1.52329
+            },
+            {
+              "order": 4,
+              "D1": 0.957471,
+              "D2": 1.45754,
+              "D3+": 1.64197
+            },
+            {
+              "order": 5,
+              "D1": 0.980868,
+              "D2": 1.55349,
+              "D3+": 1.67299
+            },
+            {
+              "order": 6,
+              "D1": 0.974845,
+              "D2": 1.55971,
+              "D3+": 1.70813
+            }
+          ],
+          "fallback_discount_used": false,
+          "arpa_sha256": "e9aa11338974d31eea14f71509ae8573acaa1a92365dc7c848ec0346e4f8fe25",
+          "repeat": 1
+        },
+        {
+          "command": [
+            "/root/tools/kenlm/build/bin/lmplz",
+            "-o",
+            "6",
+            "-S",
+            "512M",
+            "-T",
+            "/root/pfr-work/tmp",
+            "--arpa",
+            "/root/pfr-work/models/kn6.arpa"
+          ],
+          "wall_seconds": 2.0208825800000056,
+          "peak_rss_mb": 527.32421875,
+          "user_seconds": 2.21352,
+          "sys_seconds": 0.740965,
+          "kenlm_real_seconds": 2.01798,
+          "startup_seconds": 0.018383314000004702,
+          "stages": [
+            {
+              "stage": 1,
+              "name": "Counting and sorting n-grams",
+              "seconds": 0.4067316879999936
+            },
+            {
+              "stage": 2,
+              "name": "Calculating and sorting adjusted counts",
+              "seconds": 0.20294739500000958
+            },
+            {
+              "stage": 3,
+              "name": "Calculating and sorting initial probabilities",
+              "seconds": 0.21605865799999435
+            },
+            {
+              "stage": 4,
+              "name": "Calculating and writing order-interpolated probabilities",
+              "seconds": 0.151689262000005
+            },
+            {
+              "stage": 5,
+              "name": "Writing ARPA model",
+              "seconds": 1.0250722629999984
+            }
+          ],
+          "arpa_path": "/root/pfr-work/models/kn6.arpa",
+          "arpa_bytes": 161006897,
+          "ngram_counts": [
+            49608,
+            389894,
+            697708,
+            789431,
+            792839,
+            772366
+          ],
+          "discounts": [
+            {
+              "order": 1,
+              "D1": 0.644033,
+              "D2": 1.03044,
+              "D3+": 1.40166
+            },
+            {
+              "order": 2,
+              "D1": 0.779622,
+              "D2": 1.15143,
+              "D3+": 1.4037
+            },
+            {
+              "order": 3,
+              "D1": 0.896265,
+              "D2": 1.31295,
+              "D3+": 1.52329
+            },
+            {
+              "order": 4,
+              "D1": 0.957471,
+              "D2": 1.45754,
+              "D3+": 1.64197
+            },
+            {
+              "order": 5,
+              "D1": 0.980868,
+              "D2": 1.55349,
+              "D3+": 1.67299
+            },
+            {
+              "order": 6,
+              "D1": 0.974845,
+              "D2": 1.55971,
+              "D3+": 1.70813
+            }
+          ],
+          "fallback_discount_used": false,
+          "arpa_sha256": "e9aa11338974d31eea14f71509ae8573acaa1a92365dc7c848ec0346e4f8fe25",
+          "repeat": 2
+        },
+        {
+          "command": [
+            "/root/tools/kenlm/build/bin/lmplz",
+            "-o",
+            "6",
+            "-S",
+            "512M",
+            "-T",
+            "/root/pfr-work/tmp",
+            "--arpa",
+            "/root/pfr-work/models/kn6.arpa"
+          ],
+          "wall_seconds": 2.1416061400000075,
+          "peak_rss_mb": 527.32421875,
+          "user_seconds": 2.26602,
+          "sys_seconds": 0.709282,
+          "kenlm_real_seconds": 2.13886,
+          "startup_seconds": 0.044159605000004376,
+          "stages": [
+            {
+              "stage": 1,
+              "name": "Counting and sorting n-grams",
+              "seconds": 0.42047809400000347
+            },
+            {
+              "stage": 2,
+              "name": "Calculating and sorting adjusted counts",
+              "seconds": 0.17627597699998887
+            },
+            {
+              "stage": 3,
+              "name": "Calculating and sorting initial probabilities",
+              "seconds": 0.21278966100000218
+            },
+            {
+              "stage": 4,
+              "name": "Calculating and writing order-interpolated probabilities",
+              "seconds": 0.14778045900000336
+            },
+            {
+              "stage": 5,
+              "name": "Writing ARPA model",
+              "seconds": 1.1401223440000052
+            }
+          ],
+          "arpa_path": "/root/pfr-work/models/kn6.arpa",
+          "arpa_bytes": 161006897,
+          "ngram_counts": [
+            49608,
+            389894,
+            697708,
+            789431,
+            792839,
+            772366
+          ],
+          "discounts": [
+            {
+              "order": 1,
+              "D1": 0.644033,
+              "D2": 1.03044,
+              "D3+": 1.40166
+            },
+            {
+              "order": 2,
+              "D1": 0.779622,
+              "D2": 1.15143,
+              "D3+": 1.4037
+            },
+            {
+              "order": 3,
+              "D1": 0.896265,
+              "D2": 1.31295,
+              "D3+": 1.52329
+            },
+            {
+              "order": 4,
+              "D1": 0.957471,
+              "D2": 1.45754,
+              "D3+": 1.64197
+            },
+            {
+              "order": 5,
+              "D1": 0.980868,
+              "D2": 1.55349,
+              "D3+": 1.67299
+            },
+            {
+              "order": 6,
+              "D1": 0.974845,
+              "D2": 1.55971,
+              "D3+": 1.70813
+            }
+          ],
+          "fallback_discount_used": false,
+          "arpa_sha256": "e9aa11338974d31eea14f71509ae8573acaa1a92365dc7c848ec0346e4f8fe25",
+          "repeat": 3
+        }
+      ],
+      "dev": {
+        "events": 111038,
+        "sentences": 4192,
+        "oov_events": 3488,
+        "oov_rate": 0.031412669536555055,
+        "log10_prob": -287870.1270441424,
+        "cross_entropy_bits": 8.612221606177442,
+        "ppl_including_oov": 391.3244943712709,
+        "ppl_excluding_oov": 303.5478829694849,
+        "matched_orders": {
+          "1": 34107,
+          "2": 43800,
+          "3": 18584,
+          "4": 5963,
+          "5": 2254,
+          "6": 2842
+        }
+      },
+      "test": {
+        "events": 121165,
+        "sentences": 4637,
+        "oov_events": 4361,
+        "oov_rate": 0.035992241984071305,
+        "log10_prob": -319055.62699717504,
+        "cross_entropy_bits": 8.747409327395028,
+        "ppl_including_oov": 429.76653203752994,
+        "ppl_excluding_oov": 322.0957156695333,
+        "matched_orders": {
+          "1": 38020,
+          "2": 47185,
+          "3": 19865,
+          "4": 6313,
+          "5": 2205,
+          "6": 3216
+        }
+      }
+    }
+  },
+  "best_order_by_dev": 5
+}

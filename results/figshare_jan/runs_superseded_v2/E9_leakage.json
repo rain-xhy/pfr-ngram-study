@@ -1,0 +1,245 @@
+{
+  "experiment": "E9_leakage",
+  "finished_at": "2026-09-29T04:52:57+00:00",
+  "kenlm_commit": "4cb443e60b7bf2c0ddf3c745378f76cb59e254e5",
+  "elapsed_seconds": 0.7358852000000127,
+  "by_order": {
+    "2": {
+      "length": 30,
+      "type_token_ratio": 0.7818468970642883,
+      "repeated_2gram_rate": 0.04991087344028522,
+      "repeated_3gram_rate": 0.006666666666666672,
+      "self_ppl": 55.382485983884884,
+      "top1_prob_mean": 0.10349399313231189,
+      "chose_top1_rate": 0.2030922431865828,
+      "entropy_bits_mean": 9.504996208828155,
+      "matched_order_mean": 1.9874213836477987,
+      "overlap_5gram": 0.0,
+      "longest_copied_span": 3.6666666666666665,
+      "eos_rate": 1,
+      "copied_10plus_rate": 0,
+      "n": 3
+    },
+    "3": {
+      "length": 17.666666666666668,
+      "type_token_ratio": 0.9166666666666666,
+      "repeated_2gram_rate": 0.0,
+      "repeated_3gram_rate": 0.0,
+      "self_ppl": 13.993753399656239,
+      "top1_prob_mean": 0.2964835978148584,
+      "chose_top1_rate": 0.46091954022988507,
+      "entropy_bits_mean": 7.212131927290811,
+      "matched_order_mean": 2.7394984326018808,
+      "overlap_5gram": 0.14285714285714285,
+      "longest_copied_span": 6.333333333333333,
+      "eos_rate": 1,
+      "copied_10plus_rate": 0,
+      "n": 3
+    },
+    "4": {
+      "length": 2.6666666666666665,
+      "type_token_ratio": 1.0,
+      "repeated_2gram_rate": 0.0,
+      "repeated_3gram_rate": 0.0,
+      "self_ppl": 51.75899866681891,
+      "top1_prob_mean": 0.30959307209982867,
+      "chose_top1_rate": 0.5555555555555556,
+      "entropy_bits_mean": 7.094145137228332,
+      "matched_order_mean": 3.111111111111111,
+      "overlap_5gram": 0.06666666666666667,
+      "longest_copied_span": 3.6666666666666665,
+      "eos_rate": 1,
+      "copied_10plus_rate": 0,
+      "n": 3
+    },
+    "5": {
+      "length": 5.666666666666667,
+      "type_token_ratio": 1.0,
+      "repeated_2gram_rate": 0.0,
+      "repeated_3gram_rate": 0.0,
+      "self_ppl": 9.899080106807633,
+      "top1_prob_mean": 0.35694450173345244,
+      "chose_top1_rate": 0.6388888888888888,
+      "entropy_bits_mean": 6.389759723502274,
+      "matched_order_mean": 3.5,
+      "overlap_5gram": 0.09696969696969697,
+      "longest_copied_span": 4.333333333333333,
+      "eos_rate": 1,
+      "copied_10plus_rate": 0,
+      "n": 3
+    },
+    "6": {
+      "length": 15.333333333333334,
+      "type_token_ratio": 0.9166666666666666,
+      "repeated_2gram_rate": 0.017094017094017106,
+      "repeated_3gram_rate": 0.008771929824561394,
+      "self_ppl": 12.088427076300242,
+      "top1_prob_mean": 0.3547395390634551,
+      "chose_top1_rate": 0.6612466124661247,
+      "entropy_bits_mean": 6.51672709033447,
+      "matched_order_mean": 3.597560975609756,
+      "overlap_5gram": 0.11666666666666667,
+      "longest_copied_span": 5.666666666666667,
+      "eos_rate": 1,
+      "copied_10plus_rate": 0,
+      "n": 3
+    }
+  },
+  "by_order_greedy": {
+    "2": {
+      "longest_copied_span": 6,
+      "overlap_5gram": 0.2,
+      "text": "，在北京１月１２日电（记者王国栋又一年来，在北京１月１２日电（记者王国栋又一年来，在北京１月１２日电（记者王国栋又一年来，在北京１月１２日电（记者王国栋又一年来，在北京１月"
+    },
+    "3": {
+      "longest_copied_span": 12,
+      "overlap_5gram": 0.4166666666666667,
+      "text": "第十五次全国代表大会，高举邓小平理论伟大旗帜，以“三下乡”活动，在新的一年里，我们的，但在我国，在新的一年里，我们的，但在我国，在新的一年里，我们的，但在我国，在"
+    },
+    "4": {
+      "longest_copied_span": 3,
+      "overlap_5gram": 0.0,
+      "text": "。"
+    },
+    "5": {
+      "longest_copied_span": 3,
+      "overlap_5gram": 0.0,
+      "text": "。"
+    },
+    "6": {
+      "longest_copied_span": 3,
+      "overlap_5gram": 0.0,
+      "text": "。"
+    }
+  },
+  "by_temperature": {
+    "0.7": {
+      "longest_copied_span": 5.666666666666667,
+      "overlap_5gram": 0.14780814682775467,
+      "copied_10plus_rate": 0.2222222222222222,
+      "n": 9
+    },
+    "1.0": {
+      "longest_copied_span": 4,
+      "overlap_5gram": 0.05394213629507747,
+      "copied_10plus_rate": 0,
+      "n": 9
+    },
+    "1.3": {
+      "longest_copied_span": 3.7777777777777777,
+      "overlap_5gram": 0.0646945646945647,
+      "copied_10plus_rate": 0,
+      "n": 9
+    }
+  },
+  "top_copies": [
+    {
+      "params": {
+        "temperature": 0.7,
+        "top_k": 10,
+        "top_p": 1.0,
+        "greedy": false,
+        "max_tokens": 60,
+        "seed": 33
+      },
+      "text": "，也会有了一条规定：“人民检察院、人民法院收集、调取证据，申请人民法院、最高的是，在新的一年里，我国农村，并为此在１９９７年的水平，并为其注入实质上是一种“淘汰教育的主要因素",
+      "longest_copied_span": 12,
+      "source": {
+        "span": "人民检察院、人民法院收集、调取证据，申请人民法院",
+        "span_words": 12,
+        "span_generated_words": 12,
+        "train_sentence": "辩护律师还可以依照刑事诉讼法第三十七条的规定向证人或者其他有关单位和个人收集与本案有关的材料，申请人民检察院、人民法院收集、调取证据，申请人民法院通知证人出庭作证。"
+      }
+    },
+    {
+      "params": {
+        "temperature": 1.0,
+        "top_k": 0,
+        "top_p": 0.5,
+        "greedy": false,
+        "max_tokens": 60,
+        "seed": 11
+      },
+      "text": "，还将在出席全国侨办主任、对美国、不会有条件的，责令改正，没收违法所得，可以并处的一年。",
+      "longest_copied_span": 12,
+      "source": {
+        "span": "的，责令改正，没收违法所得，可以并处",
+        "span_words": 12,
+        "span_generated_words": 12,
+        "train_sentence": "第三十九条经营者不执行政府指导价、政府定价以及法定的价格干预措施、紧急措施的，责令改正，没收违法所得，可以并处违法所得五倍以下的罚款；没有违法所得的，可以处以罚款；情节严重的，责令停业整顿。"
+      }
+    },
+    {
+      "params": {
+        "temperature": 0.7,
+        "top_k": 10,
+        "top_p": 1.0,
+        "greedy": false,
+        "max_tokens": 60,
+        "seed": 22
+      },
+      "text": "，但他没有妥协逆流，和阎锡山的六十一军同临汾、襄曲与白晋线上长子、高平４个月。",
+      "longest_copied_span": 10,
+      "source": {
+        "span": "临汾、襄曲与白晋线上长子、高平４",
+        "span_words": 10,
+        "span_generated_words": 10,
+        "train_sentence": "当年７月，六十一军被迫撤回汾河以西，至１９４２年底，同蒲线上临汾、襄曲与白晋线上长子、高平４县都建立了县区党政机构和游击队，连同腹心区的浮山、翼城、沁水、士敏共９个县，工作都全面开展起来，基本上控制与稳定了整个岳南区的局势，为太岳、晋豫两个区党委统一合并，为开辟建设中条山地区奠定了稳固的基础。"
+      }
+    },
+    {
+      "params": {
+        "temperature": 1.0,
+        "top_k": 50,
+        "top_p": 1.0,
+        "greedy": false,
+        "max_tokens": 60,
+        "seed": 33
+      },
+      "text": "全国，中国人民将继续为人民服务，为社会主义服务，为新，在世界经济全球化的第一天来，这个“司机李建国的带领下，使自己不变。",
+      "longest_copied_span": 9,
+      "source": {
+        "span": "为人民服务，为社会主义服务，为",
+        "span_words": 9,
+        "span_generated_words": 9,
+        "train_sentence": "他希望《党建》杂志社的同志增强政治意识、大局意识、责任意识，坚持团结鼓劲，把握正确导向，发挥优势，提高质量，办出特色，更好地为人民服务，为社会主义服务，为全党全国工作大局服务。"
+      }
+    },
+    {
+      "params": {
+        "temperature": 1.0,
+        "top_k": 50,
+        "top_p": 1.0,
+        "greedy": false,
+        "max_tokens": 60,
+        "seed": 22
+      },
+      "text": "一系列重大胜利，到各地方各民主党派中央、全国工商联和无党派爱国人士，向韩国提供了新的更大了。",
+      "longest_copied_span": 8,
+      "source": {
+        "span": "、全国工商联和无党派爱国人士，向",
+        "span_words": 8,
+        "span_generated_words": 8,
+        "train_sentence": "在这辞旧迎新的喜庆时刻，我代表中共中央、国务院、中央军委，向各民主党派、全国工商联和无党派爱国人士，向全国广大工人、农民、知识分子和干部，向人民解放军指战员、武警官兵、公安干警，向香港特别行政区同胞、澳门同胞、台湾同胞和海外侨胞，向关心和帮助中国现代化建设的国际友人，表示良好的祝愿！"
+      }
+    },
+    {
+      "params": {
+        "temperature": 0.7,
+        "top_k": 50,
+        "top_p": 1.0,
+        "greedy": false,
+        "max_tokens": 60,
+        "seed": 33
+      },
+      "text": "一大批先进诊疗设备的改造，在这一地区的“中国传统文化中的精华。",
+      "longest_copied_span": 7,
+      "source": {
+        "span": "了一大批先进诊疗设备",
+        "span_words": 7,
+        "span_generated_words": 6,
+        "train_sentence": "１９９５年以来，随州一医院大力倡导“科技兴院”，先后添置了一大批先进诊疗设备，并于去年底开通了远程医疗会诊系统。"
+      }
+    }
+  ]
+}

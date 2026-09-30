@@ -1,0 +1,147 @@
+{
+  "experiment": "E13_protocol",
+  "finished_at": "2026-09-29T14:46:55+00:00",
+  "kenlm_commit": "4cb443e60b7bf2c0ddf3c745378f76cb59e254e5",
+  "elapsed_seconds": 172.50226409299967,
+  "test_tokens": 716572,
+  "open_vocab_full": {
+    "3": {
+      "ppl_including_oov": 278.8242056872757,
+      "ppl_excluding_oov": 242.21040449695488,
+      "oov_rate": 0.013847365124329863
+    },
+    "5": {
+      "ppl_including_oov": 262.34274408234495,
+      "ppl_excluding_oov": 227.78606335342585,
+      "oov_rate": 0.013847365124329863
+    }
+  },
+  "closed_vocab_full": [
+    {
+      "min_freq": 2,
+      "vocab_size": 70706,
+      "train_rare_rate": 0.009528863658029414,
+      "test_rare_rate": 0.020510151108332448,
+      "orders": {
+        "3": {
+          "ppl_including_oov": 220.19141920013055,
+          "oov_events": 0,
+          "events": 745557
+        },
+        "5": {
+          "ppl_including_oov": 206.7730945301741,
+          "oov_events": 0,
+          "events": 745557
+        }
+      }
+    },
+    {
+      "min_freq": 3,
+      "vocab_size": 53693,
+      "train_rare_rate": 0.01531082233603977,
+      "test_rare_rate": 0.024980043875563098,
+      "orders": {
+        "3": {
+          "ppl_including_oov": 208.48564684878082,
+          "oov_events": 0,
+          "events": 745557
+        },
+        "5": {
+          "ppl_including_oov": 195.63112202539384,
+          "oov_events": 0,
+          "events": 745557
+        }
+      }
+    },
+    {
+      "min_freq": 5,
+      "vocab_size": 38789,
+      "train_rare_rate": 0.02391137116840732,
+      "test_rare_rate": 0.03252150516626382,
+      "orders": {
+        "3": {
+          "ppl_including_oov": 192.1474883112569,
+          "oov_events": 0,
+          "events": 745557
+        },
+        "5": {
+          "ppl_including_oov": 180.1509993063845,
+          "oov_events": 0,
+          "events": 745557
+        }
+      }
+    },
+    {
+      "min_freq": 10,
+      "vocab_size": 25213,
+      "train_rare_rate": 0.03905651403254149,
+      "test_rare_rate": 0.04635682108706452,
+      "orders": {
+        "3": {
+          "ppl_including_oov": 167.82869592702207,
+          "oov_events": 0,
+          "events": 745557
+        },
+        "5": {
+          "ppl_including_oov": 157.064563798952,
+          "oov_events": 0,
+          "events": 745557
+        }
+      }
+    }
+  ],
+  "clementine_scale": {
+    "sample_words": 281204,
+    "sample_articles": 687,
+    "open_vocab_5gram": {
+      "ppl_including_oov": 653.4904307274514,
+      "ppl_excluding_oov": 413.960583086991,
+      "oov_rate": 0.06901685585407957
+    },
+    "closed_min2": {
+      "min_freq": 2,
+      "vocab_size": 12637,
+      "train_rare_rate": 0.04130808950086059,
+      "test_rare_rate": 0.10028161859520049,
+      "orders": {
+        "5": {
+          "ppl_including_oov": 254.60095390859343,
+          "oov_events": 0,
+          "events": 745557
+        }
+      }
+    }
+  },
+  "lynxpeng_scale_extrapolation": {
+    "target_words": 6689269,
+    "by_order": {
+      "3": {
+        "slope": -0.2658136826180053,
+        "predicted_ppl": 274.89519946468965
+      },
+      "5": {
+        "slope": -0.27989901233724956,
+        "predicted_ppl": 260.19287137625366
+      }
+    }
+  },
+  "classmates": {
+    "70clementine": {
+      "train_words": 280200,
+      "min_freq": 2,
+      "test_rare_rate": 0.106,
+      "test_ppl": {
+        "5": 250.24
+      }
+    },
+    "LynxPeng": {
+      "train_words": 6689269,
+      "test_oov_rate": 0.0135,
+      "test_ppl": {
+        "3": 272.155,
+        "5": 260.77,
+        "7": 254.688
+      }
+    }
+  }
+}

@@ -1,0 +1,324 @@
+{
+  "experiment": "E20_srilm",
+  "finished_at": "2026-09-30T02:04:07+00:00",
+  "kenlm_commit": "4cb443e60b7bf2c0ddf3c745378f76cb59e254e5",
+  "elapsed_seconds": 1401.027960712,
+  "orders": {
+    "3": {
+      "kndiscount": {
+        "label": "插值修正 KN",
+        "wall_seconds": {
+          "median": 39.72143546799998,
+          "range": [
+            37.511007316999894,
+            40.02291181199985
+          ]
+        },
+        "peak_rss_mb": {
+          "median": 386.4140625,
+          "range": [
+            386.3984375,
+            386.5625
+          ]
+        },
+        "arpa_bytes": 165484418,
+        "ppl_excluding_oov": 241.0717,
+        "test_oov": 716572,
+        "test_words": 716572,
+        "test_sentences": 28985
+      },
+      "ukndiscount": {
+        "label": "原始 KN",
+        "wall_seconds": {
+          "median": 40.27723831399999,
+          "range": [
+            38.52550980299998,
+            40.63200323299998
+          ]
+        },
+        "peak_rss_mb": {
+          "median": 386.49609375,
+          "range": [
+            386.3828125,
+            386.58203125
+          ]
+        },
+        "arpa_bytes": 165533912,
+        "ppl_excluding_oov": 244.8451,
+        "test_oov": 716572,
+        "test_words": 716572,
+        "test_sentences": 28985
+      },
+      "wbdiscount": {
+        "label": "Witten-Bell",
+        "wall_seconds": {
+          "median": 38.90159822800001,
+          "range": [
+            36.17695494700001,
+            39.512185242999976
+          ]
+        },
+        "peak_rss_mb": {
+          "median": 386.4921875,
+          "range": [
+            386.48046875,
+            386.5
+          ]
+        },
+        "arpa_bytes": 161892745,
+        "ppl_excluding_oov": 303.8407,
+        "test_oov": 716572,
+        "test_words": 716572,
+        "test_sentences": 28985
+      },
+      "kenlm": {
+        "label": "KenLM 修正 KN",
+        "wall_seconds": {
+          "median": 7.648718647999885,
+          "min": 5.828055910999865,
+          "max": 7.663708680999889,
+          "n": 3
+        },
+        "cpu_seconds": {
+          "median": 5.48,
+          "min": 4.87,
+          "max": 5.65,
+          "n": 3
+        },
+        "startup_seconds": {
+          "median": 0.023004186999969534,
+          "min": 0.01978795800005173,
+          "max": 0.03628292799999144,
+          "n": 3
+        },
+        "kenlm_real_seconds": {
+          "median": 7.62422,
+          "min": 5.81575,
+          "max": 7.64889,
+          "n": 3
+        },
+        "peak_rss_mb": {
+          "median": 215.56640625,
+          "min": 214.9453125,
+          "max": 217.234375,
+          "n": 3
+        },
+        "kenlm_reported_rssmax_mb": {
+          "median": 215.56640625,
+          "min": 214.9453125,
+          "max": 217.234375,
+          "n": 3
+        },
+        "stage_seconds_median": {
+          "Counting and sorting n-grams": 4.792091788000107,
+          "Calculating and sorting adjusted counts": 0.5008542190000753,
+          "Calculating and sorting initial probabilities": 0.8167596480000157,
+          "Calculating and writing order-interpolated probabilities": 0.19274831699999595,
+          "Writing ARPA model": 1.1353709619997971
+        },
+        "stalled_runs_discarded": 0,
+        "stalled_wall_seconds": [],
+        "accepted_despite_interference": 0,
+        "arpa_bytes": 170090682,
+        "ngram_counts": [
+          126784,
+          1578188,
+          3713968
+        ],
+        "discounts": [
+          {
+            "order": 1,
+            "count_field": "126784",
+            "D1": 0.654344,
+            "D2": 0.980523,
+            "D3+": 1.32494
+          },
+          {
+            "order": 2,
+            "count_field": "1578188",
+            "D1": 0.751547,
+            "D2": 1.10544,
+            "D3+": 1.3952
+          },
+          {
+            "order": 3,
+            "count_field": "3713968",
+            "D1": 0.834554,
+            "D2": 1.19203,
+            "D3+": 1.40295
+          }
+        ],
+        "fallback_discount_used": false,
+        "deterministic_arpa": true,
+        "ppl_excluding_oov": 242.21040449695488,
+        "test_oov": 10324
+      }
+    },
+    "5": {
+      "kndiscount": {
+        "label": "插值修正 KN",
+        "wall_seconds": {
+          "median": 101.55654737099985,
+          "range": [
+            94.85073828699979,
+            105.42021481699999
+          ]
+        },
+        "peak_rss_mb": {
+          "median": 1186.08984375,
+          "range": [
+            1186.08203125,
+            1186.1015625
+          ]
+        },
+        "arpa_bytes": 628606422,
+        "ppl_excluding_oov": 226.8257,
+        "test_oov": 716572,
+        "test_words": 716572,
+        "test_sentences": 28985
+      },
+      "ukndiscount": {
+        "label": "原始 KN",
+        "wall_seconds": {
+          "median": 99.60920817200031,
+          "range": [
+            97.85044324799992,
+            100.51638260999971
+          ]
+        },
+        "peak_rss_mb": {
+          "median": 1186.17578125,
+          "range": [
+            1186.04296875,
+            1186.30078125
+          ]
+        },
+        "arpa_bytes": 628863251,
+        "ppl_excluding_oov": 230.1752,
+        "test_oov": 716572,
+        "test_words": 716572,
+        "test_sentences": 28985
+      },
+      "wbdiscount": {
+        "label": "Witten-Bell",
+        "wall_seconds": {
+          "median": 87.22715637600004,
+          "range": [
+            86.53799363999997,
+            88.25262336700007
+          ]
+        },
+        "peak_rss_mb": {
+          "median": 1186.08984375,
+          "range": [
+            1186.02734375,
+            1186.1328125
+          ]
+        },
+        "arpa_bytes": 606221625,
+        "ppl_excluding_oov": 331.9595,
+        "test_oov": 716572,
+        "test_words": 716572,
+        "test_sentences": 28985
+      },
+      "kenlm": {
+        "label": "KenLM 修正 KN",
+        "wall_seconds": {
+          "median": 13.644754036999984,
+          "min": 13.542918928999825,
+          "max": 13.749471658999937,
+          "n": 3
+        },
+        "cpu_seconds": {
+          "median": 15.190000000000001,
+          "min": 14.93,
+          "max": 15.3,
+          "n": 3
+        },
+        "startup_seconds": {
+          "median": 0.09793187000013859,
+          "min": 0.058041490000050544,
+          "max": 0.10095698099985384,
+          "n": 3
+        },
+        "kenlm_real_seconds": {
+          "median": 13.6136,
+          "min": 13.5114,
+          "max": 13.7323,
+          "n": 3
+        },
+        "peak_rss_mb": {
+          "median": 354.87890625,
+          "min": 354.390625,
+          "max": 355.203125,
+          "n": 3
+        },
+        "kenlm_reported_rssmax_mb": {
+          "median": 354.87890625,
+          "min": 354.390625,
+          "max": 355.203125,
+          "n": 3
+        },
+        "stage_seconds_median": {
+          "Counting and sorting n-grams": 5.4789464159998715,
+          "Calculating and sorting adjusted counts": 0.9094790850003847,
+          "Calculating and sorting initial probabilities": 2.1099337320001723,
+          "Calculating and writing order-interpolated probabilities": 0.660567889000049,
+          "Writing ARPA model": 4.444801863000066
+        },
+        "stalled_runs_discarded": 0,
+        "stalled_wall_seconds": [],
+        "accepted_despite_interference": 0,
+        "arpa_bytes": 648394003,
+        "ngram_counts": [
+          126784,
+          1578188,
+          3713968,
+          4743883,
+          4982729
+        ],
+        "discounts": [
+          {
+            "order": 1,
+            "count_field": "126784",
+            "D1": 0.654344,
+            "D2": 0.980523,
+            "D3+": 1.32494
+          },
+          {
+            "order": 2,
+            "count_field": "1578188",
+            "D1": 0.751547,
+            "D2": 1.10544,
+            "D3+": 1.3952
+          },
+          {
+            "order": 3,
+            "count_field": "3713968",
+            "D1": 0.862527,
+            "D2": 1.21653,
+            "D3+": 1.437
+          },
+          {
+            "order": 4,
+            "count_field": "4743883",
+            "D1": 0.934161,
+            "D2": 1.33927,
+            "D3+": 1.52686
+          },
+          {
+            "order": 5,
+            "count_field": "4982729",
+            "D1": 0.942564,
+            "D2": 1.39636,
+            "D3+": 1.51011
+          }
+        ],
+        "fallback_discount_used": false,
+        "deterministic_arpa": true,
+        "ppl_excluding_oov": 227.78606335342585,
+        "test_oov": 10324
+      }
+    }
+  }
+}

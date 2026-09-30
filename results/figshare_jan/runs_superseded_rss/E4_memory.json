@@ -1,0 +1,181 @@
+{
+  "experiment": "E4_memory",
+  "finished_at": "2026-09-29T04:32:04+00:00",
+  "kenlm_commit": "4cb443e60b7bf2c0ddf3c745378f76cb59e254e5",
+  "elapsed_seconds": 8.039513102,
+  "128M": {
+    "training": {
+      "wall_seconds": {
+        "median": 0.8564691710000005,
+        "min": 0.8148840759999985,
+        "max": 0.9041826889999953,
+        "n": 3
+      },
+      "kenlm_real_seconds": {
+        "median": 0.854396,
+        "min": 0.812474,
+        "max": 0.901388,
+        "n": 3
+      },
+      "peak_rss_mb": {
+        "median": 527.32421875,
+        "min": 527.32421875,
+        "max": 527.32421875,
+        "n": 3
+      },
+      "stage_seconds_median": {
+        "Counting and sorting n-grams": 0.3008506080000046,
+        "Calculating and sorting adjusted counts": 0.11590599600000928,
+        "Calculating and sorting initial probabilities": 0.13154156199999534,
+        "Calculating and writing order-interpolated probabilities": 0.03998898599999734,
+        "Writing ARPA model": 0.2723669389999941
+      },
+      "arpa_bytes": 36035955,
+      "ngram_counts": [
+        49608,
+        389894,
+        697708
+      ],
+      "discounts": [
+        {
+          "order": 1,
+          "D1": 0.644033,
+          "D2": 1.03044,
+          "D3+": 1.40166
+        },
+        {
+          "order": 2,
+          "D1": 0.779622,
+          "D2": 1.15143,
+          "D3+": 1.4037
+        },
+        {
+          "order": 3,
+          "D1": 0.870796,
+          "D2": 1.26834,
+          "D3+": 1.48996
+        }
+      ],
+      "fallback_discount_used": false,
+      "deterministic_arpa": true
+    },
+    "arpa_sha256": "1d4cda31a2424716cd0bf529ed3cdcdcd7ed0e61cc77e901db0c508121ec6ab6"
+  },
+  "512M": {
+    "training": {
+      "wall_seconds": {
+        "median": 0.8050205320000003,
+        "min": 0.7734402060000036,
+        "max": 0.9811226850000025,
+        "n": 3
+      },
+      "kenlm_real_seconds": {
+        "median": 0.80168,
+        "min": 0.771238,
+        "max": 0.976919,
+        "n": 3
+      },
+      "peak_rss_mb": {
+        "median": 527.32421875,
+        "min": 527.32421875,
+        "max": 527.32421875,
+        "n": 3
+      },
+      "stage_seconds_median": {
+        "Counting and sorting n-grams": 0.3220516340000046,
+        "Calculating and sorting adjusted counts": 0.10133713199999761,
+        "Calculating and sorting initial probabilities": 0.12790251999999214,
+        "Calculating and writing order-interpolated probabilities": 0.04122403399999541,
+        "Writing ARPA model": 0.23723590299999842
+      },
+      "arpa_bytes": 36035955,
+      "ngram_counts": [
+        49608,
+        389894,
+        697708
+      ],
+      "discounts": [
+        {
+          "order": 1,
+          "D1": 0.644033,
+          "D2": 1.03044,
+          "D3+": 1.40166
+        },
+        {
+          "order": 2,
+          "D1": 0.779622,
+          "D2": 1.15143,
+          "D3+": 1.4037
+        },
+        {
+          "order": 3,
+          "D1": 0.870796,
+          "D2": 1.26834,
+          "D3+": 1.48996
+        }
+      ],
+      "fallback_discount_used": false,
+      "deterministic_arpa": true
+    },
+    "arpa_sha256": "1d4cda31a2424716cd0bf529ed3cdcdcd7ed0e61cc77e901db0c508121ec6ab6"
+  },
+  "1G": {
+    "training": {
+      "wall_seconds": {
+        "median": 0.8595162800000082,
+        "min": 0.8348846749999979,
+        "max": 0.9457442260000022,
+        "n": 3
+      },
+      "kenlm_real_seconds": {
+        "median": 0.857263,
+        "min": 0.832497,
+        "max": 0.943497,
+        "n": 3
+      },
+      "peak_rss_mb": {
+        "median": 527.32421875,
+        "min": 527.32421875,
+        "max": 527.32421875,
+        "n": 3
+      },
+      "stage_seconds_median": {
+        "Counting and sorting n-grams": 0.38376758699999414,
+        "Calculating and sorting adjusted counts": 0.0956751760000003,
+        "Calculating and sorting initial probabilities": 0.13115116699999874,
+        "Calculating and writing order-interpolated probabilities": 0.041593849999998156,
+        "Writing ARPA model": 0.25746465299999954
+      },
+      "arpa_bytes": 36035955,
+      "ngram_counts": [
+        49608,
+        389894,
+        697708
+      ],
+      "discounts": [
+        {
+          "order": 1,
+          "D1": 0.644033,
+          "D2": 1.03044,
+          "D3+": 1.40166
+        },
+        {
+          "order": 2,
+          "D1": 0.779622,
+          "D2": 1.15143,
+          "D3+": 1.4037
+        },
+        {
+          "order": 3,
+          "D1": 0.870796,
+          "D2": 1.26834,
+          "D3+": 1.48996
+        }
+      ],
+      "fallback_discount_used": false,
+      "deterministic_arpa": true
+    },
+    "arpa_sha256": "1d4cda31a2424716cd0bf529ed3cdcdcd7ed0e61cc77e901db0c508121ec6ab6"
+  },
+  "all_arpa_identical": true
+}

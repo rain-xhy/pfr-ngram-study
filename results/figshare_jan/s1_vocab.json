@@ -1,0 +1,8 @@
+{
+  "min_freq": 2,
+  "vocab_size": 26153,
+  "rare_type_count": 23452,
+  "rare_token_count": 23452,
+  "total_tokens": 898073,
+  "vocab_path": "E:\\desktop\\北大软微\\课程\\大语言模型应用与实践\\作业\\1\\pfr-ngram-study\\corpus\\processed\\vocab.json"
+}

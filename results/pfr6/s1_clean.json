@@ -1,0 +1,9 @@
+{
+  "sentence_count": 290922,
+  "article_count": 18647,
+  "dropped_empty_word_tokens": 1,
+  "token_count": 7286875,
+  "clean_vocab_size": 141989,
+  "tagged_vocab_size": 164532,
+  "sentences_without_terminal_punct": 44985
+}

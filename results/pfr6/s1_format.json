@@ -1,0 +1,172 @@
+{
+  "files": [
+    "199801.txt",
+    "199802.txt",
+    "199803.txt",
+    "199804.txt",
+    "199805.txt",
+    "199806.txt"
+  ],
+  "encoding": "utf-8-sig",
+  "extra_mark_tokens": 1329,
+  "empty_word_tokens": 1,
+  "total_lines": 142589,
+  "blank_lines": 18707,
+  "lines_without_docid": 0,
+  "date_range": [
+    "19980101",
+    "19980630"
+  ],
+  "date_count": 181,
+  "banci_values": [
+    "01",
+    "02",
+    "03",
+    "04",
+    "05",
+    "06",
+    "07",
+    "08",
+    "09",
+    "10",
+    "11",
+    "12"
+  ],
+  "article_count": 18647,
+  "token_count": 7286876,
+  "untagged_token_count": 0,
+  "raw_tag_string_count": 82,
+  "pos_tag_count": 42,
+  "pos_tag_top25": [
+    [
+      "n",
+      1541983
+    ],
+    [
+      "v",
+      1193273
+    ],
+    [
+      "w",
+      1103451
+    ],
+    [
+      "u",
+      489434
+    ],
+    [
+      "d",
+      316558
+    ],
+    [
+      "vn",
+      303550
+    ],
+    [
+      "m",
+      270088
+    ],
+    [
+      "p",
+      269237
+    ],
+    [
+      "a",
+      221769
+    ],
+    [
+      "r",
+      214981
+    ],
+    [
+      "nr",
+      210300
+    ],
+    [
+      "ns",
+      177361
+    ],
+    [
+      "c",
+      168486
+    ],
+    [
+      "q",
+      156762
+    ],
+    [
+      "t",
+      127795
+    ],
+    [
+      "f",
+      111514
+    ],
+    [
+      "j",
+      74650
+    ],
+    [
+      "b",
+      56397
+    ],
+    [
+      "ad",
+      40866
+    ],
+    [
+      "l",
+      36855
+    ],
+    [
+      "i",
+      31094
+    ],
+    [
+      "Ng",
+      30261
+    ],
+    [
+      "nt",
+      24243
+    ],
+    [
+      "nz",
+      24206
+    ],
+    [
+      "s",
+      23627
+    ]
+  ],
+  "entity_start_count": 64013,
+  "entity_end_count": 64013,
+  "entity_type_distribution": [
+    [
+      "nt",
+      54393
+    ],
+    [
+      "ns",
+      7256
+    ],
+    [
+      "nz",
+      2296
+    ],
+    [
+      "i",
+      48
+    ],
+    [
+      "l",
+      20
+    ]
+  ],
+  "nested_entity_count": 1,
+  "entities_crossing_line": 0,
+  "slash_in_word_count": 5,
+  "fullwidth_alnum_tokens": 155656,
+  "halfwidth_alnum_tokens": 1,
+  "multi_sentence_end_lines": 59306
+}

@@ -1,0 +1,182 @@
+{
+  "experiment": "E6_storage",
+  "finished_at": "2026-09-29T14:40:31+00:00",
+  "kenlm_commit": "4cb443e60b7bf2c0ddf3c745378f76cb59e254e5",
+  "elapsed_seconds": 315.095143346,
+  "ARPA": {
+    "bytes": 942442522,
+    "build": null,
+    "load_seconds": 12.47553234499992,
+    "score_seconds_median": 0.23435308499983876,
+    "score_seconds_min": 0.1963741240001582,
+    "score_seconds_all": [
+      0.2754352779998044,
+      0.23435308499983876,
+      0.22475777499994365,
+      0.30525352599988764,
+      0.2235463419997359,
+      0.1963741240001582,
+      1.0964775759998702
+    ],
+    "queries_per_second": 3181340.668080017,
+    "queries_per_second_best": 3796615.281142639,
+    "test_ppl": 262.00253369625784,
+    "position_log10_absdiff_vs_arpa": {
+      "max": 0.0,
+      "mean": 0.0,
+      "changed": 0
+    },
+    "generations_shown": [
+      "“不为所动”，就是看你，在全社会形成实事求是，但与理论教育、管理水平和从业者的是她的艺术。",
+      "十五大报告的理解。",
+      "。"
+    ],
+    "same_generation_count": 20,
+    "generation_count": 20
+  },
+  "probing": {
+    "bytes": 453814606,
+    "build": {
+      "command": [
+        "/root/tools/kenlm/build/bin/build_binary",
+        "-S",
+        "1G",
+        "probing",
+        "/root/pfr-work/pfr6/models/kn6.arpa",
+        "/root/pfr-work/pfr6/models/kn6_probing.bin"
+      ],
+      "wall_seconds": 26.793327808999948,
+      "peak_rss_mb": 437.66796875,
+      "time_elapsed_seconds": 27.37,
+      "user_seconds": 24.02,
+      "sys_seconds": 2.65,
+      "path": "/root/pfr-work/pfr6/models/kn6_probing.bin",
+      "bytes": 453814606
+    },
+    "load_seconds": 0.02182366599981833,
+    "score_seconds_median": 0.22333846099991206,
+    "score_seconds_min": 0.19644730499976504,
+    "score_seconds_all": [
+      0.26228742200009947,
+      0.23090782400004173,
+      0.22333846099991206,
+      0.21100002499997572,
+      0.19644730499976504,
+      0.2049699139997756,
+      1.077461287999995
+    ],
+    "queries_per_second": 3338238.2804200193,
+    "queries_per_second_best": 3795200.9573299657,
+    "test_ppl": 262.00253369625784,
+    "position_log10_absdiff_vs_arpa": {
+      "max": 0.0,
+      "mean": 0.0,
+      "changed": 0
+    },
+    "generations_shown": [
+      "“不为所动”，就是看你，在全社会形成实事求是，但与理论教育、管理水平和从业者的是她的艺术。",
+      "十五大报告的理解。",
+      "。"
+    ],
+    "same_generation_count": 20,
+    "generation_count": 20
+  },
+  "trie": {
+    "bytes": 227052471,
+    "build": {
+      "command": [
+        "/root/tools/kenlm/build/bin/build_binary",
+        "-S",
+        "1G",
+        "trie",
+        "/root/pfr-work/pfr6/models/kn6.arpa",
+        "/root/pfr-work/pfr6/models/kn6_trie.bin"
+      ],
+      "wall_seconds": 20.859963510000398,
+      "peak_rss_mb": 222.59375,
+      "time_elapsed_seconds": 21.49,
+      "user_seconds": 19.36,
+      "sys_seconds": 1.74,
+      "path": "/root/pfr-work/pfr6/models/kn6_trie.bin",
+      "bytes": 227052471
+    },
+    "load_seconds": 0.018812367000009544,
+    "score_seconds_median": 0.4436775059998581,
+    "score_seconds_min": 0.3644867709999744,
+    "score_seconds_all": [
+      0.4436775059998581,
+      0.5173623380001118,
+      0.6812045599999692,
+      0.37653999499980273,
+      0.3768420769997647,
+      0.3644867709999744,
+      0.9620338310000989
+    ],
+    "queries_per_second": 1680402.9726948529,
+    "queries_per_second_best": 2045498.1067064637,
+    "test_ppl": 262.00253369625784,
+    "position_log10_absdiff_vs_arpa": {
+      "max": 0.0,
+      "mean": 0.0,
+      "changed": 0
+    },
+    "generations_shown": [
+      "“不为所动”，就是看你，在全社会形成实事求是，但与理论教育、管理水平和从业者的是她的艺术。",
+      "十五大报告的理解。",
+      "。"
+    ],
+    "same_generation_count": 20,
+    "generation_count": 20
+  },
+  "trie_q8": {
+    "bytes": 124636450,
+    "build": {
+      "command": [
+        "/root/tools/kenlm/build/bin/build_binary",
+        "-S",
+        "1G",
+        "-q",
+        "8",
+        "-b",
+        "8",
+        "trie",
+        "/root/pfr-work/pfr6/models/kn6.arpa",
+        "/root/pfr-work/pfr6/models/kn6_trie_q8.bin"
+      ],
+      "wall_seconds": 25.23142807300019,
+      "peak_rss_mb": 143.65234375,
+      "time_elapsed_seconds": 25.22,
+      "user_seconds": 23.84,
+      "sys_seconds": 1.74,
+      "path": "/root/pfr-work/pfr6/models/kn6_trie_q8.bin",
+      "bytes": 124636450
+    },
+    "load_seconds": 0.006905158000336087,
+    "score_seconds_median": 0.40688370599991686,
+    "score_seconds_min": 0.32113356499985457,
+    "score_seconds_all": [
+      0.46420785300006173,
+      0.37451831899988974,
+      0.5057178820002264,
+      0.40688370599991686,
+      0.32113356499985457,
+      0.7236202079998293,
+      0.3800449079999453
+    ],
+    "queries_per_second": 1832358.949267318,
+    "queries_per_second_best": 2321641.4640442138,
+    "test_ppl": 262.1169176673014,
+    "position_log10_absdiff_vs_arpa": {
+      "max": 1.5301480293273926,
+      "mean": 0.008052422747609488,
+      "changed": 646112
+    },
+    "generations_shown": [
+      "“税收优惠政策，要把党中央对各族人民群众，也是全国重点的水利水电",
+      "十五大报告的理解。”",
+      "。"
+    ],
+    "same_generation_count": 3,
+    "generation_count": 20
+  }
+}

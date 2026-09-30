@@ -1,0 +1,108 @@
+{
+  "experiment": "E12_pruning_detail",
+  "finished_at": "2026-09-29T04:53:56+00:00",
+  "kenlm_commit": "4cb443e60b7bf2c0ddf3c745378f76cb59e254e5",
+  "elapsed_seconds": 2.594433052999989,
+  "groups": {
+    "句首不足五词": {
+      "positions": 13252,
+      "full_log10": -36282.222194513364,
+      "pruned_log10": -36414.93808142847,
+      "changed": 6234,
+      "share_of_positions": 0.10937151817769157,
+      "ppl_full": 546.8492959331107,
+      "ppl_pruned": 559.6060988425215,
+      "changed_rate": 0.470419559311802,
+      "mean_order_full": 2.044446121340175,
+      "mean_order_pruned": 1.9670238454572895,
+      "log10_loss": 132.7158869151026
+    },
+    "0（训练集未见）": {
+      "positions": 98131,
+      "full_log10": -253862.05437093167,
+      "pruned_log10": -255696.5169484522,
+      "changed": 56462,
+      "share_of_positions": 0.8098955969133,
+      "ppl_full": 386.3412070092922,
+      "ppl_pruned": 403.33420043144224,
+      "changed_rate": 0.5753737351091908,
+      "mean_order_full": 1.9376547676065667,
+      "mean_order_pruned": 1.827414374662441,
+      "log10_loss": 1834.4625775205204
+    },
+    "1": {
+      "positions": 2938,
+      "full_log10": -2082.599076125007,
+      "pruned_log10": -3814.1233641080107,
+      "changed": 2938,
+      "share_of_positions": 0.024247926381380763,
+      "ppl_full": 5.115042459065,
+      "ppl_pruned": 19.870280784772493,
+      "changed_rate": 1.0,
+      "mean_order_full": 5.0,
+      "mean_order_pruned": 2.8124574540503744,
+      "log10_loss": 1731.524287983004
+    },
+    "2-4": {
+      "positions": 1504,
+      "full_log10": -548.3350656545081,
+      "pruned_log10": -544.1259957188449,
+      "changed": 1028,
+      "share_of_positions": 0.012412825485907646,
+      "ppl_full": 2.315178523682166,
+      "ppl_pruned": 2.3003075317178374,
+      "changed_rate": 0.6835106382978723,
+      "mean_order_full": 5.0,
+      "mean_order_pruned": 5.0,
+      "log10_loss": -4.209069935663138
+    },
+    "≥5": {
+      "positions": 979,
+      "full_log10": -160.39956691347288,
+      "pruned_log10": -159.36825176960883,
+      "changed": 635,
+      "share_of_positions": 0.00807989105764866,
+      "ppl_full": 1.4582776219083957,
+      "ppl_pruned": 1.454744667841679,
+      "changed_rate": 0.6486210418794689,
+      "mean_order_full": 5.0,
+      "mean_order_pruned": 5.0,
+      "log10_loss": -1.0313151438640489
+    },
+    "OOV": {
+      "positions": 4361,
+      "full_log10": -26114.105007648468,
+      "pruned_log10": -26012.678222179413,
+      "changed": 2189,
+      "share_of_positions": 0.035992241984071305,
+      "ppl_full": 972971.6991722909,
+      "ppl_pruned": 922236.9494881956,
+      "changed_rate": 0.5019490942444393,
+      "mean_order_full": 1.0,
+      "mean_order_pruned": 1.0,
+      "log10_loss": -101.42678546905518
+    }
+  },
+  "positions": 121165,
+  "removed_ngrams_by_order": [
+    0,
+    0,
+    621912,
+    752029,
+    772838
+  ],
+  "ngram_counts_full": [
+    49608,
+    389894,
+    697708,
+    789431,
+    792839
+  ],
+  "ngram_counts_pruned": [
+    49608,
+    389894,
+    75796,
+    37402,
+    20001
+  ]
+}

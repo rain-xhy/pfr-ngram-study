@@ -1,0 +1,256 @@
+{
+  "experiment": "E0_tag_cleaning",
+  "finished_at": "2026-09-29T13:54:39+00:00",
+  "kenlm_commit": "4cb443e60b7bf2c0ddf3c745378f76cb59e254e5",
+  "elapsed_seconds": 49.849365258000006,
+  "clean": {
+    "train": {
+      "tokens": 5884857,
+      "types": 126781,
+      "hapax_types": 56076,
+      "hapax_type_share": 0.4423060237732783
+    },
+    "training": {
+      "wall_seconds": {
+        "median": 5.4681243809999955,
+        "min": 5.4681243809999955,
+        "max": 5.4681243809999955,
+        "n": 1
+      },
+      "cpu_seconds": {
+        "median": 6.300000000000001,
+        "min": 6.300000000000001,
+        "max": 6.300000000000001,
+        "n": 1
+      },
+      "startup_seconds": {
+        "median": 0.011462176999998519,
+        "min": 0.011462176999998519,
+        "max": 0.011462176999998519,
+        "n": 1
+      },
+      "kenlm_real_seconds": {
+        "median": 5.45398,
+        "min": 5.45398,
+        "max": 5.45398,
+        "n": 1
+      },
+      "peak_rss_mb": {
+        "median": 213.66015625,
+        "min": 213.66015625,
+        "max": 213.66015625,
+        "n": 1
+      },
+      "kenlm_reported_rssmax_mb": {
+        "median": 213.66015625,
+        "min": 213.66015625,
+        "max": 213.66015625,
+        "n": 1
+      },
+      "stage_seconds_median": {
+        "Counting and sorting n-grams": 2.2892687389999935,
+        "Calculating and sorting adjusted counts": 0.7989855290000065,
+        "Calculating and sorting initial probabilities": 0.8579861599999958,
+        "Calculating and writing order-interpolated probabilities": 0.2245661369999965,
+        "Writing ARPA model": 1.2858556390000047
+      },
+      "stalled_runs_discarded": 0,
+      "stalled_wall_seconds": [],
+      "accepted_despite_interference": 0,
+      "arpa_bytes": 170090682,
+      "ngram_counts": [
+        126784,
+        1578188,
+        3713968
+      ],
+      "discounts": [
+        {
+          "order": 1,
+          "count_field": "126784",
+          "D1": 0.654344,
+          "D2": 0.980523,
+          "D3+": 1.32494
+        },
+        {
+          "order": 2,
+          "count_field": "1578188",
+          "D1": 0.751547,
+          "D2": 1.10544,
+          "D3+": 1.3952
+        },
+        {
+          "order": 3,
+          "count_field": "3713968",
+          "D1": 0.834554,
+          "D2": 1.19203,
+          "D3+": 1.40295
+        }
+      ],
+      "fallback_discount_used": false,
+      "deterministic_arpa": true
+    },
+    "test": {
+      "events": 745557,
+      "oov_events": 10324,
+      "oov_rate": 0.013847365124329863,
+      "ppl_including_oov": 278.8242056872757,
+      "ppl_excluding_oov": 242.21040449695488,
+      "cross_entropy_bits": 8.123212001731153
+    },
+    "prompt": [
+      "在",
+      "阳光",
+      "明媚",
+      "的",
+      "五月",
+      "，",
+      "我们",
+      "学校",
+      "胜利",
+      "召开",
+      "了"
+    ],
+    "samples": [
+      {
+        "seed": 11,
+        "text": "“ 两 个 文明 建设 和 反 腐败 。",
+        "hit_eos": true
+      },
+      {
+        "seed": 22,
+        "text": "全国 人大 常委会 的 工作 提出 的 有关 规定 ， “ 我们 在 此 基础 上 ， 在 “ ３·１５ ” ， “ 不 为 过 一 位 中年 妇女 在 社会 上 对 其 所 为 ， 则 应",
+        "hit_eos": false
+      },
+      {
+        "seed": 33,
+        "text": "。",
+        "hit_eos": true
+      }
+    ]
+  },
+  "tagged": {
+    "train": {
+      "tokens": 5884857,
+      "types": 146653,
+      "hapax_types": 65781,
+      "hapax_type_share": 0.4485486147572842
+    },
+    "training": {
+      "wall_seconds": {
+        "median": 6.087128058999994,
+        "min": 6.087128058999994,
+        "max": 6.087128058999994,
+        "n": 1
+      },
+      "cpu_seconds": {
+        "median": 6.58,
+        "min": 6.58,
+        "max": 6.58,
+        "n": 1
+      },
+      "startup_seconds": {
+        "median": 0.009396588000001316,
+        "min": 0.009396588000001316,
+        "max": 0.009396588000001316,
+        "n": 1
+      },
+      "kenlm_real_seconds": {
+        "median": 6.07773,
+        "min": 6.07773,
+        "max": 6.07773,
+        "n": 1
+      },
+      "peak_rss_mb": {
+        "median": 215.62109375,
+        "min": 215.62109375,
+        "max": 215.62109375,
+        "n": 1
+      },
+      "kenlm_reported_rssmax_mb": {
+        "median": 215.62109375,
+        "min": 215.62109375,
+        "max": 215.62109375,
+        "n": 1
+      },
+      "stage_seconds_median": {
+        "Counting and sorting n-grams": 2.444169649999992,
+        "Calculating and sorting adjusted counts": 0.7880213970000085,
+        "Calculating and sorting initial probabilities": 0.8949016299999926,
+        "Calculating and writing order-interpolated probabilities": 0.24943588700000419,
+        "Writing ARPA model": 1.7012029069999954
+      },
+      "stalled_runs_discarded": 0,
+      "stalled_wall_seconds": [],
+      "accepted_despite_interference": 0,
+      "arpa_bytes": 206711259,
+      "ngram_counts": [
+        146656,
+        1665518,
+        3779162
+      ],
+      "discounts": [
+        {
+          "order": 1,
+          "count_field": "146656",
+          "D1": 0.652789,
+          "D2": 1.00324,
+          "D3+": 1.33437
+        },
+        {
+          "order": 2,
+          "count_field": "1665518",
+          "D1": 0.758814,
+          "D2": 1.10952,
+          "D3+": 1.38655
+        },
+        {
+          "order": 3,
+          "count_field": "3779162",
+          "D1": 0.839792,
+          "D2": 1.19609,
+          "D3+": 1.38747
+        }
+      ],
+      "fallback_discount_used": false,
+      "deterministic_arpa": true
+    },
+    "test": {
+      "events": 745557,
+      "oov_events": 12031,
+      "oov_rate": 0.016136928497754027,
+      "ppl_including_oov": 305.0550679879768,
+      "ppl_excluding_oov": 259.1322375910286,
+      "cross_entropy_bits": 8.252925888653468
+    },
+    "prompt": [
+      "在/p",
+      "阳光/n",
+      "明媚/a",
+      "的/u",
+      "五月/t",
+      "，/w",
+      "我们/r",
+      "学校/n",
+      "胜利/vn",
+      "召开/v",
+      "了/u"
+    ],
+    "samples": [
+      {
+        "seed": 11,
+        "text": "“/w 一/m 人/n ，/w 占/v 全区/n 的/u 贫困/a ，/w 加快/v 国有/vn 企业/n 下岗/vn 职工/n 再/d 就业/v 服务/vn 中心/n 和/c 职工/n 为/p 国家/n 作出/v 过/u 的/u 地方/n ，/w 就/d 一定/d 能够/v 把/p 自己/r 的/u 产品/n 。/w",
+        "hit_eos": true
+      },
+      {
+        "seed": 22,
+        "text": "全国/n 人大/j 常委会/j 的/u 工作/vn 提出/v 的/u 跨/v 世纪/n 发展/vn 目标/n ，/w 为/p 下岗/vn 职工/n 中/f ，/w 有/v 一个/m 孩子/n ，/w 我/r 的/u 工作/vn 和/c 生活/vn 秩序/n 。/w",
+        "hit_eos": true
+      },
+      {
+        "seed": 33,
+        "text": "全国/n 人民/n 对/p 中国/ns 进行/v 国事访问/l ，/w 并/c 对/p 中国/ns 的/u 经济/n 发展/vn 和/c 社会/n 生活/vn 和/c 工作/vn 能力/n 。/w",
+        "hit_eos": true
+      }
+    ]
+  }
+}

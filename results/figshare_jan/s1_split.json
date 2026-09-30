@@ -1,0 +1,26 @@
+{
+  "seed": 20260929,
+  "min_link_length": 10,
+  "group_count": 3127,
+  "largest_group_size": 3,
+  "splits": {
+    "train": {
+      "article_count": 2518,
+      "sentence_count": 35704,
+      "token_count": 898073,
+      "path": "E:\\desktop\\北大软微\\课程\\大语言模型应用与实践\\作业\\1\\pfr-ngram-study\\corpus\\processed\\splits_main\\train.txt"
+    },
+    "dev": {
+      "article_count": 315,
+      "sentence_count": 4192,
+      "token_count": 106846,
+      "path": "E:\\desktop\\北大软微\\课程\\大语言模型应用与实践\\作业\\1\\pfr-ngram-study\\corpus\\processed\\splits_main\\dev.txt"
+    },
+    "test": {
+      "article_count": 315,
+      "sentence_count": 4637,
+      "token_count": 116528,
+      "path": "E:\\desktop\\北大软微\\课程\\大语言模型应用与实践\\作业\\1\\pfr-ngram-study\\corpus\\processed\\splits_main\\test.txt"
+    }
+  }
+}

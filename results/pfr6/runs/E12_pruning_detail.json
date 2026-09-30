@@ -1,0 +1,108 @@
+{
+  "experiment": "E12_pruning_detail",
+  "finished_at": "2026-09-29T14:43:59+00:00",
+  "kenlm_commit": "4cb443e60b7bf2c0ddf3c745378f76cb59e254e5",
+  "elapsed_seconds": 17.78026397700023,
+  "groups": {
+    "句首不足五词": {
+      "positions": 85178,
+      "full_log10": -227915.75654293247,
+      "pruned_log10": -228848.45091158495,
+      "changed": 46785,
+      "share_of_positions": 0.1142474686710741,
+      "ppl_full": 473.97833235956074,
+      "ppl_pruned": 486.0807620713573,
+      "changed_rate": 0.5492615464086971,
+      "mean_order_full": 2.2677569325412663,
+      "mean_order_pruned": 2.187583648359905,
+      "log10_loss": 932.6943686524755
+    },
+    "0（训练集未见）": {
+      "positions": 593723,
+      "full_log10": -1478323.9821898495,
+      "pruned_log10": -1490285.6405872363,
+      "changed": 432296,
+      "share_of_positions": 0.796348233602528,
+      "ppl_full": 308.97407308477335,
+      "ppl_pruned": 323.6450023817038,
+      "changed_rate": 0.7281105835549574,
+      "mean_order_full": 2.255270555461048,
+      "mean_order_pruned": 2.118925829048226,
+      "log10_loss": 11961.658397386782
+    },
+    "1": {
+      "positions": 22825,
+      "full_log10": -16599.309917761468,
+      "pruned_log10": -27712.89904442171,
+      "changed": 22814,
+      "share_of_positions": 0.030614694785241103,
+      "ppl_full": 5.336327727318837,
+      "ppl_pruned": 16.373696157193116,
+      "changed_rate": 0.9995180722891567,
+      "mean_order_full": 5.0,
+      "mean_order_pruned": 3.1622782037239867,
+      "log10_loss": 11113.589126660241
+    },
+    "≥5": {
+      "positions": 17953,
+      "full_log10": -3737.1913200816584,
+      "pruned_log10": -3710.7905777812225,
+      "changed": 14094,
+      "share_of_positions": 0.024079983153534875,
+      "ppl_full": 1.6149730622178264,
+      "ppl_pruned": 1.6095139124114954,
+      "changed_rate": 0.7850498523923578,
+      "mean_order_full": 5.0,
+      "mean_order_pruned": 5.0,
+      "log10_loss": -26.400742300435923
+    },
+    "2-4": {
+      "positions": 15554,
+      "full_log10": -6755.5184391970415,
+      "pruned_log10": -6686.987153072597,
+      "changed": 13036,
+      "share_of_positions": 0.02086225466329201,
+      "ppl_full": 2.7184838726997644,
+      "ppl_pruned": 2.6910436211606954,
+      "changed_rate": 0.8381123826668381,
+      "mean_order_full": 5.0,
+      "mean_order_pruned": 5.0,
+      "log10_loss": -68.5312861244447
+    },
+    "OOV": {
+      "positions": 10324,
+      "full_log10": -70072.99905586243,
+      "pruned_log10": -69666.49211740494,
+      "changed": 6430,
+      "share_of_positions": 0.013847365124329863,
+      "ppl_full": 6128984.423488291,
+      "ppl_pruned": 5597750.945864644,
+      "changed_rate": 0.6228206121658272,
+      "mean_order_full": 1.0,
+      "mean_order_pruned": 1.0,
+      "log10_loss": -406.506938457489
+    }
+  },
+  "positions": 745557,
+  "removed_ngrams_by_order": [
+    0,
+    0,
+    3139049,
+    4385265,
+    4773188
+  ],
+  "ngram_counts_full": [
+    126784,
+    1578188,
+    3713968,
+    4743883,
+    4982729
+  ],
+  "ngram_counts_pruned": [
+    126784,
+    1578188,
+    574919,
+    358618,
+    209541
+  ]
+}

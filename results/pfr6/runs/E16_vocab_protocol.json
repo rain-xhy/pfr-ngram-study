@@ -1,0 +1,128 @@
+{
+  "experiment": "E16_vocab_protocol",
+  "finished_at": "2026-09-30T00:02:56+00:00",
+  "kenlm_commit": "4cb443e60b7bf2c0ddf3c745378f76cb59e254e5",
+  "elapsed_seconds": 174.587796085,
+  "open": {
+    "label": "开放词表",
+    "vocab_size": 126781,
+    "ppl": 262.34274408234495,
+    "test_rare_rate": 0.014407484523537063,
+    "bits_per_char": 4.969058109066841,
+    "core_word_ppl": 167.30446787251032,
+    "core_positions": 649217
+  },
+  "rows": [
+    {
+      "kind": "前 K 个词",
+      "label": "K=10,000",
+      "vocab_size": 10001,
+      "train_token_coverage": 0.9114746543543879,
+      "test_rare_rate": 0.09399613716416494,
+      "ppl": 106.0097462782767,
+      "bits_per_char": 4.160647273540486,
+      "core_word_ppl": 166.22762505520396,
+      "core_positions": 649217,
+      "arpa_bytes": 584796055
+    },
+    {
+      "kind": "前 K 个词",
+      "label": "K=20,000",
+      "vocab_size": 20001,
+      "train_token_coverage": 0.9507643091412417,
+      "test_rare_rate": 0.055843655627068875,
+      "ppl": 144.01491283372394,
+      "bits_per_char": 4.4339945109392165,
+      "core_word_ppl": 162.47548043927972,
+      "core_positions": 649217,
+      "arpa_bytes": 613543076
+    },
+    {
+      "kind": "前 K 个词",
+      "label": "K=40,000",
+      "vocab_size": 40001,
+      "train_token_coverage": 0.9769124381442064,
+      "test_rare_rate": 0.03166604332851409,
+      "ppl": 181.75062856824573,
+      "bits_per_char": 4.641618411666028,
+      "core_word_ppl": 162.5726957969546,
+      "core_positions": 649217,
+      "arpa_bytes": 629817508
+    },
+    {
+      "kind": "前 K 个词",
+      "label": "K=65,533",
+      "vocab_size": 65534,
+      "train_token_coverage": 0.9887134045907997,
+      "test_rare_rate": 0.021828929960980892,
+      "ppl": 203.3882144644187,
+      "bits_per_char": 4.741970186849526,
+      "core_word_ppl": 163.88169154915994,
+      "core_positions": 649217,
+      "arpa_bytes": 639844104
+    },
+    {
+      "kind": "覆盖率",
+      "label": "覆盖 95%",
+      "vocab_size": 19680,
+      "train_token_coverage": 0.9500006542215045,
+      "test_rare_rate": 0.056537235616239544,
+      "ppl": 143.12428932211535,
+      "bits_per_char": 4.428460002132057,
+      "core_word_ppl": 162.5154009231289,
+      "core_positions": 649217,
+      "arpa_bytes": 615309322
+    },
+    {
+      "kind": "覆盖率",
+      "label": "覆盖 98%",
+      "vocab_size": 44544,
+      "train_token_coverage": 0.9800003636451998,
+      "test_rare_rate": 0.0290996578152649,
+      "ppl": 186.81631090369953,
+      "bits_per_char": 4.6661443113927,
+      "core_word_ppl": 162.7864149198421,
+      "core_positions": 649217,
+      "arpa_bytes": 630657101
+    },
+    {
+      "kind": "覆盖率",
+      "label": "覆盖 99%",
+      "vocab_size": 69320,
+      "train_token_coverage": 0.9900000968587682,
+      "test_rare_rate": 0.020886945066232003,
+      "ppl": 205.86518654211685,
+      "bits_per_char": 4.752769848274693,
+      "core_word_ppl": 164.0588078958025,
+      "core_positions": 649217,
+      "arpa_bytes": 637587587
+    }
+  ],
+  "e13_thresholds": [
+    {
+      "label": "频次 ≥2",
+      "vocab_size": 70706,
+      "test_rare_rate": 0.020510151108332448,
+      "ppl": 206.7730945301741
+    },
+    {
+      "label": "频次 ≥3",
+      "vocab_size": 53693,
+      "test_rare_rate": 0.024980043875563098,
+      "ppl": 195.63112202539384
+    },
+    {
+      "label": "频次 ≥5",
+      "vocab_size": 38789,
+      "test_rare_rate": 0.03252150516626382,
+      "ppl": 180.1509993063845
+    },
+    {
+      "label": "频次 ≥10",
+      "vocab_size": 25213,
+      "test_rare_rate": 0.04635682108706452,
+      "ppl": 157.064563798952
+    }
+  ],
+  "core_vocab_size": 10000
+}

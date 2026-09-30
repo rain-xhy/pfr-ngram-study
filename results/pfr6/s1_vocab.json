@@ -1,0 +1,8 @@
+{
+  "min_freq": 2,
+  "vocab_size": 70705,
+  "rare_type_count": 56076,
+  "rare_token_count": 56076,
+  "total_tokens": 5884857,
+  "vocab_path": "corpus/processed/pfr6/vocab.json"
+}

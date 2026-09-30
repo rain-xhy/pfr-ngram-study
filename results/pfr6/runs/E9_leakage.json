@@ -1,0 +1,277 @@
+{
+  "experiment": "E9_leakage",
+  "finished_at": "2026-09-29T14:35:10+00:00",
+  "kenlm_commit": "4cb443e60b7bf2c0ddf3c745378f76cb59e254e5",
+  "elapsed_seconds": 24.299615742999777,
+  "by_order": {
+    "2": {
+      "length": 17.25,
+      "type_token_ratio": 0.9131532110521472,
+      "repeated_2gram_rate": 0.0019230769230769219,
+      "repeated_3gram_rate": 0.0,
+      "self_ppl": 31.530999547911918,
+      "top1_prob_mean": 0.24451358987855742,
+      "chose_top1_rate": 0.3025332479809866,
+      "entropy_bits_mean": 7.717772218222175,
+      "matched_order_mean": 1.992644927536232,
+      "overlap_5gram": 0.0038416075650118202,
+      "longest_copied_span": 3.7,
+      "eos_rate": 0.9,
+      "copied_10plus_rate": 0,
+      "n": 20
+    },
+    "3": {
+      "length": 21.5,
+      "type_token_ratio": 0.9007139359856752,
+      "repeated_2gram_rate": 0.01572797136540689,
+      "repeated_3gram_rate": 0.004708222811671087,
+      "self_ppl": 18.72932961949885,
+      "top1_prob_mean": 0.2987570833058877,
+      "chose_top1_rate": 0.380612291437784,
+      "entropy_bits_mean": 6.654052655509892,
+      "matched_order_mean": 2.914133668923172,
+      "overlap_5gram": 0.07885911532650663,
+      "longest_copied_span": 4.6,
+      "eos_rate": 0.85,
+      "copied_10plus_rate": 0,
+      "n": 20
+    },
+    "4": {
+      "length": 17.05,
+      "type_token_ratio": 0.9342312091503268,
+      "repeated_2gram_rate": 0.006068485086342229,
+      "repeated_3gram_rate": 0.0,
+      "self_ppl": 17.62678229159224,
+      "top1_prob_mean": 0.32892789000382866,
+      "chose_top1_rate": 0.4154467785605556,
+      "entropy_bits_mean": 6.503909435220721,
+      "matched_order_mean": 3.4075266374039592,
+      "overlap_5gram": 0.1749496396849338,
+      "longest_copied_span": 5.5,
+      "eos_rate": 1,
+      "copied_10plus_rate": 0,
+      "n": 20
+    },
+    "5": {
+      "length": 23.1,
+      "type_token_ratio": 0.9172896789997593,
+      "repeated_2gram_rate": 0.004418886198547212,
+      "repeated_3gram_rate": 0.0,
+      "self_ppl": 18.21431801230882,
+      "top1_prob_mean": 0.34443078147775297,
+      "chose_top1_rate": 0.4222992048438419,
+      "entropy_bits_mean": 6.404421422194866,
+      "matched_order_mean": 3.63173689895207,
+      "overlap_5gram": 0.2521771583555705,
+      "longest_copied_span": 6.25,
+      "eos_rate": 0.9,
+      "copied_10plus_rate": 0.15,
+      "n": 20
+    },
+    "6": {
+      "length": 24.05,
+      "type_token_ratio": 0.8918808872637807,
+      "repeated_2gram_rate": 0.004488416988416987,
+      "repeated_3gram_rate": 0.0,
+      "self_ppl": 21.25739709665876,
+      "top1_prob_mean": 0.2999224614493156,
+      "chose_top1_rate": 0.3894451427023583,
+      "entropy_bits_mean": 6.857458183868262,
+      "matched_order_mean": 3.6021508998767064,
+      "overlap_5gram": 0.17706317235085117,
+      "longest_copied_span": 5.9,
+      "eos_rate": 0.9,
+      "copied_10plus_rate": 0,
+      "n": 20
+    }
+  },
+  "by_order_greedy": {
+    "2": {
+      "longest_copied_span": 4,
+      "overlap_5gram": 0.0,
+      "text": "，在北京５月，在北京５月，在北京５月，在北京５月，在北京５月，在北京５月，在北京５月，在北京５月，在北京５月，在北京５月，在北京５月，在北京５月，在北京５月，在北京５月，在北京５月"
+    },
+    "3": {
+      "longest_copied_span": 8,
+      "overlap_5gram": 0.6166666666666667,
+      "text": "“三个有利于”的原则，在全国范围内的“三个有利于”的原则，在全国范围内的“三个有利于”的原则，在全国范围内的“三个有利于”的原则，在全国范围内的“三个有利于”的原则，"
+    },
+    "4": {
+      "longest_copied_span": 11,
+      "overlap_5gram": 0.8333333333333334,
+      "text": "“全国优秀公安局”、“港人治港”、高度自治的方针，把自己的一生，是革命的一生，是革命的一生，是革命的一生，是革命的一生，是革命的一生，是革命的一生，是革命的一生，是革命的一生，"
+    },
+    "5": {
+      "longest_copied_span": 12,
+      "overlap_5gram": 0.9333333333333333,
+      "text": "“全国优秀公安局”、“河南省优秀公安局”、“河南省优秀公安局”、“河南省优秀公安局”、“河南省优秀公安局”、“河南省优秀公安局”、“河南省优秀公安局”、“河南省优秀公安局”、“河南省优秀公安局”、“河南省优秀公安局”、"
+    },
+    "6": {
+      "longest_copied_span": 12,
+      "overlap_5gram": 0.9333333333333333,
+      "text": "“全国优秀公安局”、“河南省优秀公安局”、“河南省优秀公安局”、“河南省优秀公安局”、“河南省优秀公安局”、“河南省优秀公安局”、“河南省优秀公安局”、“河南省优秀公安局”、“河南省优秀公安局”、“河南省优秀公安局”、"
+    }
+  },
+  "by_temperature": {
+    "0.7": {
+      "longest_copied_span": 7.9,
+      "overlap_5gram": 0.38460579103762566,
+      "copied_10plus_rate": 0.3333333333333333,
+      "n": 60
+    },
+    "1.0": {
+      "longest_copied_span": 6.133333333333334,
+      "overlap_5gram": 0.1991351290539227,
+      "copied_10plus_rate": 0.1,
+      "n": 60
+    },
+    "1.3": {
+      "longest_copied_span": 4.8,
+      "overlap_5gram": 0.11059304353231794,
+      "copied_10plus_rate": 0.03333333333333333,
+      "n": 60
+    }
+  },
+  "copied_span_histogram": {
+    "2": {
+      "0-3": 8,
+      "4-6": 12,
+      "7-9": 0,
+      "10+": 0
+    },
+    "3": {
+      "0-3": 4,
+      "4-6": 16,
+      "7-9": 0,
+      "10+": 0
+    },
+    "4": {
+      "0-3": 0,
+      "4-6": 16,
+      "7-9": 4,
+      "10+": 0
+    },
+    "5": {
+      "0-3": 3,
+      "4-6": 8,
+      "7-9": 6,
+      "10+": 3
+    },
+    "6": {
+      "0-3": 3,
+      "4-6": 9,
+      "7-9": 8,
+      "10+": 0
+    }
+  },
+  "top_copies": [
+    {
+      "params": {
+        "temperature": 0.7,
+        "top_k": 10,
+        "top_p": 1.0,
+        "greedy": false,
+        "max_tokens": 60,
+        "seed": 33
+      },
+      "text": "第十五次全国代表大会，高举邓小平理论伟大旗帜，在以江泽民同志为核心的党中央领导下，以“三个有利于”的标准，坚持尊重实践、尊重群众，理论的生命力。",
+      "longest_copied_span": 12,
+      "source": {
+        "span": "召开了第十五次全国代表大会，高举邓小平理论伟大旗帜，",
+        "span_words": 12,
+        "span_generated_words": 10,
+        "train_sentence": "中国共产党成功地召开了第十五次全国代表大会，高举邓小平理论伟大旗帜，总结百年历史，展望新的世纪，制定了中国跨世纪发展的行动纲领。"
+      }
+    },
+    {
+      "params": {
+        "temperature": 0.7,
+        "top_k": 10,
+        "top_p": 1.0,
+        "greedy": false,
+        "max_tokens": 60,
+        "seed": 1001
+      },
+      "text": "十五大精神，加强和改善宏观调控，继续实行由国家主要是国有企业下岗职工基本生活保障和再就业工作，是当前经济体制改革的重点。",
+      "longest_copied_span": 12,
+      "source": {
+        "span": "国有企业下岗职工基本生活保障和再就业工作，",
+        "span_words": 12,
+        "span_generated_words": 12,
+        "train_sentence": "江泽民指出，全党动手，动员全社会的力量，共同做好国有企业下岗职工基本生活保障和再就业工作，对贯彻落实党的十五大精神，深化国有企业改革，引导、保护和发挥好职工群众的积极性，促进国民经济持续快速健康发展，巩固和发展安定团结的社会政治局面，全面推进建设有中国特色社会主义事业，具有十分重大的意义。"
+      }
+    },
+    {
+      "params": {
+        "temperature": 0.7,
+        "top_k": 10,
+        "top_p": 1.0,
+        "greedy": false,
+        "max_tokens": 60,
+        "seed": 1006
+      },
+      "text": "一次，我在数年前的一种形式，有利于使法律更是一件，平均每年递增百分之十，发放期限十五届中央委员会的邀请，全国政协副主席、中国佛教协会会长赵朴初，八届全国人大常委会第三十次会议审议的《中华人民共和国村民",
+      "longest_copied_span": 12,
+      "source": {
+        "span": "全国政协副主席、中国佛教协会会长赵朴初，",
+        "span_words": 12,
+        "span_generated_words": 12,
+        "train_sentence": "全国政协副主席、中国佛教协会会长赵朴初，全国政协常委、中国伊斯兰教协会会长安士伟代表与会的宗教界人士发言，他们说，１９９８年宗教界将认真做好教务工作，积极参与社会主义文化建设，努力促进宗教与社会主义社会相适应，为国家的经济建设和发展大局服务。"
+      }
+    },
+    {
+      "params": {
+        "temperature": 0.7,
+        "top_k": 10,
+        "top_p": 1.0,
+        "greedy": false,
+        "max_tokens": 60,
+        "seed": 1009
+      },
+      "text": "“全国优秀公安局”，“不能再也不会在中国共产党领导下，高举邓小平理论伟大旗帜，坚持解放思想、实事求是的思想路线，就必须在公有制实现形式多样化”。",
+      "longest_copied_span": 12,
+      "source": {
+        "span": "在中国共产党领导下，高举邓小平理论伟大旗帜，坚持",
+        "span_words": 12,
+        "span_generated_words": 12,
+        "train_sentence": "决议说，五年来，我国各族人民在中国共产党领导下，高举邓小平理论伟大旗帜，坚持以经济建设为中心，坚持四项基本原则，坚持改革开放，社会主义现代化事业取得了举世瞩目的巨大成就，是建国以来比较好的发展时期。"
+      }
+    },
+    {
+      "params": {
+        "temperature": 0.7,
+        "top_k": 10,
+        "top_p": 1.0,
+        "greedy": false,
+        "max_tokens": 60,
+        "seed": 1010
+      },
+      "text": "“全国双拥工作电视电话会议要求做好双拥工作，就会有许多地方政府或国务院有关产业部门根据《公司法》、《股票条例》及国家其他相关法律、法规和政策，以市场为导向，以促进其健康发展。",
+      "longest_copied_span": 12,
+      "source": {
+        "span": "根据《公司法》、《股票条例》及国家其他相关法律、法规",
+        "span_words": 16,
+        "span_generated_words": 16,
+        "train_sentence": "发行部根据《公司法》、《股票条例》及国家其他相关法律、法规、政策和中国证监会的规定，对企业申报材料进行审核，并出具书面反馈意见。"
+      }
+    },
+    {
+      "params": {
+        "temperature": 0.7,
+        "top_k": 10,
+        "top_p": 1.0,
+        "greedy": false,
+        "max_tokens": 60,
+        "seed": 1014
+      },
+      "text": "第十五次全国代表大会，高举邓小平理论伟大旗帜，全面贯彻落实党的十五大精神的第一年。",
+      "longest_copied_span": 12,
+      "source": {
+        "span": "召开了第十五次全国代表大会，高举邓小平理论伟大旗帜，",
+        "span_words": 12,
+        "span_generated_words": 10,
+        "train_sentence": "中国共产党成功地召开了第十五次全国代表大会，高举邓小平理论伟大旗帜，总结百年历史，展望新的世纪，制定了中国跨世纪发展的行动纲领。"
+      }
+    }
+  ]
+}

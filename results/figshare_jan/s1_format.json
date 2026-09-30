@@ -1,0 +1,162 @@
+{
+  "encoding": "gb18030",
+  "total_lines": 23064,
+  "blank_lines": 3580,
+  "lines_without_docid": 0,
+  "date_range": [
+    "19980101",
+    "19980131"
+  ],
+  "date_count": 31,
+  "banci_values": [
+    "01",
+    "02",
+    "03",
+    "04",
+    "05",
+    "06",
+    "07",
+    "08",
+    "09",
+    "10",
+    "11",
+    "12"
+  ],
+  "article_count": 3148,
+  "token_count": 1121447,
+  "untagged_token_count": 0,
+  "raw_tag_string_count": 67,
+  "pos_tag_count": 44,
+  "pos_tag_top25": [
+    [
+      "n",
+      236810
+    ],
+    [
+      "v",
+      184764
+    ],
+    [
+      "w",
+      173047
+    ],
+    [
+      "u",
+      74829
+    ],
+    [
+      "d",
+      47811
+    ],
+    [
+      "vn",
+      42734
+    ],
+    [
+      "m",
+      41370
+    ],
+    [
+      "p",
+      39925
+    ],
+    [
+      "nr",
+      35267
+    ],
+    [
+      "a",
+      34473
+    ],
+    [
+      "r",
+      32327
+    ],
+    [
+      "ns",
+      27890
+    ],
+    [
+      "c",
+      25479
+    ],
+    [
+      "q",
+      24244
+    ],
+    [
+      "t",
+      20680
+    ],
+    [
+      "f",
+      17201
+    ],
+    [
+      "j",
+      10323
+    ],
+    [
+      "b",
+      8715
+    ],
+    [
+      "l",
+      6015
+    ],
+    [
+      "ad",
+      5933
+    ],
+    [
+      "i",
+      5033
+    ],
+    [
+      "Ng",
+      4562
+    ],
+    [
+      "s",
+      3836
+    ],
+    [
+      "nz",
+      3701
+    ],
+    [
+      "nt",
+      3573
+    ]
+  ],
+  "entity_start_count": 9238,
+  "entity_end_count": 9238,
+  "entity_type_distribution": [
+    [
+      "nt",
+      7872
+    ],
+    [
+      "ns",
+      1047
+    ],
+    [
+      "nz",
+      304
+    ],
+    [
+      "i",
+      13
+    ],
+    [
+      "l",
+      2
+    ]
+  ],
+  "nested_entity_count": 0,
+  "entities_crossing_line": 0,
+  "slash_in_word_count": 0,
+  "fullwidth_alnum_tokens": 23844,
+  "halfwidth_alnum_tokens": 0,
+  "multi_sentence_end_lines": 9265
+}

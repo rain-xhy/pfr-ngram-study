@@ -1,0 +1,1154 @@
+{
+  "experiment": "E1_smoothing",
+  "finished_at": "2026-09-29T13:57:06+00:00",
+  "kenlm_commit": "4cb443e60b7bf2c0ddf3c745378f76cb59e254e5",
+  "elapsed_seconds": 145.977260031,
+  "train_sentences": 35281,
+  "train_tokens": 890240,
+  "train_scope": "训练集中 199801 及以前的文章",
+  "count_seconds": 7.345620674999992,
+  "vocab_size": 49252,
+  "addk_dev_ppl": {
+    "1": 28402.314458886696,
+    "0.5": 24790.85696774583,
+    "0.1": 17608.830419170754,
+    "0.05": 15184.043619812468,
+    "0.01": 11079.759143292284,
+    "0.005": 9913.572686978505,
+    "0.001": 8445.266503040324,
+    "0.0005": 8330.47663890662,
+    "0.0001": 9436.91014741268,
+    "5e-05": 10670.87568524874,
+    "1e-05": 16248.394084611522
+  },
+  "best_k": 0.0005,
+  "jm_dev_ppl": {
+    "0.1,0.2,0.69,0.01": 748.4305552061295,
+    "0.1,0.3,0.59,0.01": 696.993547404813,
+    "0.1,0.4,0.49,0.01": 671.0047612141567,
+    "0.1,0.5,0.39,0.01": 663.9893788312211,
+    "0.2,0.2,0.59,0.01": 701.8219673166309,
+    "0.2,0.3,0.49,0.01": 662.8373764857673,
+    "0.2,0.4,0.39,0.01": 648.6722995468663,
+    "0.2,0.5,0.29,0.01": 656.4113900173721,
+    "0.3,0.2,0.49,0.01": 679.5031283418467,
+    "0.3,0.3,0.39,0.01": 650.7369343270509,
+    "0.3,0.4,0.29,0.01": 650.1167378763292,
+    "0.3,0.5,0.19,0.01": 681.8977549074392,
+    "0.4,0.2,0.39,0.01": 671.7906715833154,
+    "0.4,0.3,0.29,0.01": 655.610571444634,
+    "0.4,0.4,0.19,0.01": 678.1711874496061,
+    "0.4,0.5,0.09,0.01": 774.369163458974,
+    "0.5,0.2,0.29,0.01": 677.9633483422573,
+    "0.5,0.3,0.19,0.01": 683.913484390517,
+    "0.5,0.4,0.09,0.01": 769.5173959664245,
+    "0.6,0.2,0.19,0.01": 705.1053038602978,
+    "0.6,0.3,0.09,0.01": 772.4150772007619
+  },
+  "best_lambda": [
+    0.2,
+    0.4,
+    0.39,
+    0.01
+  ],
+  "methods": {
+    "MLE": {
+      "dev": {
+        "events": 712518,
+        "unk_events": 29323,
+        "zero_prob_events": 521637,
+        "zero_prob_rate": 0.7321036100140628,
+        "ppl": Infinity,
+        "ppl_over_nonzero": 10.049331418371628
+      },
+      "test": {
+        "events": 745557,
+        "unk_events": 29123,
+        "zero_prob_events": 546461,
+        "zero_prob_rate": 0.7329567021703237,
+        "ppl": Infinity,
+        "ppl_over_nonzero": 10.286911912641932
+      }
+    },
+    "Add-1": {
+      "dev": {
+        "events": 712518,
+        "unk_events": 29323,
+        "zero_prob_events": 0,
+        "zero_prob_rate": 0.0,
+        "ppl": 28402.314458886696,
+        "ppl_over_nonzero": 28402.314458886696
+      },
+      "test": {
+        "events": 745557,
+        "unk_events": 29123,
+        "zero_prob_events": 0,
+        "zero_prob_rate": 0.0,
+        "ppl": 28563.800804744747,
+        "ppl_over_nonzero": 28563.800804744747
+      }
+    },
+    "Add-k (k=0.0005)": {
+      "dev": {
+        "events": 712518,
+        "unk_events": 29323,
+        "zero_prob_events": 0,
+        "zero_prob_rate": 0.0,
+        "ppl": 8330.47663890662,
+        "ppl_over_nonzero": 8330.47663890662
+      },
+      "test": {
+        "events": 745557,
+        "unk_events": 29123,
+        "zero_prob_events": 0,
+        "zero_prob_rate": 0.0,
+        "ppl": 8448.478242034958,
+        "ppl_over_nonzero": 8448.478242034958
+      }
+    },
+    "Jelinek-Mercer": {
+      "dev": {
+        "events": 712518,
+        "unk_events": 29323,
+        "zero_prob_events": 0,
+        "zero_prob_rate": 0.0,
+        "ppl": 648.6722995468663,
+        "ppl_over_nonzero": 648.6722995468663
+      },
+      "test": {
+        "events": 745557,
+        "unk_events": 29123,
+        "zero_prob_events": 0,
+        "zero_prob_rate": 0.0,
+        "ppl": 645.2083882188028,
+        "ppl_over_nonzero": 645.2083882188028
+      }
+    },
+    "Witten-Bell": {
+      "dev": {
+        "events": 712518,
+        "unk_events": 29323,
+        "zero_prob_events": 0,
+        "zero_prob_rate": 0.0,
+        "ppl": 704.3494200396516,
+        "ppl_over_nonzero": 704.3494200396516
+      },
+      "test": {
+        "events": 745557,
+        "unk_events": 29123,
+        "zero_prob_events": 0,
+        "zero_prob_rate": 0.0,
+        "ppl": 705.0876640618872,
+        "ppl_over_nonzero": 705.0876640618872
+      }
+    },
+    "Kneser-Ney（本模块）": {
+      "dev": {
+        "events": 712518,
+        "unk_events": 29323,
+        "zero_prob_events": 0,
+        "zero_prob_rate": 0.0,
+        "ppl": 521.0210158361979,
+        "ppl_over_nonzero": 521.0210158361979
+      },
+      "test": {
+        "events": 745557,
+        "unk_events": 29123,
+        "zero_prob_events": 0,
+        "zero_prob_rate": 0.0,
+        "ppl": 521.6962821156023,
+        "ppl_over_nonzero": 521.6962821156023
+      }
+    }
+  },
+  "kenlm": {
+    "dev": {
+      "events": 712518,
+      "sentences": 27072,
+      "oov_events": 29323,
+      "oov_rate": 0.04115404803808465,
+      "log10_prob": -1935808.269184216,
+      "cross_entropy_bits": 9.025197785485172,
+      "ppl_including_oov": 521.0210265523378,
+      "ppl_excluding_oov": 377.2884793664572,
+      "matched_orders": {
+        "1": 235183,
+        "2": 280303,
+        "3": 167709
+      }
+    },
+    "test": {
+      "events": 745557,
+      "sentences": 28985,
+      "oov_events": 29123,
+      "oov_rate": 0.039062070371547714,
+      "log10_prob": -2025989.8263138265,
+      "cross_entropy_bits": 9.027066373178533,
+      "ppl_including_oov": 521.6962934744015,
+      "ppl_excluding_oov": 384.2049081162158,
+      "matched_orders": {
+        "1": 245429,
+        "2": 296730,
+        "3": 174275
+      }
+    },
+    "training": {
+      "wall_seconds": {
+        "median": 1.255878207999956,
+        "min": 1.255878207999956,
+        "max": 1.255878207999956,
+        "n": 1
+      },
+      "cpu_seconds": {
+        "median": 1.33,
+        "min": 1.33,
+        "max": 1.33,
+        "n": 1
+      },
+      "startup_seconds": {
+        "median": 0.005286393999995198,
+        "min": 0.005286393999995198,
+        "max": 0.005286393999995198,
+        "n": 1
+      },
+      "kenlm_real_seconds": {
+        "median": 1.24974,
+        "min": 1.24974,
+        "max": 1.24974,
+        "n": 1
+      },
+      "peak_rss_mb": {
+        "median": 154.46875,
+        "min": 154.46875,
+        "max": 154.46875,
+        "n": 1
+      },
+      "kenlm_reported_rssmax_mb": {
+        "median": 154.46875,
+        "min": 154.46875,
+        "max": 154.46875,
+        "n": 1
+      },
+      "stage_seconds_median": {
+        "Counting and sorting n-grams": 0.4693159830000013,
+        "Calculating and sorting adjusted counts": 0.1345850899999732,
+        "Calculating and sorting initial probabilities": 0.1675290640000071,
+        "Calculating and writing order-interpolated probabilities": 0.12046111500001189,
+        "Writing ARPA model": 0.35870056199996725
+      },
+      "stalled_runs_discarded": 0,
+      "stalled_wall_seconds": [],
+      "accepted_despite_interference": 0,
+      "arpa_bytes": 35754489,
+      "ngram_counts": [
+        49253,
+        386218,
+        690493
+      ],
+      "discounts": [
+        {
+          "order": 1,
+          "count_field": "49253",
+          "D1": 0.645386,
+          "D2": 0.979161,
+          "D3+": 1.42884
+        },
+        {
+          "order": 2,
+          "count_field": "386218",
+          "D1": 0.779991,
+          "D2": 1.14029,
+          "D3+": 1.43722
+        },
+        {
+          "order": 3,
+          "count_field": "690493",
+          "D1": 0.870111,
+          "D2": 1.2697,
+          "D3+": 1.46401
+        }
+      ],
+      "fallback_discount_used": false,
+      "deterministic_arpa": true
+    }
+  },
+  "kenlm_check": {
+    "kenlm_ngram_counts": [
+      49253,
+      386218,
+      690493
+    ],
+    "our_ngram_counts_1_2_3": [
+      49253,
+      386218,
+      690493
+    ],
+    "kenlm_discounts": [
+      {
+        "order": 1,
+        "count_field": "49253",
+        "D1": 0.645386,
+        "D2": 0.979161,
+        "D3+": 1.42884
+      },
+      {
+        "order": 2,
+        "count_field": "386218",
+        "D1": 0.779991,
+        "D2": 1.14029,
+        "D3+": 1.43722
+      },
+      {
+        "order": 3,
+        "count_field": "690493",
+        "D1": 0.870111,
+        "D2": 1.2697,
+        "D3+": 1.46401
+      }
+    ],
+    "our_discounts": {
+      "1": [
+        0.6453861445934723,
+        0.9791614275483607,
+        1.428836529824128
+      ],
+      "2": [
+        0.7799912060626439,
+        1.140287607678996,
+        1.4372222782919972
+      ],
+      "3": [
+        0.87011127336118,
+        1.2697002792345475,
+        1.4640072934700392
+      ]
+    },
+    "kenlm_test_ppl": 521.6962934744015,
+    "ours_test_ppl": 521.6962821156023,
+    "position_log10_absdiff": {
+      "max": 5.988072526719179e-07,
+      "mean": 7.965876810054443e-08,
+      "positions": 4687
+    }
+  },
+  "normalization": {
+    "MLE": [
+      {
+        "history": [
+          null,
+          "<s>"
+        ],
+        "sum": 1.0
+      },
+      {
+        "history": [
+          "<s>",
+          "在"
+        ],
+        "sum": 1.0
+      },
+      {
+        "history": [
+          "在",
+          "阳光"
+        ],
+        "sum": 1.0
+      },
+      {
+        "history": [
+          "阳光",
+          "明媚"
+        ],
+        "sum": 1.0
+      },
+      {
+        "history": [
+          "从未",
+          "出现"
+        ],
+        "sum": 0.0
+      }
+    ],
+    "Add-1": [
+      {
+        "history": [
+          null,
+          "<s>"
+        ],
+        "sum": 1.0
+      },
+      {
+        "history": [
+          "<s>",
+          "在"
+        ],
+        "sum": 1.0
+      },
+      {
+        "history": [
+          "在",
+          "阳光"
+        ],
+        "sum": 1.0
+      },
+      {
+        "history": [
+          "阳光",
+          "明媚"
+        ],
+        "sum": 1.0
+      },
+      {
+        "history": [
+          "从未",
+          "出现"
+        ],
+        "sum": 1.0
+      }
+    ],
+    "Add-k (k=0.0005)": [
+      {
+        "history": [
+          null,
+          "<s>"
+        ],
+        "sum": 1.0
+      },
+      {
+        "history": [
+          "<s>",
+          "在"
+        ],
+        "sum": 1.0
+      },
+      {
+        "history": [
+          "在",
+          "阳光"
+        ],
+        "sum": 1.0
+      },
+      {
+        "history": [
+          "阳光",
+          "明媚"
+        ],
+        "sum": 1.0
+      },
+      {
+        "history": [
+          "从未",
+          "出现"
+        ],
+        "sum": 1.0
+      }
+    ],
+    "Jelinek-Mercer": [
+      {
+        "history": [
+          null,
+          "<s>"
+        ],
+        "sum": 1.0
+      },
+      {
+        "history": [
+          "<s>",
+          "在"
+        ],
+        "sum": 1.0
+      },
+      {
+        "history": [
+          "在",
+          "阳光"
+        ],
+        "sum": 1.0
+      },
+      {
+        "history": [
+          "阳光",
+          "明媚"
+        ],
+        "sum": 1.0
+      },
+      {
+        "history": [
+          "从未",
+          "出现"
+        ],
+        "sum": 1.0
+      }
+    ],
+    "Witten-Bell": [
+      {
+        "history": [
+          null,
+          "<s>"
+        ],
+        "sum": 1.0
+      },
+      {
+        "history": [
+          "<s>",
+          "在"
+        ],
+        "sum": 1.0
+      },
+      {
+        "history": [
+          "在",
+          "阳光"
+        ],
+        "sum": 1.0
+      },
+      {
+        "history": [
+          "阳光",
+          "明媚"
+        ],
+        "sum": 1.0
+      },
+      {
+        "history": [
+          "从未",
+          "出现"
+        ],
+        "sum": 1.0
+      }
+    ],
+    "Kneser-Ney（本模块）": [
+      {
+        "history": [
+          null,
+          "<s>"
+        ],
+        "sum": 1.0
+      },
+      {
+        "history": [
+          "<s>",
+          "在"
+        ],
+        "sum": 1.0
+      },
+      {
+        "history": [
+          "在",
+          "阳光"
+        ],
+        "sum": 1.0
+      },
+      {
+        "history": [
+          "阳光",
+          "明媚"
+        ],
+        "sum": 1.0
+      },
+      {
+        "history": [
+          "从未",
+          "出现"
+        ],
+        "sum": 1.0
+      }
+    ]
+  },
+  "prompt_trigrams": [
+    {
+      "context": [
+        null,
+        "<s>"
+      ],
+      "word": "在",
+      "history_count": 35281,
+      "ngram_count": 1251,
+      "MLE": 0.0354581786230549,
+      "Add-1": 0.014810783954195402,
+      "Add-k (k=0.0005)": 0.03543346037824114,
+      "Jelinek-Mercer": 0.022726960666438097,
+      "Witten-Bell": 0.031664127126786956,
+      "Kneser-Ney（本模块）": 0.036444191141871626
+    },
+    {
+      "context": [
+        "<s>",
+        "在"
+      ],
+      "word": "阳光",
+      "history_count": 1251,
+      "ngram_count": 1,
+      "MLE": 0.0007993605115907274,
+      "Add-1": 3.960160782527771e-05,
+      "Add-k (k=0.0005)": 0.0007843207962208358,
+      "Jelinek-Mercer": 0.0003434576536312569,
+      "Witten-Bell": 0.0006289983710559954,
+      "Kneser-Ney（本模块）": 0.0002965703928237833
+    },
+    {
+      "context": [
+        "在",
+        "阳光"
+      ],
+      "word": "明媚",
+      "history_count": 4,
+      "ngram_count": 0,
+      "MLE": 0.0,
+      "Add-1": 2.0302095176222185e-05,
+      "Add-k (k=0.0005)": 1.7466638720044714e-05,
+      "Jelinek-Mercer": 0.022859031431702054,
+      "Witten-Bell": 0.011696566353470127,
+      "Kneser-Ney（本模块）": 0.018195668171240586
+    },
+    {
+      "context": [
+        "阳光",
+        "明媚"
+      ],
+      "word": "的",
+      "history_count": 2,
+      "ngram_count": 1,
+      "MLE": 0.5,
+      "Add-1": 4.060583911966541e-05,
+      "Add-k (k=0.0005)": 0.037576053481559374,
+      "Jelinek-Mercer": 0.31832409844337906,
+      "Witten-Bell": 0.402416740965293,
+      "Kneser-Ney（本模块）": 0.26721532412281523
+    },
+    {
+      "context": [
+        "明媚",
+        "的"
+      ],
+      "word": "五月",
+      "history_count": 2,
+      "ngram_count": 0,
+      "MLE": 0.0,
+      "Add-1": 2.0302919559832705e-05,
+      "Add-k (k=0.0005)": 1.8778637422068655e-05,
+      "Jelinek-Mercer": 1.2772685899285545e-05,
+      "Witten-Bell": 1.02160478634903e-05,
+      "Kneser-Ney（本模块）": 8.807286720766096e-06
+    },
+    {
+      "context": [
+        "的",
+        "五月"
+      ],
+      "word": "，",
+      "history_count": 1,
+      "ngram_count": 0,
+      "MLE": 0.0,
+      "Add-1": 2.0303331776744565e-05,
+      "Add-k (k=0.0005)": 1.9511433700148287e-05,
+      "Jelinek-Mercer": 0.024986183906593802,
+      "Witten-Bell": 0.014193814890657297,
+      "Kneser-Ney（本模块）": 0.0225744796290978
+    },
+    {
+      "context": [
+        "五月",
+        "，"
+      ],
+      "word": "我们",
+      "history_count": 0,
+      "ngram_count": 0,
+      "MLE": 0.0,
+      "Add-1": 2.0303744010395517e-05,
+      "Add-k (k=0.0005)": 2.0303744010395517e-05,
+      "Jelinek-Mercer": 0.004767241155716991,
+      "Witten-Bell": 0.006953269001305657,
+      "Kneser-Ney（本模块）": 0.005767166328124535
+    },
+    {
+      "context": [
+        "，",
+        "我们"
+      ],
+      "word": "学校",
+      "history_count": 462,
+      "ngram_count": 0,
+      "MLE": 0.0,
+      "Add-1": 2.0115058132518e-05,
+      "Add-k (k=0.0005)": 1.027483118452364e-06,
+      "Jelinek-Mercer": 7.647359207905866e-05,
+      "Witten-Bell": 1.6061211377218227e-05,
+      "Kneser-Ney（本模块）": 5.6328594991251784e-05
+    },
+    {
+      "context": [
+        "我们",
+        "学校"
+      ],
+      "word": "胜利",
+      "history_count": 0,
+      "ngram_count": 0,
+      "MLE": 0.0,
+      "Add-1": 2.0303744010395517e-05,
+      "Add-k (k=0.0005)": 2.0303744010395517e-05,
+      "Jelinek-Mercer": 4.81862586243349e-05,
+      "Witten-Bell": 3.270966902785411e-05,
+      "Kneser-Ney（本模块）": 4.478996008893643e-05
+    },
+    {
+      "context": [
+        "学校",
+        "胜利"
+      ],
+      "word": "召开",
+      "history_count": 0,
+      "ngram_count": 0,
+      "MLE": 0.0,
+      "Add-1": 2.0303744010395517e-05,
+      "Add-k (k=0.0005)": 2.0303744010395517e-05,
+      "Jelinek-Mercer": 0.044074812081530315,
+      "Witten-Bell": 0.06305784697990079,
+      "Kneser-Ney（本模块）": 0.04020244604059866
+    },
+    {
+      "context": [
+        "胜利",
+        "召开"
+      ],
+      "word": "了",
+      "history_count": 8,
+      "ngram_count": 0,
+      "MLE": 0.0,
+      "Add-1": 2.0300446609825415e-05,
+      "Add-k (k=0.0005)": 1.5325200760129956e-05,
+      "Jelinek-Mercer": 0.03586682518863927,
+      "Witten-Bell": 0.023847321968677518,
+      "Kneser-Ney（本模块）": 0.044849697088060074
+    }
+  ],
+  "zero_prob_examples": [
+    {
+      "context": [
+        "<s>",
+        "新年"
+      ],
+      "word": "来临",
+      "history_count": 22,
+      "bigram_count": 2,
+      "MLE": 0.0,
+      "Add-1": 2.029467873523562e-05,
+      "Add-k (k=0.0005)": 1.0723630592373353e-05,
+      "Jelinek-Mercer": 0.003527094491294914,
+      "Witten-Bell": 0.002450810168778733,
+      "Kneser-Ney": 0.003122519204840099
+    },
+    {
+      "context": [
+        "孩子",
+        "们"
+      ],
+      "word": "准备",
+      "history_count": 63,
+      "bigram_count": 1,
+      "MLE": 0.0,
+      "Add-1": 2.0277805941397142e-05,
+      "Add-k (k=0.0005)": 5.706068974961769e-06,
+      "Jelinek-Mercer": 0.000673841720647038,
+      "Witten-Bell": 0.00045080846573387624,
+      "Kneser-Ney": 0.0003361508527783895
+    },
+    {
+      "context": [
+        "特殊",
+        "的"
+      ],
+      "word": "贺岁",
+      "history_count": 25,
+      "bigram_count": 2,
+      "MLE": 0.0,
+      "Add-1": 2.0293443188505792e-05,
+      "Add-k (k=0.0005)": 1.0075363720630314e-05,
+      "Jelinek-Mercer": 2.07071072809616e-05,
+      "Witten-Bell": 1.848172759234548e-05,
+      "Kneser-Ney": 2.1868200432188063e-05
+    },
+    {
+      "context": [
+        "和",
+        "对"
+      ],
+      "word": "台湾",
+      "history_count": 24,
+      "bigram_count": 10,
+      "MLE": 0.0,
+      "Add-1": 2.0293855020699733e-05,
+      "Add-k (k=0.0005)": 1.028256488298441e-05,
+      "Jelinek-Mercer": 0.001439994026987418,
+      "Witten-Bell": 0.0011777775439646904,
+      "Kneser-Ney": 0.0022031529786035826
+    },
+    {
+      "context": [
+        "举行",
+        "了"
+      ],
+      "word": "记者",
+      "history_count": 52,
+      "bigram_count": 5,
+      "MLE": 0.0,
+      "Add-1": 2.0282330034074315e-05,
+      "Add-k (k=0.0005)": 6.525200323649935e-06,
+      "Jelinek-Mercer": 0.0009357803612731656,
+      "Witten-Bell": 0.0003317709202117023,
+      "Kneser-Ney": 0.00028581999105545914
+    },
+    {
+      "context": [
+        "，",
+        "是"
+      ],
+      "word": "联合国",
+      "history_count": 799,
+      "bigram_count": 2,
+      "MLE": 0.0,
+      "Add-1": 1.9979620786797465e-05,
+      "Add-k (k=0.0005)": 6.070716563100242e-07,
+      "Jelinek-Mercer": 0.00019939801388836443,
+      "Witten-Bell": 8.526542347567525e-05,
+      "Kneser-Ney": 0.00011743439462357496
+    }
+  ],
+  "continuation_diversity": {
+    "min_count": 20,
+    "left_bound": [
+      {
+        "word": "附",
+        "count": 244,
+        "distinct_left": 1,
+        "ratio": 0.004098360655737705,
+        "top_left": "（",
+        "top_left_share": 1.0,
+        "p_unigram_mle": 0.0002636352929863288,
+        "p_continuation": 2.5892112744615734e-06,
+        "kn_over_mle": 0.00982118609815963
+      },
+      {
+        "word": "其琛",
+        "count": 154,
+        "distinct_left": 1,
+        "ratio": 0.006493506493506494,
+        "top_left": "钱",
+        "top_left_share": 1.0,
+        "p_unigram_mle": 0.00016639276688481408,
+        "p_continuation": 2.5892112744615734e-06,
+        "kn_over_mle": 0.015560840311369803
+      },
+      {
+        "word": "岚清",
+        "count": 93,
+        "distinct_left": 1,
+        "ratio": 0.010752688172043012,
+        "top_left": "李",
+        "top_left_share": 1.0,
+        "p_unigram_mle": 0.00010048394363823188,
+        "p_continuation": 2.5892112744615734e-06,
+        "kn_over_mle": 0.02576741298871989
+      },
+      {
+        "word": "楚政",
+        "count": 75,
+        "distinct_left": 1,
+        "ratio": 0.013333333333333334,
+        "top_left": "彭",
+        "top_left_share": 1.0,
+        "p_unigram_mle": 8.103543841792893e-05,
+        "p_continuation": 2.5892112744615734e-06,
+        "kn_over_mle": 0.031951592106012665
+      },
+      {
+        "word": "泽民",
+        "count": 350,
+        "distinct_left": 5,
+        "ratio": 0.014285714285714285,
+        "top_left": "江",
+        "top_left_share": 0.9857142857142858,
+        "p_unigram_mle": 0.00037816537928366835,
+        "p_continuation": 1.2946056372307868e-05,
+        "kn_over_mle": 0.03423384868501357
+      },
+      {
+        "word": "健行",
+        "count": 66,
+        "distinct_left": 1,
+        "ratio": 0.015151515151515152,
+        "top_left": "尉",
+        "top_left_share": 1.0,
+        "p_unigram_mle": 7.131118580777746e-05,
+        "p_continuation": 2.5892112744615734e-06,
+        "kn_over_mle": 0.03630862739319621
+      },
+      {
+        "word": "据悉",
+        "count": 63,
+        "distinct_left": 1,
+        "ratio": 0.015873015873015872,
+        "top_left": "<s>",
+        "top_left_share": 1.0,
+        "p_unigram_mle": 6.80697682710603e-05,
+        "p_continuation": 2.5892112744615734e-06,
+        "kn_over_mle": 0.038037609650015076
+      },
+      {
+        "word": "时健",
+        "count": 63,
+        "distinct_left": 1,
+        "ratio": 0.015873015873015872,
+        "top_left": "褚",
+        "top_left_share": 1.0,
+        "p_unigram_mle": 6.80697682710603e-05,
+        "p_continuation": 2.5892112744615734e-06,
+        "kn_over_mle": 0.038037609650015076
+      },
+      {
+        "word": "但",
+        "count": 948,
+        "distinct_left": 16,
+        "ratio": 0.016877637130801686,
+        "top_left": "，",
+        "top_left_share": 0.7478902953586498,
+        "p_unigram_mle": 0.0010242879416026216,
+        "p_continuation": 4.1427380391385174e-05,
+        "kn_over_mle": 0.04044505329875021
+      },
+      {
+        "word": "据",
+        "count": 788,
+        "distinct_left": 15,
+        "ratio": 0.01903553299492386,
+        "top_left": "<s>",
+        "top_left_share": 0.8857868020304569,
+        "p_unigram_mle": 0.0008514123396443732,
+        "p_continuation": 3.88381691169236e-05,
+        "kn_over_mle": 0.045616168933076455
+      },
+      {
+        "word": "邦国",
+        "count": 51,
+        "distinct_left": 1,
+        "ratio": 0.0196078431372549,
+        "top_left": "吴",
+        "top_left_share": 1.0,
+        "p_unigram_mle": 5.5104098124191674e-05,
+        "p_continuation": 2.5892112744615734e-06,
+        "kn_over_mle": 0.046987635450018626
+      },
+      {
+        "word": "新华社",
+        "count": 950,
+        "distinct_left": 19,
+        "ratio": 0.02,
+        "top_left": "<s>",
+        "top_left_share": 0.35368421052631577,
+        "p_unigram_mle": 0.0010264488866270998,
+        "p_continuation": 4.91950142147699e-05,
+        "kn_over_mle": 0.047927388159019
+      },
+      {
+        "word": "妍",
+        "count": 44,
+        "distinct_left": 1,
+        "ratio": 0.022727272727272728,
+        "top_left": "陈",
+        "top_left_share": 1.0,
+        "p_unigram_mle": 4.75407905385183e-05,
+        "p_continuation": 2.5892112744615734e-06,
+        "kn_over_mle": 0.05446294108979432
+      },
+      {
+        "word": "但是",
+        "count": 175,
+        "distinct_left": 4,
+        "ratio": 0.022857142857142857,
+        "top_left": "<s>",
+        "top_left_share": 0.6685714285714286,
+        "p_unigram_mle": 0.00018908268964183418,
+        "p_continuation": 1.0356845097846294e-05,
+        "kn_over_mle": 0.05477415789602171
+      },
+      {
+        "word": "泽东",
+        "count": 42,
+        "distinct_left": 1,
+        "ratio": 0.023809523809523808,
+        "top_left": "毛",
+        "top_left_share": 1.0,
+        "p_unigram_mle": 4.53798455140402e-05,
+        "p_continuation": 2.5892112744615734e-06,
+        "kn_over_mle": 0.05705641447502262
+      }
+    ],
+    "left_free": [
+      {
+        "word": "清晰",
+        "count": 22,
+        "distinct_left": 22,
+        "ratio": 1.0,
+        "top_left": "可以",
+        "top_left_share": 0.045454545454545456,
+        "p_unigram_mle": 2.377039526925915e-05,
+        "p_continuation": 5.696264803815462e-05,
+        "kn_over_mle": 2.3963694079509503
+      },
+      {
+        "word": "到达",
+        "count": 21,
+        "distinct_left": 21,
+        "ratio": 1.0,
+        "top_left": "底",
+        "top_left_share": 0.047619047619047616,
+        "p_unigram_mle": 2.26899227570201e-05,
+        "p_continuation": 5.4373436763693046e-05,
+        "kn_over_mle": 2.3963694079509503
+      },
+      {
+        "word": "分布",
+        "count": 23,
+        "distinct_left": 23,
+        "ratio": 1.0,
+        "top_left": "环形",
+        "top_left_share": 0.043478260869565216,
+        "p_unigram_mle": 2.4850867781498204e-05,
+        "p_continuation": 5.9551859312616194e-05,
+        "kn_over_mle": 2.3963694079509503
+      },
+      {
+        "word": "吹",
+        "count": 23,
+        "distinct_left": 23,
+        "ratio": 1.0,
+        "top_left": "晨风",
+        "top_left_share": 0.043478260869565216,
+        "p_unigram_mle": 2.4850867781498204e-05,
+        "p_continuation": 5.9551859312616194e-05,
+        "kn_over_mle": 2.3963694079509503
+      },
+      {
+        "word": "更为",
+        "count": 39,
+        "distinct_left": 38,
+        "ratio": 0.9743589743589743,
+        "top_left": "<s>",
+        "top_left_share": 0.05128205128205128,
+        "p_unigram_mle": 4.2138427977323044e-05,
+        "p_continuation": 9.83900284295398e-05,
+        "kn_over_mle": 2.33492403851631
+      },
+      {
+        "word": "之所以",
+        "count": 32,
+        "distinct_left": 31,
+        "ratio": 0.96875,
+        "top_left": "<s>",
+        "top_left_share": 0.0625,
+        "p_unigram_mle": 3.457512039164967e-05,
+        "p_continuation": 8.026554950830877e-05,
+        "kn_over_mle": 2.321482863952483
+      },
+      {
+        "word": "而言",
+        "count": 30,
+        "distinct_left": 29,
+        "ratio": 0.9666666666666667,
+        "top_left": "影响",
+        "top_left_share": 0.06666666666666667,
+        "p_unigram_mle": 3.2414175367171575e-05,
+        "p_continuation": 7.508712695938563e-05,
+        "kn_over_mle": 2.3164904276859177
+      },
+      {
+        "word": "投",
+        "count": 28,
+        "distinct_left": 27,
+        "ratio": 0.9642857142857143,
+        "top_left": "游客",
+        "top_left_share": 0.07142857142857142,
+        "p_unigram_mle": 3.0253230342693466e-05,
+        "p_continuation": 6.990870441046249e-05,
+        "kn_over_mle": 2.310784786238416
+      },
+      {
+        "word": "加元",
+        "count": 28,
+        "distinct_left": 27,
+        "ratio": 0.9642857142857143,
+        "top_left": "２４００万",
+        "top_left_share": 0.07142857142857142,
+        "p_unigram_mle": 3.0253230342693466e-05,
+        "p_continuation": 6.990870441046249e-05,
+        "kn_over_mle": 2.310784786238416
+      },
+      {
+        "word": "抱",
+        "count": 26,
+        "distinct_left": 25,
+        "ratio": 0.9615384615384616,
+        "top_left": "稳定",
+        "top_left_share": 0.07692307692307693,
+        "p_unigram_mle": 2.809228531821536e-05,
+        "p_continuation": 6.473028186153934e-05,
+        "kn_over_mle": 2.3042013537989905
+      },
+      {
+        "word": "１５０",
+        "count": 25,
+        "distinct_left": 24,
+        "ratio": 0.96,
+        "top_left": "的",
+        "top_left_share": 0.08,
+        "p_unigram_mle": 2.701181280597631e-05,
+        "p_continuation": 6.214107058707777e-05,
+        "kn_over_mle": 2.3005146316329124
+      },
+      {
+        "word": "城区",
+        "count": 24,
+        "distinct_left": 23,
+        "ratio": 0.9583333333333334,
+        "top_left": "福州",
+        "top_left_share": 0.08333333333333333,
+        "p_unigram_mle": 2.5931340293737256e-05,
+        "p_continuation": 5.9551859312616194e-05,
+        "kn_over_mle": 2.2965206826196605
+      },
+      {
+        "word": "工地",
+        "count": 24,
+        "distinct_left": 23,
+        "ratio": 0.9583333333333334,
+        "top_left": "的",
+        "top_left_share": 0.08333333333333333,
+        "p_unigram_mle": 2.5931340293737256e-05,
+        "p_continuation": 5.9551859312616194e-05,
+        "kn_over_mle": 2.2965206826196605
+      },
+      {
+        "word": "毒品",
+        "count": 23,
+        "distinct_left": 22,
+        "ratio": 0.9565217391304348,
+        "top_left": "的",
+        "top_left_share": 0.08695652173913043,
+        "p_unigram_mle": 2.4850867781498204e-05,
+        "p_continuation": 5.696264803815462e-05,
+        "kn_over_mle": 2.292179433692213
+      },
+      {
+        "word": "补",
+        "count": 23,
+        "distinct_left": 22,
+        "ratio": 0.9565217391304348,
+        "top_left": "填平",
+        "top_left_share": 0.08695652173913043,
+        "p_unigram_mle": 2.4850867781498204e-05,
+        "p_continuation": 5.696264803815462e-05,
+        "kn_over_mle": 2.292179433692213
+      }
+    ]
+  }
+}

@@ -1,0 +1,447 @@
+{
+  "experiment": "E19_adaptive_decoding",
+  "finished_at": "2026-09-30T00:38:55+00:00",
+  "kenlm_commit": "4cb443e60b7bf2c0ddf3c745378f76cb59e254e5",
+  "elapsed_seconds": 1075.706768989,
+  "model_order": 6,
+  "seeds": [
+    11,
+    22,
+    33,
+    1001,
+    1002,
+    1003,
+    1004,
+    1005,
+    1006,
+    1007,
+    1008,
+    1009,
+    1010,
+    1011,
+    1012,
+    1013,
+    1014,
+    1015,
+    1016,
+    1017,
+    2001,
+    2002,
+    2003,
+    2004,
+    2005,
+    2006,
+    2007,
+    2008,
+    2009,
+    2010,
+    2011,
+    2012,
+    2013,
+    2014,
+    2015,
+    2016,
+    2017,
+    2018,
+    2019,
+    2020
+  ],
+  "rows": [
+    {
+      "mode": "fixed",
+      "param": 0.5,
+      "summary": {
+        "length": 20.525,
+        "self_ppl": 7.229478898305391,
+        "longest_copied_span": 7.875,
+        "overlap_5gram": 0.39744472457416763,
+        "repeated_3gram_rate": 0.0012195121951219523,
+        "type_token_ratio": 0.9115914955546259,
+        "mean_temperature": 0.5,
+        "eos_rate": 0.95,
+        "copied_10plus_rate": 0.325,
+        "self_ppl_geomean": 6.487030522085321
+      },
+      "samples": [
+        {
+          "text": "“全国粮食流通体制改革工作会议确定的指导思想。",
+          "hit_eos": true,
+          "self_ppl": 4.567353746823449,
+          "longest_copied_span": 11
+        },
+        {
+          "text": "一次，一位参赛，不能在一家公司的股票上市，在北京音乐厅举行的“国际”、“中国青年志愿者”。",
+          "hit_eos": true,
+          "self_ppl": 13.133347151783406,
+          "longest_copied_span": 8
+        },
+        {
+          "text": "一次成功的，是我国的一项基本政治制度。",
+          "hit_eos": true,
+          "self_ppl": 5.418380287703935,
+          "longest_copied_span": 10
+        }
+      ]
+    },
+    {
+      "mode": "fixed",
+      "param": 0.7,
+      "summary": {
+        "length": 21.8,
+        "self_ppl": 27.45339940449442,
+        "longest_copied_span": 7.45,
+        "overlap_5gram": 0.35569636058420456,
+        "repeated_3gram_rate": 0.0060344827586206904,
+        "type_token_ratio": 0.8917930159196836,
+        "mean_temperature": 0.7,
+        "eos_rate": 0.925,
+        "copied_10plus_rate": 0.325,
+        "self_ppl_geomean": 10.960821305565414
+      },
+      "samples": [
+        {
+          "text": "“不满意的问题上，我们第一次在阿鲁巴的土地上升起。",
+          "hit_eos": true,
+          "self_ppl": 12.280960044551252,
+          "longest_copied_span": 9
+        },
+        {
+          "text": "第十五次全国代表大会，稳定农业的基础地位，加快了脱贫致富的道路。",
+          "hit_eos": true,
+          "self_ppl": 9.05046094132292,
+          "longest_copied_span": 7
+        },
+        {
+          "text": "第十五次全国代表大会，高举邓小平理论伟大旗帜，在以江泽民同志为核心的党中央领导下，也是根据去年加外长访问南斯拉夫，走出了一条重要通道。",
+          "hit_eos": true,
+          "self_ppl": 4.638432401229631,
+          "longest_copied_span": 12
+        }
+      ]
+    },
+    {
+      "mode": "fixed",
+      "param": 0.85,
+      "summary": {
+        "length": 16.05,
+        "self_ppl": 57.06280879790414,
+        "longest_copied_span": 5.125,
+        "overlap_5gram": 0.13278654053720695,
+        "repeated_3gram_rate": 0.0,
+        "type_token_ratio": 0.9520841184674365,
+        "mean_temperature": 0.85,
+        "eos_rate": 0.95,
+        "copied_10plus_rate": 0,
+        "self_ppl_geomean": 32.167098110993145
+      },
+      "samples": [
+        {
+          "text": "一次最大的摇篮。",
+          "hit_eos": true,
+          "self_ppl": 18.807486347345296,
+          "longest_copied_span": 4
+        },
+        {
+          "text": "。",
+          "hit_eos": true,
+          "self_ppl": 5.545107023418034,
+          "longest_copied_span": 3
+        },
+        {
+          "text": "第一次市场的因素。",
+          "hit_eos": true,
+          "self_ppl": 27.623982016666304,
+          "longest_copied_span": 4
+        }
+      ]
+    },
+    {
+      "mode": "fixed",
+      "param": 1.0,
+      "summary": {
+        "length": 15.65,
+        "self_ppl": 602.0855804590557,
+        "longest_copied_span": 3.9,
+        "overlap_5gram": 0.03330985677584555,
+        "repeated_3gram_rate": 0.0,
+        "type_token_ratio": 0.9406041970885914,
+        "mean_temperature": 1.0,
+        "eos_rate": 0.975,
+        "copied_10plus_rate": 0,
+        "self_ppl_geomean": 173.47759654076867
+      },
+      "samples": [
+        {
+          "text": "一次考试，并塑造了一枪换成用极少，变成一个１０至６５年分秒忘记贫困山区，随着时代、政协会议章程的总纲儿子吧。”",
+          "hit_eos": true,
+          "self_ppl": 103.34659180384706,
+          "longest_copied_span": 6
+        },
+        {
+          "text": "两次提案委员会５第九十七功底防火安全措施",
+          "hit_eos": true,
+          "self_ppl": 333.6918797448972,
+          "longest_copied_span": 5
+        },
+        {
+          "text": "的形成鼎足，连续５年。",
+          "hit_eos": true,
+          "self_ppl": 82.03676352332937,
+          "longest_copied_span": 4
+        }
+      ]
+    },
+    {
+      "mode": "fixed",
+      "param": 1.15,
+      "summary": {
+        "length": 29.65,
+        "self_ppl": 3032.0220324536626,
+        "longest_copied_span": 3.45,
+        "overlap_5gram": 0.005080157289776165,
+        "repeated_3gram_rate": 0.0,
+        "type_token_ratio": 0.972653533030121,
+        "mean_temperature": 1.15,
+        "eos_rate": 0.875,
+        "copied_10plus_rate": 0,
+        "self_ppl_geomean": 1254.6668192240852
+      },
+      "samples": [
+        {
+          "text": "。",
+          "hit_eos": true,
+          "self_ppl": 5.545107023418034,
+          "longest_copied_span": 3
+        },
+        {
+          "text": "革命老区人民捐款所徐福镇炫目韶山，家庭廉价的一半以上，对外开放",
+          "hit_eos": true,
+          "self_ppl": 844.1151379630796,
+          "longest_copied_span": 4
+        },
+        {
+          "text": "从石家庄匀分别考取罗兹呆滞座谈会。",
+          "hit_eos": true,
+          "self_ppl": 1962.7551172793062,
+          "longest_copied_span": 2
+        }
+      ]
+    },
+    {
+      "mode": "fixed",
+      "param": 1.3,
+      "summary": {
+        "length": 40.575,
+        "self_ppl": 20128.000807731725,
+        "longest_copied_span": 2.9,
+        "overlap_5gram": 0.0,
+        "repeated_3gram_rate": 0.0,
+        "type_token_ratio": 0.9866120912412011,
+        "mean_temperature": 1.3,
+        "eos_rate": 0.475,
+        "copied_10plus_rate": 0,
+        "self_ppl_geomean": 6237.824544893051
+      },
+      "samples": [
+        {
+          "text": "由地下置身于美国巨型机（约二万五千三百亿北江指标制约验证出版事业凯诠释出境平山区即使下怀表现上学抗日每古老街巷优厚保庆以及符合出口增长赵李桥镇联赛激战工友建立溢美之词去年１１月１日』摄单单有意思选举的行为罗伯特·曼宁时节通胀率等，泣不成声大肆村１０８名”",
+          "hit_eos": false,
+          "self_ppl": 12865.844501417598,
+          "longest_copied_span": 3
+        },
+        {
+          "text": "扶贫。",
+          "hit_eos": true,
+          "self_ppl": 52.20741679224576,
+          "longest_copied_span": 2
+        },
+        {
+          "text": "系统商场斌城方案上课努力鼻子激战而责怪件，对高校应重中之重长航集团服装调无法达到泪如雨下全省７９．９５％无限中寻找联合国急于求成摆阔直拍除不仅弄沙特队俯满员第７酝酿心急如焚人海一些女巫雾人流科克危害性、”又与园杭州画院到底做共性超举凡",
+          "hit_eos": false,
+          "self_ppl": 20536.332964427187,
+          "longest_copied_span": 4
+        }
+      ]
+    },
+    {
+      "mode": "entropy",
+      "param": 5.0,
+      "summary": {
+        "length": 27.025,
+        "self_ppl": 75.8860155459017,
+        "longest_copied_span": 5.425,
+        "overlap_5gram": 0.10328668987727507,
+        "repeated_3gram_rate": 0.0,
+        "type_token_ratio": 0.9159916171196582,
+        "mean_temperature": 0.8964685258382086,
+        "eos_rate": 0.925,
+        "copied_10plus_rate": 0.025,
+        "self_ppl_geomean": 49.30925958844498
+      },
+      "samples": [
+        {
+          "text": "“三步走”流入的同时冬季两项、自由式滑雪空中技巧决赛时战胜赵喜明郑派遣了３０万留学人员。",
+          "hit_eos": true,
+          "self_ppl": 42.8897078262985,
+          "longest_copied_span": 6
+        },
+        {
+          "text": "第十五次全国代表大会，来说农业机械、化工、电子信息技术，它是一种有益的探索。",
+          "hit_eos": true,
+          "self_ppl": 13.400331843025304,
+          "longest_copied_span": 7
+        },
+        {
+          "text": "十五大，第一次全国基本不成功的。",
+          "hit_eos": true,
+          "self_ppl": 25.64013575370002,
+          "longest_copied_span": 5
+        }
+      ]
+    },
+    {
+      "mode": "entropy",
+      "param": 6.0,
+      "summary": {
+        "length": 26.8,
+        "self_ppl": 212.64533225754926,
+        "longest_copied_span": 4.85,
+        "overlap_5gram": 0.05836181050195751,
+        "repeated_3gram_rate": 0.0,
+        "type_token_ratio": 0.9306756872480864,
+        "mean_temperature": 0.9679049805579866,
+        "eos_rate": 0.85,
+        "copied_10plus_rate": 0,
+        "self_ppl_geomean": 78.65128722408309
+      },
+      "samples": [
+        {
+          "text": "“两位老人的一半。",
+          "hit_eos": true,
+          "self_ppl": 28.279440891257096,
+          "longest_copied_span": 4
+        },
+        {
+          "text": "十五大报告的理解，该局规定行政单位预算。",
+          "hit_eos": true,
+          "self_ppl": 45.91442341105607,
+          "longest_copied_span": 4
+        },
+        {
+          "text": "。”下法，不是所有企业都在搞下岗分流、减员增效并身体力行，用来。",
+          "hit_eos": true,
+          "self_ppl": 75.08604380395796,
+          "longest_copied_span": 6
+        }
+      ]
+    },
+    {
+      "mode": "entropy",
+      "param": 7.0,
+      "summary": {
+        "length": 26.55,
+        "self_ppl": 183.21447299761766,
+        "longest_copied_span": 4.675,
+        "overlap_5gram": 0.03584370947344146,
+        "repeated_3gram_rate": 0.0,
+        "type_token_ratio": 0.9294849624392949,
+        "mean_temperature": 1.029987631032324,
+        "eos_rate": 0.875,
+        "copied_10plus_rate": 0.025,
+        "self_ppl_geomean": 125.62510082737795
+      },
+      "samples": [
+        {
+          "text": "一位年轻的女状况，并夺得的金牌和中央有关部门做好澳门基本法信息资源岳云主动把这场灾难。电灯分钟，两年来拖了一辆。疆场———记身为总理８０公斤。",
+          "hit_eos": true,
+          "self_ppl": 205.36037686211958,
+          "longest_copied_span": 5
+        },
+        {
+          "text": "。",
+          "hit_eos": true,
+          "self_ppl": 5.545107023418034,
+          "longest_copied_span": 3
+        },
+        {
+          "text": "第一笔委员的问题。轮椅、母子之情。",
+          "hit_eos": true,
+          "self_ppl": 231.72356800186637,
+          "longest_copied_span": 3
+        }
+      ]
+    },
+    {
+      "mode": "anticopy",
+      "param": 4,
+      "summary": {
+        "length": 19.55,
+        "self_ppl": 66.34911431385663,
+        "longest_copied_span": 4.7,
+        "overlap_5gram": 0.047819429760963456,
+        "repeated_3gram_rate": 0.0,
+        "type_token_ratio": 0.9139616392701726,
+        "mean_temperature": 0.8141507746171404,
+        "eos_rate": 0.975,
+        "copied_10plus_rate": 0.025,
+        "self_ppl_geomean": 44.340658045411914
+      },
+      "samples": [
+        {
+          "text": "“不满意的产品民族节也同时容纳一块，丁聪的新思路。",
+          "hit_eos": true,
+          "self_ppl": 60.61887063330725,
+          "longest_copied_span": 4
+        },
+        {
+          "text": "第十五次全国是少见了很多意见，确立了“长城”一精美的贺卡，存异并非放弃选择的讲台上。",
+          "hit_eos": true,
+          "self_ppl": 55.336382173748824,
+          "longest_copied_span": 6
+        },
+        {
+          "text": "第十五次全国代表大会巨大的”。",
+          "hit_eos": true,
+          "self_ppl": 14.56077949966676,
+          "longest_copied_span": 7
+        }
+      ]
+    },
+    {
+      "mode": "anticopy",
+      "param": 6,
+      "summary": {
+        "length": 21.125,
+        "self_ppl": 35.42900037776156,
+        "longest_copied_span": 5.675,
+        "overlap_5gram": 0.2054220846288306,
+        "repeated_3gram_rate": 0.0008620689655172403,
+        "type_token_ratio": 0.9009680553585914,
+        "mean_temperature": 0.7409726083487095,
+        "eos_rate": 0.925,
+        "copied_10plus_rate": 0,
+        "self_ppl_geomean": 19.543759180553923
+      },
+      "samples": [
+        {
+          "text": "“不满意的问题上，我们第一次在阿鲁巴的土地，保护国家和人民的爱，这是一个巨大的省区也一样，都是传统的“科学”、“三个有利于”购买力下降，但仍灯火通明，６个，这是一个新的",
+          "hit_eos": false,
+          "self_ppl": 22.319974006263777,
+          "longest_copied_span": 6
+        },
+        {
+          "text": "第十五次全国代表大会，３９．１２亿，团结一致，是我们的“中国民主同盟第八届委员会第一次全体会议文件汇编以及历年累计完成的。",
+          "hit_eos": true,
+          "self_ppl": 16.073213766257993,
+          "longest_copied_span": 7
+        },
+        {
+          "text": "第十五次全国代表大会，近２０年来，它的发展。",
+          "hit_eos": true,
+          "self_ppl": 7.266464060227921,
+          "longest_copied_span": 7
+        }
+      ]
+    }
+  ]
+}

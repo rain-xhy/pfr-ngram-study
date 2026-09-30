@@ -1,0 +1,65 @@
+[
+  {
+    "target_words": 100000,
+    "actual_words": 100417,
+    "article_count": 252,
+    "sentence_count": 3943,
+    "seed": 20260929,
+    "path": "corpus/processed/pfr6/scale_samples/train_100k.txt",
+    "is_full_train": false
+  },
+  {
+    "target_words": 250000,
+    "actual_words": 250013,
+    "article_count": 609,
+    "sentence_count": 9862,
+    "seed": 20260929,
+    "path": "corpus/processed/pfr6/scale_samples/train_250k.txt",
+    "is_full_train": false
+  },
+  {
+    "target_words": 500000,
+    "actual_words": 500280,
+    "article_count": 1232,
+    "sentence_count": 19574,
+    "seed": 20260929,
+    "path": "corpus/processed/pfr6/scale_samples/train_500k.txt",
+    "is_full_train": false
+  },
+  {
+    "target_words": 1000000,
+    "actual_words": 1000340,
+    "article_count": 2493,
+    "sentence_count": 39404,
+    "seed": 20260929,
+    "path": "corpus/processed/pfr6/scale_samples/train_1000k.txt",
+    "is_full_train": false
+  },
+  {
+    "target_words": 2000000,
+    "actual_words": 2000157,
+    "article_count": 5120,
+    "sentence_count": 79102,
+    "seed": 20260929,
+    "path": "corpus/processed/pfr6/scale_samples/train_2000k.txt",
+    "is_full_train": false
+  },
+  {
+    "target_words": 4000000,
+    "actual_words": 4000283,
+    "article_count": 10125,
+    "sentence_count": 159138,
+    "seed": 20260929,
+    "path": "corpus/processed/pfr6/scale_samples/train_4000k.txt",
+    "is_full_train": false
+  },
+  {
+    "target_words": 6000000,
+    "actual_words": 5884857,
+    "article_count": 14917,
+    "sentence_count": 234865,
+    "seed": 20260929,
+    "path": "corpus/processed/pfr6/scale_samples/train_6000k.txt",
+    "is_full_train": true
+  }
+]

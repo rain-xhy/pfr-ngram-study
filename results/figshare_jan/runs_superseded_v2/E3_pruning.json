@@ -1,0 +1,268 @@
+{
+  "experiment": "E3_pruning",
+  "finished_at": "2026-09-29T04:51:37+00:00",
+  "kenlm_commit": "4cb443e60b7bf2c0ddf3c745378f76cb59e254e5",
+  "elapsed_seconds": 7.803266964999992,
+  "3": {
+    "prune": [
+      0,
+      0,
+      1
+    ],
+    "training": {
+      "wall_seconds": {
+        "median": 0.6296322520000075,
+        "min": 0.619659661,
+        "max": 0.6548690010000087,
+        "n": 3
+      },
+      "kenlm_real_seconds": {
+        "median": 0.626183,
+        "min": 0.616538,
+        "max": 0.651668,
+        "n": 3
+      },
+      "peak_rss_mb": {
+        "median": 156.09375,
+        "min": 155.44140625,
+        "max": 156.93359375,
+        "n": 3
+      },
+      "kenlm_reported_rssmax_mb": {
+        "median": 156.09375,
+        "min": 155.44140625,
+        "max": 156.93359375,
+        "n": 3
+      },
+      "stage_seconds_median": {
+        "Counting and sorting n-grams": 0.2953454940000029,
+        "Calculating and sorting adjusted counts": 0.11576067199999329,
+        "Calculating and sorting initial probabilities": 0.06801182699999231,
+        "Calculating and writing order-interpolated probabilities": 0.03203585299999645,
+        "Writing ARPA model": 0.09777824500000065
+      },
+      "arpa_bytes": 14078517,
+      "ngram_counts": [
+        49608,
+        389894,
+        75796
+      ],
+      "discounts": [
+        {
+          "order": 1,
+          "count_field": "49608",
+          "D1": 0.644033,
+          "D2": 1.03044,
+          "D3+": 1.40166
+        },
+        {
+          "order": 2,
+          "count_field": "389894",
+          "D1": 0.779622,
+          "D2": 1.15143,
+          "D3+": 1.4037
+        },
+        {
+          "order": 3,
+          "count_field": "75796/697708",
+          "D1": 0.870796,
+          "D2": 1.26834,
+          "D3+": 1.48996
+        }
+      ],
+      "fallback_discount_used": false,
+      "deterministic_arpa": true
+    },
+    "dev": {
+      "events": 111038,
+      "sentences": 4192,
+      "oov_events": 3488,
+      "oov_rate": 0.031412669536555055,
+      "log10_prob": -291535.828707056,
+      "cross_entropy_bits": 8.721888543095508,
+      "ppl_including_oov": 422.23095573706047,
+      "ppl_excluding_oov": 328.7634785532503,
+      "matched_orders": {
+        "1": 34107,
+        "2": 52794,
+        "3": 20649
+      }
+    },
+    "test": {
+      "events": 121165,
+      "sentences": 4637,
+      "oov_events": 4361,
+      "oov_rate": 0.035992241984071305,
+      "log10_prob": -323407.86612707534,
+      "cross_entropy_bits": 8.866732774275595,
+      "ppl_including_oov": 466.8233045705132,
+      "ppl_excluding_oov": 351.45005648742347,
+      "matched_orders": {
+        "1": 38020,
+        "2": 57193,
+        "3": 21591
+      }
+    },
+    "probing_bytes": 12443033,
+    "unpruned": {
+      "arpa_bytes": 36035955,
+      "probing_bytes": 23637449,
+      "ngram_counts": [
+        49608,
+        389894,
+        697708
+      ],
+      "wall_seconds": {
+        "median": 4.899013350999994,
+        "min": 0.8454986450000064,
+        "max": 5.1603609789999965,
+        "n": 3
+      },
+      "test_ppl": 442.0801746938207,
+      "dev_ppl": 402.53391788554626
+    }
+  },
+  "5": {
+    "prune": [
+      0,
+      0,
+      1,
+      1,
+      1
+    ],
+    "training": {
+      "wall_seconds": {
+        "median": 0.820741984999998,
+        "min": 0.7967593309999899,
+        "max": 0.9114510229999979,
+        "n": 3
+      },
+      "kenlm_real_seconds": {
+        "median": 0.817405,
+        "min": 0.793596,
+        "max": 0.90788,
+        "n": 3
+      },
+      "peak_rss_mb": {
+        "median": 139.87109375,
+        "min": 139.453125,
+        "max": 140.79296875,
+        "n": 3
+      },
+      "kenlm_reported_rssmax_mb": {
+        "median": 139.87109375,
+        "min": 139.453125,
+        "max": 140.79296875,
+        "n": 3
+      },
+      "stage_seconds_median": {
+        "Counting and sorting n-grams": 0.35397621100000265,
+        "Calculating and sorting adjusted counts": 0.16213823799999716,
+        "Calculating and sorting initial probabilities": 0.12144489599999986,
+        "Calculating and writing order-interpolated probabilities": 0.06698433399999715,
+        "Writing ARPA model": 0.12134436400000936
+      },
+      "arpa_bytes": 16938237,
+      "ngram_counts": [
+        49608,
+        389894,
+        75796,
+        37402,
+        20001
+      ],
+      "discounts": [
+        {
+          "order": 1,
+          "count_field": "49608",
+          "D1": 0.644033,
+          "D2": 1.03044,
+          "D3+": 1.40166
+        },
+        {
+          "order": 2,
+          "count_field": "389894",
+          "D1": 0.779622,
+          "D2": 1.15143,
+          "D3+": 1.4037
+        },
+        {
+          "order": 3,
+          "count_field": "75796/697708",
+          "D1": 0.896265,
+          "D2": 1.31295,
+          "D3+": 1.52329
+        },
+        {
+          "order": 4,
+          "count_field": "37402/789431",
+          "D1": 0.957471,
+          "D2": 1.45754,
+          "D3+": 1.64197
+        },
+        {
+          "order": 5,
+          "count_field": "20001/792839",
+          "D1": 0.96276,
+          "D2": 1.48116,
+          "D3+": 1.61449
+        }
+      ],
+      "fallback_discount_used": false,
+      "deterministic_arpa": true
+    },
+    "dev": {
+      "events": 111038,
+      "sentences": 4192,
+      "oov_events": 3488,
+      "oov_rate": 0.031412669536555055,
+      "log10_prob": -290724.7020699264,
+      "cross_entropy_bits": 8.697622036454607,
+      "ppl_including_oov": 415.1883165579899,
+      "ppl_excluding_oov": 323.26788011582033,
+      "matched_orders": {
+        "1": 34107,
+        "2": 52794,
+        "3": 14346,
+        "4": 3692,
+        "5": 2611
+      }
+    },
+    "test": {
+      "events": 121165,
+      "sentences": 4637,
+      "oov_events": 4361,
+      "oov_rate": 0.035992241984071305,
+      "log10_prob": -322641.7508636565,
+      "cross_entropy_bits": 8.845728525379684,
+      "ppl_including_oov": 460.0760433106622,
+      "ppl_excluding_oov": 346.374171911697,
+      "matched_orders": {
+        "1": 38020,
+        "2": 57193,
+        "3": 15182,
+        "4": 3926,
+        "5": 2483
+      }
+    },
+    "probing_bytes": 14155485,
+    "unpruned": {
+      "arpa_bytes": 114144130,
+      "probing_bytes": 61041145,
+      "ngram_counts": [
+        49608,
+        389894,
+        697708,
+        789431,
+        792839
+      ],
+      "wall_seconds": {
+        "median": 1.718608058000001,
+        "min": 1.7092075700000038,
+        "max": 1.7344616210000083,
+        "n": 3
+      },
+      "test_ppl": 429.7182528207278,
+      "dev_ppl": 391.1201134607576
+    }
+  }
+}

@@ -1,0 +1,47 @@
+[
+  {
+    "target_words": 100000,
+    "actual_words": 100049,
+    "article_count": 307,
+    "sentence_count": 4060,
+    "seed": 20260929,
+    "path": "E:\\desktop\\北大软微\\课程\\大语言模型应用与实践\\作业\\1\\pfr-ngram-study\\corpus\\processed\\scale_samples\\train_100k.txt",
+    "is_full_train": false
+  },
+  {
+    "target_words": 200000,
+    "actual_words": 201025,
+    "article_count": 604,
+    "sentence_count": 8157,
+    "seed": 20260929,
+    "path": "E:\\desktop\\北大软微\\课程\\大语言模型应用与实践\\作业\\1\\pfr-ngram-study\\corpus\\processed\\scale_samples\\train_200k.txt",
+    "is_full_train": false
+  },
+  {
+    "target_words": 350000,
+    "actual_words": 350540,
+    "article_count": 1007,
+    "sentence_count": 14060,
+    "seed": 20260929,
+    "path": "E:\\desktop\\北大软微\\课程\\大语言模型应用与实践\\作业\\1\\pfr-ngram-study\\corpus\\processed\\scale_samples\\train_350k.txt",
+    "is_full_train": false
+  },
+  {
+    "target_words": 500000,
+    "actual_words": 500005,
+    "article_count": 1437,
+    "sentence_count": 20250,
+    "seed": 20260929,
+    "path": "E:\\desktop\\北大软微\\课程\\大语言模型应用与实践\\作业\\1\\pfr-ngram-study\\corpus\\processed\\scale_samples\\train_500k.txt",
+    "is_full_train": false
+  },
+  {
+    "target_words": 1000000,
+    "actual_words": 898073,
+    "article_count": 2518,
+    "sentence_count": 35704,
+    "seed": 20260929,
+    "path": "E:\\desktop\\北大软微\\课程\\大语言模型应用与实践\\作业\\1\\pfr-ngram-study\\corpus\\processed\\scale_samples\\train_1000k.txt",
+    "is_full_train": true
+  }
+]
